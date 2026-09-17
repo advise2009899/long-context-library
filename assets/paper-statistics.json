@@ -1,0 +1,187 @@
+{
+  "updated": "2026-09-17",
+  "counting_unit": "bibliography entries, not deduplicated papers",
+  "paper_and_report_entries": 1986,
+  "blog_entries": 43,
+  "research_areas": [
+    {
+      "label": "推理与压缩",
+      "count": 545,
+      "detail": "KV Cache · 上下文压缩 · 模型压缩 · 推理服务"
+    },
+    {
+      "label": "推理与应用",
+      "count": 507,
+      "detail": "长推理 · 视觉理解 · 长程 Agent · 长文生成"
+    },
+    {
+      "label": "模型架构",
+      "count": 348,
+      "detail": "高效注意力 · 递归模型 · 状态空间 · 位置编码"
+    },
+    {
+      "label": "评测与基准",
+      "count": 259,
+      "detail": "长上下文能力、效率与可靠性评测"
+    },
+    {
+      "label": "检索与记忆",
+      "count": 188,
+      "detail": "检索增强 · 长期记忆 · 上下文学习"
+    },
+    {
+      "label": "数据与训练",
+      "count": 108,
+      "detail": "训练方法与数据 · 模型技术报告"
+    },
+    {
+      "label": "综述",
+      "count": 31,
+      "detail": "研究综述与领域全景"
+    }
+  ],
+  "original_categories": [
+    {
+      "id": 1,
+      "label": "综述",
+      "count": 31
+    },
+    {
+      "id": 20,
+      "label": "博客与教程",
+      "count": 43
+    },
+    {
+      "id": 2,
+      "label": "高效注意力",
+      "count": 186
+    },
+    {
+      "id": 4,
+      "label": "递归 Transformer",
+      "count": 35
+    },
+    {
+      "id": 5,
+      "label": "状态空间与混合架构",
+      "count": 47
+    },
+    {
+      "id": 6,
+      "label": "位置编码与长度外推",
+      "count": 80
+    },
+    {
+      "id": 7,
+      "label": "长上下文训练",
+      "count": 76
+    },
+    {
+      "id": 19,
+      "label": "模型技术报告",
+      "count": 32
+    },
+    {
+      "id": 3,
+      "label": "KV Cache 优化",
+      "count": 267
+    },
+    {
+      "id": 11,
+      "label": "上下文压缩",
+      "count": 138
+    },
+    {
+      "id": 12,
+      "label": "模型压缩",
+      "count": 54
+    },
+    {
+      "id": 17,
+      "label": "推理加速与服务",
+      "count": 86
+    },
+    {
+      "id": 8,
+      "label": "长期记忆",
+      "count": 87
+    },
+    {
+      "id": 9,
+      "label": "检索增强生成",
+      "count": 86
+    },
+    {
+      "id": 10,
+      "label": "上下文学习",
+      "count": 15
+    },
+    {
+      "id": 13,
+      "label": "长推理",
+      "count": 161
+    },
+    {
+      "id": 14,
+      "label": "长视频与图像",
+      "count": 219
+    },
+    {
+      "id": 15,
+      "label": "长程 Agent",
+      "count": 102
+    },
+    {
+      "id": 16,
+      "label": "长文生成",
+      "count": 25
+    },
+    {
+      "id": 18,
+      "label": "评测与基准",
+      "count": 259
+    }
+  ],
+  "training_breakdown": [
+    {
+      "label": "继续预训练与训练目标",
+      "count": 17
+    },
+    {
+      "label": "指令微调与对齐",
+      "count": 10
+    },
+    {
+      "label": "训练系统与效率",
+      "count": 10
+    },
+    {
+      "label": "数据合成与增强",
+      "count": 9
+    },
+    {
+      "label": "测试时训练与适配",
+      "count": 8
+    },
+    {
+      "label": "编码器、记忆与架构适配",
+      "count": 6
+    },
+    {
+      "label": "强化学习",
+      "count": 5
+    },
+    {
+      "label": "文档组织与拼接",
+      "count": 4
+    },
+    {
+      "label": "数据选择与配比",
+      "count": 4
+    },
+    {
+      "label": "偏好优化与反馈",
+      "count": 3
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "date": "2026-09-17",
+  "numbered_entries": 1967,
+  "chapters": [
+    {
+      "id": 1,
+      "path": "library/foundations/survey.md",
+      "body_sha256": "bddd834f3dfe2af37379f50830983262e7a13eb92dfbe014d420890617e2dda1"
+    },
+    {
+      "id": 20,
+      "path": "library/foundations/blogs.md",
+      "body_sha256": "3b5fc78f31b632c1720e46c4f337ba6f591ca307ec9874bdb86d0e446bdc85ae"
+    },
+    {
+      "id": 2,
+      "path": "library/architecture/efficient-attention.md",
+      "body_sha256": "46bc449a9518dda370ebea7a3707e53cbb5ed1079e8ea2deff76c5426ad8f67a"
+    },
+    {
+      "id": 4,
+      "path": "library/architecture/recurrent-transformers.md",
+      "body_sha256": "e1fa3aa0372ab5fc5fabf3fd6a5d57dd34b8deab6c27465a6471387b68769eb6"
+    },
+    {
+      "id": 5,
+      "path": "library/architecture/state-space-models.md",
+      "body_sha256": "b4d890bd5cf40fcc0a754b1bb543ce41775902a3e22e8cc6d97787ed38390ef7"
+    },
+    {
+      "id": 6,
+      "path": "library/architecture/position-encoding.md",
+      "body_sha256": "1dc3310a6d1d72571c56282de838e79cc1e31c410e5a2de9a85213068f60cfbe"
+    },
+    {
+      "id": 7,
+      "path": "library/training/long-context-training.md",
+      "body_sha256": "9faa35214bfa86114a47fb5ef3cb0eb43dcd7bdfdfb843550ff9cd60a8650d27"
+    },
+    {
+      "id": 19,
+      "path": "library/training/technical-reports.md",
+      "body_sha256": "01f369bf04309df68d40ae6206a68b7598b55549a6fd4cee6c1cdbe49f5b47c2"
+    },
+    {
+      "id": 3,
+      "path": "library/inference/kv-cache.md",
+      "body_sha256": "514d867538de51a0d3d6c1954331c3037f3097202efeaaff733f22ba9413edab"
+    },
+    {
+      "id": 11,
+      "path": "library/inference/context-compression.md",
+      "body_sha256": "c3d58e4d4f3135587a07c30d3110fa48b6f5643aa9fc9a912b98b940abf7d59e"
+    },
+    {
+      "id": 12,
+      "path": "library/inference/model-compression.md",
+      "body_sha256": "d4a402cb73fdd5f47e76427ec01c0e7a67de95179590dcf74056090568fba270"
+    },
+    {
+      "id": 17,
+      "path": "library/inference/inference-acceleration.md",
+      "body_sha256": "716d0257504cd5babad78f16db5a0773d82dcdb8f49bf3b99e095b0d9c08986e"
+    },
+    {
+      "id": 8,
+      "path": "library/memory-retrieval/long-term-memory.md",
+      "body_sha256": "ee426817df93cf59391abe9c631db7f53891aa0af40e4ebe8de89dba8cb7727e"
+    },
+    {
+      "id": 9,
+      "path": "library/memory-retrieval/retrieval-augmented-generation.md",
+      "body_sha256": "61f3a5b91da17d3e4476efaf070fca6aebadbd2504fc8e040e1f9051f27f5b1d"
+    },
+    {
+      "id": 10,
+      "path": "library/memory-retrieval/in-context-learning.md",
+      "body_sha256": "630c2eeddd11455111ad23d6a96dc1d2ab8190e1dab6a2e4377ad02cd9485c3f"
+    },
+    {
+      "id": 13,
+      "path": "library/applications/long-reasoning.md",
+      "body_sha256": "ea89d783de66b6ae85e8455596f0f768a6490d0f614cd10776ce2d12d6357258"
+    },
+    {
+      "id": 14,
+      "path": "library/applications/long-video-image.md",
+      "body_sha256": "0f89cea04194c282f9fd8b290d772bc4ee58f7fd78ff316a8035989aab3963d8"
+    },
+    {
+      "id": 15,
+      "path": "library/applications/long-horizon-agents.md",
+      "body_sha256": "d35ab033c071f2b60e25650ec4788663d8a0ba5c08b8bcbe08fc2bdfdb6401c5"
+    },
+    {
+      "id": 16,
+      "path": "library/applications/long-form-text-generation.md",
+      "body_sha256": "e58ac5a878e3f98263b69a0749fde29c9eed7b85307633416103a74b3e70ee4f"
+    },
+    {
+      "id": 18,
+      "path": "library/evaluation/benchmarks.md",
+      "body_sha256": "321366351c7a1e1c649eafa91c6b0ddcc3ffa2279c820a627c016ec4a54e0378"
+    }
+  ]
+}

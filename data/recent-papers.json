@@ -1,0 +1,1102 @@
+[
+  {
+    "arxiv_id": "2609.17983",
+    "title": "Contiguity, Not Importance: Budgeted Repair of Stale KV Caches After Document Edits",
+    "authors": [
+      "Mingyang Mao",
+      "Wyatt Mackey",
+      "Xiaomin Lin"
+    ],
+    "published": "2026-09-16T01:13:04Z",
+    "updated": "2026-09-16T01:13:04Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.17983",
+    "target": "library/inference/kv-cache.md",
+    "summary_zh": "文档编辑后，以预算约束的局部连续重算修复过期 KV 状态。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.17943",
+    "title": "ASPIRE: Asynchronous Batched Self-Speculative Decoding for Long-Context LLM Inference",
+    "authors": [
+      "Amir Ziashahabi",
+      "Hossein Entezari Zarch",
+      "Lei Gao",
+      "Murali Annavaram",
+      "Salman Avestimehr"
+    ],
+    "published": "2026-09-16T00:04:13Z",
+    "updated": "2026-09-16T00:04:13Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.17943",
+    "target": "library/inference/inference-acceleration.md",
+    "summary_zh": "让同批请求独立调度草稿与验证步骤，服务长上下文自推测解码。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.17888",
+    "title": "Long-Context Demonstration Selection Using State Space Models",
+    "authors": [
+      "Ziniu Zhang",
+      "Zhenshuo Zhang",
+      "Ruoxuan Xiong",
+      "Gene Cooperman",
+      "Hongyang R. Zhang"
+    ],
+    "published": "2026-09-15T22:29:22Z",
+    "updated": "2026-09-15T22:29:22Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.17888",
+    "target": "library/memory-retrieval/in-context-learning.md",
+    "summary_zh": "蒸馏状态空间模型，用于高效选择长上下文中的示例。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.17652",
+    "title": "Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches",
+    "authors": [
+      "Vivek Kalyanarangan"
+    ],
+    "published": "2026-09-15T16:53:01Z",
+    "updated": "2026-09-15T16:53:01Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.17652",
+    "target": "library/inference/kv-cache.md",
+    "summary_zh": "根据查询调整卸载 KV 缓存的读取位数，减少主机内存流量。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.17346",
+    "title": "Where Should a Document Live: Context, Representations, or Parameters?",
+    "authors": [
+      "Nathanaël Carraz Rakotonirina",
+      "Momchil Hardalov",
+      "Gonzalo Iglesias",
+      "Adrià de Gispert"
+    ],
+    "published": "2026-09-15T15:47:02Z",
+    "updated": "2026-09-15T15:47:02Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.17346",
+    "target": "library/memory-retrieval/retrieval-augmented-generation.md",
+    "summary_zh": "比较上下文、KV 表示与参数微调三种文档知识注入方式。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.17109",
+    "title": "Shared-Prefix KV Reuse Across Standard LoRA Adapters: Quality and Serving Tradeoffs",
+    "authors": [
+      "Dushyant Rajput"
+    ],
+    "published": "2026-09-15T12:39:16Z",
+    "updated": "2026-09-15T12:39:16Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.17109",
+    "target": "library/inference/kv-cache.md",
+    "summary_zh": "考察标准 LoRA 专家复用基础模型前缀 KV 的质量与服务成本。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.16617",
+    "title": "Divergence Timing and Cumulative Disagreement under KV-Cache Eviction",
+    "authors": [
+      "Xinyue Luo",
+      "Fei Yu"
+    ],
+    "published": "2026-09-15T04:23:53Z",
+    "updated": "2026-09-15T04:23:53Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.16617",
+    "target": "library/inference/kv-cache.md",
+    "summary_zh": "分析 KV 淘汰后的首次生成分歧与后续累计偏差。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.16215",
+    "title": "Where Should the KV Cache Live? Placement Policies Across GPU, CPU, and SSD for Long-Lived Sessions",
+    "authors": [
+      "Srikanta Datta Tumkur",
+      "Jay Iyer",
+      "Mehar Simhadri",
+      "Sai Pavan Kumar",
+      "Sai Kapil Kumar",
+      "Ramesh Nampelly"
+    ],
+    "published": "2026-09-14T18:49:07Z",
+    "updated": "2026-09-14T18:49:07Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.16215",
+    "target": "library/inference/kv-cache.md",
+    "summary_zh": "通过模拟研究长会话 KV 在 GPU、CPU 与 SSD 之间的放置策略。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.14872",
+    "title": "AgentKV: Phase-Aware KV Eviction for Agentic LLMs",
+    "authors": [
+      "Taowen Tony Liu",
+      "Jeffrey T. H. Wong",
+      "Can Xiao",
+      "Bowen Yang",
+      "Hao Mark Chen",
+      "Yiren Zhao"
+    ],
+    "published": "2026-09-14T00:42:53Z",
+    "updated": "2026-09-14T00:42:53Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.14872",
+    "target": "library/inference/kv-cache.md",
+    "summary_zh": "按思考、行动和工具阶段维护查询缓冲区，指导 Agent 的 KV 淘汰。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.14320",
+    "title": "SpectralShift: Effective Context Window Extension of Gated DeltaNet via Spectral Reparameterization",
+    "authors": [
+      "Zian Liu",
+      "Yiwen Hu",
+      "Zican Dong",
+      "Tian Xie",
+      "Wayne Xin Zhao",
+      "Yucheng Ding",
+      "Ran Tao",
+      "Bryan Dai"
+    ],
+    "published": "2026-09-13T06:30:16Z",
+    "updated": "2026-09-13T06:30:16Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.14320",
+    "target": "library/training/continued-pretraining.md",
+    "summary_zh": "通过谱重参数化调整 Gated DeltaNet 的衰减动态，支持上下文扩展。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.14306",
+    "title": "Flattening Every Memory Peak in Long-Context Mixture-of-Experts Training",
+    "authors": [
+      "Shrey Pandit",
+      "Xuan-Phi Nguyen",
+      "Yiran Zhao",
+      "Shafiq Joty"
+    ],
+    "published": "2026-09-13T06:00:46Z",
+    "updated": "2026-09-13T06:00:46Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.14306",
+    "target": "library/training/training-systems.md",
+    "summary_zh": "联合约束专家分发、词表投影、检查点和优化器的内存峰值。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.14245",
+    "title": "The Attribution-Compression Frontier in Retrieval-Augmented Generation",
+    "authors": [
+      "Deepanshu Mody"
+    ],
+    "published": "2026-09-13T02:49:06Z",
+    "updated": "2026-09-13T02:49:06Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.14245",
+    "target": "library/inference/context-compression.md",
+    "summary_zh": "评估 RAG 压缩后答案引用能否追溯到原始证据。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.13141",
+    "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
+    "authors": [
+      "Zhiwei Li",
+      "Lei Zhu",
+      "Hao Gu",
+      "Xiang Hu",
+      "Yan Wang",
+      "Haitao Mi",
+      "Sirui Han",
+      "Leo Liang",
+      "Zhijiang Guo"
+    ],
+    "published": "2026-09-11T17:58:06Z",
+    "updated": "2026-09-11T17:58:06Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.13141",
+    "target": "library/architecture/efficient-attention.md",
+    "summary_zh": "通过语言建模目标端到端优化稀疏注意力的上下文排序。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.12686",
+    "title": "Residual Vector-based Reconstruction as Long-Context Recall Regardless of Context Window Size",
+    "authors": [
+      "MyungHoon Ryu",
+      "XinYu Piao",
+      "Jong-Kook Kim"
+    ],
+    "published": "2026-09-11T10:31:46Z",
+    "updated": "2026-09-11T10:31:46Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.12686",
+    "target": "library/memory-retrieval/long-term-memory.md",
+    "summary_zh": "研究利用残差向量重建文档事实的长上下文召回方法。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.11209",
+    "title": "REVA: Reusable Evidence View Aggregation for Context-Efficient RAG Serving",
+    "authors": [
+      "Tuan Nguyen",
+      "Qiran Hu",
+      "Banruo Liu",
+      "Khoa D. Doan",
+      "Kok-Seng Wong",
+      "Fan Lai"
+    ],
+    "published": "2026-09-10T08:14:22Z",
+    "updated": "2026-09-10T08:14:22Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.11209",
+    "target": "library/memory-retrieval/retrieval-augmented-generation.md",
+    "summary_zh": "从历史查询交互中构建可复用证据视图，降低 RAG 上下文开销。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.11192",
+    "title": "FlexComp: One Model for Every Ratio in Context Compression",
+    "authors": [
+      "Kaiyan Zhao",
+      "Zhongtao Miao",
+      "Akiko Aizawa",
+      "Yoshimasa Tsuruoka"
+    ],
+    "published": "2026-09-10T07:59:52Z",
+    "updated": "2026-09-10T07:59:52Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.11192",
+    "target": "library/inference/context-compression.md",
+    "summary_zh": "采用可变记忆预算训练，让单个软压缩模型支持不同压缩率。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.10441",
+    "title": "ConvMem: Convolutional Memory for Long-Context Reasoning",
+    "authors": [
+      "Hongming Zhang",
+      "Zhaozhen Gu",
+      "Fengshuo Bai",
+      "Ming Hao",
+      "Qingyang Zhang",
+      "Yuanyuan Wang",
+      "Shiyang Tang",
+      "Yanna Wang",
+      "Bo Xu"
+    ],
+    "published": "2026-09-09T16:53:02Z",
+    "updated": "2026-09-09T16:53:02Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.10441",
+    "target": "library/memory-retrieval/long-term-memory.md",
+    "summary_zh": "通过层次化、可并行的片段摘要支持长上下文推理。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.10266",
+    "title": "KVShareArena: KV-Cache Reuse Across Contexts and Model Checkpoints",
+    "authors": [
+      "Xi Shi",
+      "Qian Lou"
+    ],
+    "published": "2026-09-09T14:53:45Z",
+    "updated": "2026-09-09T14:53:45Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.10266",
+    "target": "library/evaluation/benchmarks.md",
+    "summary_zh": "评测跨提示上下文与模型检查点的 KV 缓存复用及修复。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.10263",
+    "title": "What Should an Agent Forget? Separating What Is Stored from What Is Used",
+    "authors": [
+      "Yuhang Li",
+      "Yuchen Li"
+    ],
+    "published": "2026-09-09T14:48:09Z",
+    "updated": "2026-09-09T14:48:09Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.10263",
+    "target": "library/memory-retrieval/long-term-memory.md",
+    "summary_zh": "保留历史档案，并按查询构建区分当前事实与历史事实的记忆视图。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.09768",
+    "title": "Fine-Tuning a KV Cache Concatenation-Aware Model or Recomputing KV Caches? Why Not Both?",
+    "authors": [
+      "Fumihiko Tachibana",
+      "Daisuke Miyashita",
+      "Jun Deguchi"
+    ],
+    "published": "2026-09-09T06:12:39Z",
+    "updated": "2026-09-09T06:12:39Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.09768",
+    "target": "library/training/supervised-finetuning.md",
+    "summary_zh": "将感知 KV 拼接的微调与选择性缓存重算结合，用于长上下文 RAG。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.09157",
+    "title": "Learning Length-Extrapolatable Recurrent Models",
+    "authors": [
+      "Hanwen Jiang"
+    ],
+    "published": "2026-09-08T17:59:53Z",
+    "updated": "2026-09-08T17:59:53Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.09157",
+    "target": "library/training/architecture-adaptation.md",
+    "summary_zh": "稳定反向传播中的状态信用信号，研究循环模型的长度外推。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.08574",
+    "title": "Do New Attention Mechanisms Actually Fix Attention Sinks at Million-Token Context?",
+    "authors": [
+      "Sara Rizwan",
+      "Samaanah Abdus Salam"
+    ],
+    "published": "2026-09-08T11:10:11Z",
+    "updated": "2026-09-08T11:10:11Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.08574",
+    "target": "library/evaluation/benchmarks.md",
+    "summary_zh": "用 SinkProbe 检查百万 token 场景的注意力沉降和位置敏感性。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.08450",
+    "title": "Sample-Guided Exact Top-K Selection for Long-Context Sparse Attention",
+    "authors": [
+      "Siran Liu",
+      "Yang Xue",
+      "Theo Tang",
+      "Changxu Shao",
+      "Qian Cheng",
+      "Haimeng Ren",
+      "Donghua Jiang",
+      "Haipeng Ming",
+      "Lehua Ding",
+      "Zhonghan Lin",
+      "Shengying Wei",
+      "Wei Liu",
+      "Kai Liu",
+      "Jianchen Zhu"
+    ],
+    "published": "2026-09-08T08:51:19Z",
+    "updated": "2026-09-08T08:51:19Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.08450",
+    "target": "library/architecture/efficient-attention.md",
+    "summary_zh": "用抽样估计与完整遍历认证加速稀疏注意力的精确 Top-K 选择。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.08435",
+    "title": "EvolveScaler: Synthesizing Information-Evolution Contexts via Executable State Machines and Natural-Language Rendering",
+    "authors": [
+      "Ziliang Zhao",
+      "Zenan Xu",
+      "Shuting Wang",
+      "Zhao Wang",
+      "Bowen Cao",
+      "Minda Hu",
+      "Lincheng Li",
+      "Pluto Zhou",
+      "Zhicheng Dou"
+    ],
+    "published": "2026-09-08T08:40:05Z",
+    "updated": "2026-09-09T04:21:40Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.08435",
+    "target": "library/training/data-synthesis.md",
+    "summary_zh": "以可执行状态机定义信息更新与答案逻辑，再渲染为长文本合成数据。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.08318",
+    "title": "AttnCompress: Dynamic Attention-Guided Trajectory Compression for Software Engineering Agents",
+    "authors": [
+      "Zhengran Zeng",
+      "Yixin Li",
+      "Rui Xie",
+      "Wei Ye",
+      "Shikun Zhang"
+    ],
+    "published": "2026-09-08T06:42:24Z",
+    "updated": "2026-09-08T06:42:24Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.08318",
+    "target": "library/inference/context-compression.md",
+    "summary_zh": "用注意力信号动态压缩软件工程 Agent 的交互轨迹。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.07966",
+    "title": "MetaKV: Adaptive KV Cache Compression for Constrained LLM Inference",
+    "authors": [
+      "Michael Wang",
+      "Keith Li",
+      "Roozbeh Bostandoost"
+    ],
+    "published": "2026-09-07T20:44:23Z",
+    "updated": "2026-09-07T20:44:23Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.07966",
+    "target": "library/inference/kv-cache.md",
+    "summary_zh": "根据每条输入的延迟与显存预算，自适应选择 KV 压缩配置。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.07314",
+    "title": "Content-Based Addressing for Long Context",
+    "authors": [
+      "Mahesh Godavarti"
+    ],
+    "published": "2026-09-07T10:33:44Z",
+    "updated": "2026-09-13T21:15:00Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.07314",
+    "target": "library/architecture/position-encoding.md",
+    "summary_zh": "保留单元内 RoPE，以内容地址代替跨单元增长的位置编号。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.07282",
+    "title": "Separating Stream Stability from Long-Term Recall in Language Models",
+    "authors": [
+      "Peipei Cao",
+      "Xin Zhang",
+      "Jie Tang",
+      "Xiao Li",
+      "Siying Li",
+      "Qing Pei"
+    ],
+    "published": "2026-09-07T09:49:32Z",
+    "updated": "2026-09-07T09:49:32Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.07282",
+    "target": "library/evaluation/benchmarks.md",
+    "summary_zh": "分别测量流式生成稳定性、历史可访问性和任务效用的时间跨度。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.07237",
+    "title": "CEDAR: Error-Bounded Residual Routing for Efficient Long-Context Attention",
+    "authors": [
+      "Siyu Li",
+      "Dong Wang",
+      "Jie Zhou",
+      "Wei Li",
+      "Yang Xu",
+      "Sijie Song"
+    ],
+    "published": "2026-09-07T08:56:47Z",
+    "updated": "2026-09-07T08:56:47Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.07237",
+    "target": "library/architecture/efficient-attention.md",
+    "summary_zh": "将粗粒度摘要残差与按误差选择的精确注意力统一归一化。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.07108",
+    "title": "Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training",
+    "authors": [
+      "Zili Wang",
+      "Zhaopeng Qiu",
+      "Yuekai Zhang",
+      "Shuang Yu",
+      "Junjie Lai"
+    ],
+    "published": "2026-09-07T06:48:29Z",
+    "updated": "2026-09-07T06:48:29Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.07108",
+    "target": "library/training/training-systems.md",
+    "summary_zh": "结合上下文并行与流水线特征传输，在线共同训练 RL 推测解码草稿。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.06702",
+    "title": "PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents",
+    "authors": [
+      "Kun Li",
+      "Zexuan Qiu",
+      "Tianhua Zhang",
+      "Irwin King",
+      "Helen Meng"
+    ],
+    "published": "2026-09-06T16:19:01Z",
+    "updated": "2026-09-06T16:19:01Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.06702",
+    "target": "library/applications/long-horizon-agents.md",
+    "summary_zh": "并行阅读文档片段，由经过强化学习的主 Agent 迭代组织推理。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.05339",
+    "title": "Does Your Agent's Memory Survive a Model Upgrade? A Controlled Study of Memory Portability",
+    "authors": [
+      "Ankit Goyal",
+      "Jaideep Ray"
+    ],
+    "published": "2026-09-04T16:44:17Z",
+    "updated": "2026-09-04T16:44:17Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.05339",
+    "target": "library/evaluation/benchmarks.md",
+    "summary_zh": "在受控合成历史上比较模型升级后不同记忆表示的可迁移性。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.05152",
+    "title": "Compression Beyond the Uncompressed: A Two-Stage Training Recipe for Soft Context Compression in RAG",
+    "authors": [
+      "Shuyu Guo",
+      "Shuo Zhang",
+      "Zhaochun Ren"
+    ],
+    "published": "2026-09-04T13:53:43Z",
+    "updated": "2026-09-04T13:53:43Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.05152",
+    "target": "library/training/reinforcement-learning.md",
+    "summary_zh": "先从正确答案蒸馏，再在困难问题上强化学习软上下文压缩器。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.04971",
+    "title": "BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference",
+    "authors": [
+      "Janghyeon Kim",
+      "Minsoo Kim",
+      "Kyuhong Shim",
+      "Jungwook Choi"
+    ],
+    "published": "2026-09-04T10:23:16Z",
+    "updated": "2026-09-04T10:23:16Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.04971",
+    "target": "library/inference/kv-cache.md",
+    "summary_zh": "用代表性 beacon 查询预测长推理中将被重新访问的 KV 对。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.04852",
+    "title": "KVMem: Virtualizing Million-Token Agent Workspaces on a Consumer GPU",
+    "authors": [
+      "Di Chai",
+      "Leye Wang",
+      "Zeshen Su",
+      "Zhiguo Xia",
+      "Zhihang Yu"
+    ],
+    "published": "2026-09-04T08:09:59Z",
+    "updated": "2026-09-04T08:09:59Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.04852",
+    "target": "library/inference/kv-cache.md",
+    "summary_zh": "跨 GPU、主机内存与 NVMe 保存分页 KV，构造受原生窗口约束的执行视图。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.03515",
+    "title": "What Matters for Aggressive Decoding-Time KV Eviction? Temporal Aggregation and Ranking Preservation",
+    "authors": [
+      "Bo Zeng",
+      "Yu Zhao",
+      "Yefeng Liu",
+      "Zhihong Lu",
+      "Xuanfan Ni",
+      "Xintong Wang"
+    ],
+    "published": "2026-09-03T08:17:34Z",
+    "updated": "2026-09-03T08:17:34Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.03515",
+    "target": "library/inference/kv-cache.md",
+    "summary_zh": "研究激进解码期淘汰中时间聚合与排序保持的作用。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.03235",
+    "title": "SGD-KV: Summarization Guided KV Cache Compression",
+    "authors": [
+      "Zeyu Liu",
+      "Woomin Song",
+      "Xuandi Fu",
+      "Sai Muralidhar Jayanthi",
+      "Vivek Govindan",
+      "Aram Galstyan",
+      "Sravan Babu Bodapati",
+      "Srikanth Ronanki"
+    ],
+    "published": "2026-09-03T00:31:11Z",
+    "updated": "2026-09-03T00:31:11Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.03235",
+    "target": "library/inference/kv-cache.md",
+    "summary_zh": "用分块摘要诊断注意力头的聚合能力，并分配 KV 存储预算。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.03151",
+    "title": "BASP: Communication-Efficient Batch-Aware Sequence Parallelism for LLM Training",
+    "authors": [
+      "Bigyan Ghimire",
+      "Jon C. Calhoun"
+    ],
+    "published": "2026-09-02T20:33:23Z",
+    "updated": "2026-09-02T20:33:23Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.03151",
+    "target": "library/training/training-systems.md",
+    "summary_zh": "利用微批结构划分序列并行组，减少长序列训练通信。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.02737",
+    "title": "Language Models Can Control Their Own Attention",
+    "authors": [
+      "Namgyu Ho",
+      "Huzama Ahmad",
+      "Woosung Koh",
+      "Se-Young Yun",
+      "Tal Schuster",
+      "Cicero Nogueira dos Santos"
+    ],
+    "published": "2026-09-02T15:43:38Z",
+    "updated": "2026-09-02T15:43:38Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.02737",
+    "target": "library/architecture/efficient-attention.md",
+    "summary_zh": "让模型显式声明全局、局部聚焦等注意力模式。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2609.00749",
+    "title": "ContextPipe: Database-Inspired Context Assembly for Long-Horizon Agents",
+    "authors": [
+      "Peng Xu",
+      "Zuyu Zhang",
+      "Yuze Sun",
+      "Feng Tian",
+      "Long Wang",
+      "Chen Zhang"
+    ],
+    "published": "2026-09-01T05:27:38Z",
+    "updated": "2026-09-01T05:27:38Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2609.00749",
+    "target": "library/applications/long-horizon-agents.md",
+    "summary_zh": "借鉴数据库查询执行，把 Agent 上下文组装做成可追踪的流水线。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.25655",
+    "title": "Reconstructing the Right Episode: Evaluating Interleaved Conversational Memory Beyond Long Context",
+    "authors": [
+      "Zhexi Feng",
+      "Ruiyi Zhang",
+      "Yongbo Yang",
+      "Pengtao Xie"
+    ],
+    "published": "2026-08-26T11:37:03Z",
+    "updated": "2026-08-26T11:37:03Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.25655",
+    "target": "library/evaluation/benchmarks.md",
+    "summary_zh": "SCALE-QA 评估无显式会话分隔的混合主题历史中的事件重建。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.25486",
+    "title": "PonsRAG: A Pons-Inspired RAG Bridging Cognitive Islands for Coordinated Long Narrative Reasoning",
+    "authors": [
+      "Rongchen Zhao",
+      "Yu Chen",
+      "Juyuan Wang",
+      "Zhouting Mo",
+      "Jianxing Yu",
+      "Wenqing Chen",
+      "Jingping Liu"
+    ],
+    "published": "2026-08-26T07:55:44Z",
+    "updated": "2026-08-26T07:55:44Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.25486",
+    "target": "library/memory-retrieval/retrieval-augmented-generation.md",
+    "summary_zh": "以多层索引和跨层证据组织支持长叙事推理。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.24188",
+    "title": "Paritok-4B: Intent-Conditioned Context Compression for Coding Agents",
+    "authors": [
+      "Jiayu Shi",
+      "Luzhuo Chen"
+    ],
+    "published": "2026-08-25T07:53:30Z",
+    "updated": "2026-08-25T07:53:30Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.24188",
+    "target": "library/inference/context-compression.md",
+    "summary_zh": "面向编程 Agent 的意图条件抽取式压缩，尽量保留原始代码标识符。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.23843",
+    "title": "PuzzleKV: Page-Wise Low-Rank Decomposition for KV Cache Compression",
+    "authors": [
+      "Zizhong Wang",
+      "Jieying Wang",
+      "Zhao Zhang",
+      "Jiajia Li"
+    ],
+    "published": "2026-08-24T21:30:11Z",
+    "updated": "2026-08-24T21:30:11Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.23843",
+    "target": "library/inference/kv-cache.md",
+    "summary_zh": "将每个注意力头的 KV 分成逻辑页，执行页级低秩压缩。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.23463",
+    "title": "ProxyFormer: A Dual-Stream Proxy Architecture for Ultra-Long Context and High-Resolution Generation",
+    "authors": [
+      "Zhongpan Tang"
+    ],
+    "published": "2026-08-24T16:31:46Z",
+    "updated": "2026-08-24T16:31:46Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.23463",
+    "target": "library/architecture/efficient-attention.md",
+    "summary_zh": "以双流代理 token 承担全局交互，同时保留局部细粒度信息。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.23265",
+    "title": "EvoWiki: Incremental State Overwriting and Traceable Question Answering for Cross-Meeting Knowledge Evolution",
+    "authors": [
+      "Dongsheng Chen",
+      "Tianyu Wang",
+      "Wenhui Que"
+    ],
+    "published": "2026-08-24T13:52:17Z",
+    "updated": "2026-08-24T13:52:17Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.23265",
+    "target": "library/memory-retrieval/long-term-memory.md",
+    "summary_zh": "显式记录跨会议事实状态的覆盖和演化，支持可追溯问答。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.21308",
+    "title": "Rethinking Expressivity and Efficiency in Test-Time Training",
+    "authors": [
+      "Zeyun Zhong",
+      "Joya Chen",
+      "Manuel Martin",
+      "Frederik Diederichs",
+      "Juergen Gall",
+      "Juergen Beyerer"
+    ],
+    "published": "2026-08-21T17:12:28Z",
+    "updated": "2026-08-26T18:41:36Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.21308",
+    "target": "library/training/test-time-adaptation.md",
+    "summary_zh": "推导分块快速权重更新，兼顾测试时训练的表达能力与硬件效率。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.20927",
+    "title": "MentorPulse: Refreshing Cross-Model Latent Guidance for Long-Form Generation",
+    "authors": [
+      "Ziwu Liu",
+      "Guozhong Li",
+      "Chen Qiu",
+      "Weiyang Kong",
+      "Panos Kalnis"
+    ],
+    "published": "2026-08-21T09:49:09Z",
+    "updated": "2026-08-21T09:49:09Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.20927",
+    "target": "library/applications/long-form-text-generation.md",
+    "summary_zh": "刷新跨模型潜在指导记忆，缓解长篇生成中的指导信号陈旧。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.20853",
+    "title": "MGAL: A Multilingual Granularity-Aware Long-Context Benchmark",
+    "authors": [
+      "Chunhan Li",
+      "Chenglin Xu",
+      "Zongyang Zhang",
+      "Jiale Liu",
+      "Zhuoxi Rao",
+      "Xudong Jia",
+      "Junxiu He",
+      "Menglin Yang",
+      "Wenjuan Gong",
+      "Zhengzhe Liu",
+      "Chengwei Qin"
+    ],
+    "published": "2026-08-21T08:19:00Z",
+    "updated": "2026-08-21T08:19:00Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.20853",
+    "target": "library/evaluation/benchmarks.md",
+    "summary_zh": "以六种联合国官方语言测量不同粒度和位置的长上下文理解。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.19920",
+    "title": "Learning how to Forget: Fine-tuning for Long-Context Sparse Attention",
+    "authors": [
+      "Matthias Seeger",
+      "Zeyu Zhang",
+      "Vihang Patil",
+      "Konstantinos Benidis",
+      "Sebastian Schelter"
+    ],
+    "published": "2026-08-20T11:37:04Z",
+    "updated": "2026-08-20T11:37:04Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.19920",
+    "target": "library/training/supervised-finetuning.md",
+    "summary_zh": "在稀疏注意力下微调模型，让模型与 KV 选择策略共同适配。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.19758",
+    "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
+    "authors": [
+      "Qihang Fan",
+      "Huaibo Huang",
+      "Zhiying Wu",
+      "Bingning Wang",
+      "Ran He"
+    ],
+    "published": "2026-08-20T08:02:55Z",
+    "updated": "2026-08-20T08:02:55Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.19758",
+    "target": "library/architecture/efficient-attention.md",
+    "summary_zh": "从误差修正与算子设计改进块稀疏长上下文预填充。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.19662",
+    "title": "ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents",
+    "authors": [
+      "Yichu Fang",
+      "Sitong Wei",
+      "Haozhe Hu",
+      "Xiaoyu Shen"
+    ],
+    "published": "2026-08-20T05:57:24Z",
+    "updated": "2026-08-20T05:57:24Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.19662",
+    "target": "library/inference/kv-cache.md",
+    "summary_zh": "对重复工具及技能资源构建可组合 KV，并压缩资源表示。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.19652",
+    "title": "Can Agent Memory Systems Track Evolving State?",
+    "authors": [
+      "Xinyi Fan",
+      "Miri Liu",
+      "Ruozhen Yang",
+      "Siru Ouyang",
+      "Jiawei Han"
+    ],
+    "published": "2026-08-20T05:41:23Z",
+    "updated": "2026-08-20T05:41:23Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.19652",
+    "target": "library/evaluation/benchmarks.md",
+    "summary_zh": "StateMemBench 区分当前事实、已被替代事实与其他回答错误。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.19535",
+    "title": "From Retrieved Context to Runtime Control: Adaptive Compression for Edge-based RAG",
+    "authors": [
+      "Zlatan Feric",
+      "Amir Taherin",
+      "Yanzhi Wang",
+      "David Kaeli"
+    ],
+    "published": "2026-08-20T01:13:29Z",
+    "updated": "2026-08-20T01:13:29Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.19535",
+    "target": "library/inference/context-compression.md",
+    "summary_zh": "提出由设备运行状态驱动的边缘 RAG 自适应压缩方向。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.19181",
+    "title": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
+    "authors": [
+      "Zhu Zhang",
+      "Jixun Wang",
+      "Xiaoang Xu",
+      "Xiaorong Wang",
+      "Zihan Zhou",
+      "Zhiyuan Wang",
+      "Shuo Wang",
+      "Chaojun Xiao",
+      "Yuezhi Zhou"
+    ],
+    "published": "2026-08-19T17:54:58Z",
+    "updated": "2026-08-19T17:54:58Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.19181",
+    "target": "library/training/supervised-finetuning.md",
+    "summary_zh": "校准教师 token 指导与任务验证奖励，改进长上下文在线蒸馏。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.17950",
+    "title": "Do Large Language Models Play Six Degrees of Separation? Measuring Topological Compression in Long-Context Manifolds",
+    "authors": [
+      "Md. Faiyaz Abdullah Sayeedi"
+    ],
+    "published": "2026-08-18T16:05:25Z",
+    "updated": "2026-08-21T00:47:13Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.17950",
+    "target": "library/evaluation/benchmarks.md",
+    "summary_zh": "通过隐藏状态图结构分析长上下文多跳推理中的语义连接。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.17616",
+    "title": "MoNe: Modular Neural Memory for Efficient Long Context Inference",
+    "authors": [
+      "Wonguk Cho",
+      "Kyubyung Chae",
+      "Tribhuvanesh Orekondy",
+      "Sunghyun Park",
+      "Hyoungwoo Park",
+      "Jeongho Kim",
+      "Arash Behboodi",
+      "Kyuwoong Hwang",
+      "Sungrack Yun"
+    ],
+    "published": "2026-08-18T10:28:23Z",
+    "updated": "2026-08-18T10:28:23Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.17616",
+    "target": "library/training/test-time-adaptation.md",
+    "summary_zh": "用快速权重神经记忆分段吸收上下文，解耦预处理与查询成本。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.16844",
+    "title": "Proteus: Incremental Memory Activation for Long-Context Sequence Modeling",
+    "authors": [
+      "Reza Bayat",
+      "Ali Behrouz",
+      "Vahab Mirrokni",
+      "Aaron Courville"
+    ],
+    "published": "2026-08-17T17:30:43Z",
+    "updated": "2026-08-17T17:30:43Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.16844",
+    "target": "library/training/architecture-adaptation.md",
+    "summary_zh": "随上下文增长逐步激活记忆容量，减少早期信息对后续信息的干扰。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.16370",
+    "title": "What Does Context Compression Cost an Agent? Interaction Costs Unrevealed by Task-Completion Metrics",
+    "authors": [
+      "Shuyu Liu"
+    ],
+    "published": "2026-08-17T10:21:36Z",
+    "updated": "2026-08-17T10:21:36Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.16370",
+    "target": "library/evaluation/benchmarks.md",
+    "summary_zh": "测量压缩导致 Agent 重新获取信息的交互成本，而非只看任务完成率。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.15797",
+    "title": "KV-Rescue: Recovering Reasoning Language Model KV Eviction Loss via Stepwise Interleaving",
+    "authors": [
+      "Minsoo Cheong",
+      "Woosang Lim",
+      "Vincent-Daniel Yun",
+      "Sungjoo Yoo"
+    ],
+    "published": "2026-08-16T15:23:25Z",
+    "updated": "2026-08-16T15:23:25Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.15797",
+    "target": "library/inference/kv-cache.md",
+    "summary_zh": "用轻量完整上下文辅助模型穿插推理步骤，补偿主模型 KV 淘汰的信息损失。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.15584",
+    "title": "GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix",
+    "authors": [
+      "Jinhyun Jeon",
+      "Sungjoo Yoo"
+    ],
+    "published": "2026-08-16T07:19:49Z",
+    "updated": "2026-08-23T16:29:29Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.15584",
+    "target": "library/inference/kv-cache.md",
+    "summary_zh": "为长共享前缀与请求后缀采用不同分页粒度。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  },
+  {
+    "arxiv_id": "2608.15008",
+    "title": "Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents",
+    "authors": [
+      "Wei-Chieh Huang",
+      "Weizhi Zhang",
+      "Yuchen Wu",
+      "Yankai Chen",
+      "Eric Hanchen Jiang",
+      "Wooseong Yang",
+      "Yiwei Yang",
+      "Henry Peng Zou",
+      "Hanrong Zhang",
+      "Ying Nian Wu",
+      "Haolun Wu",
+      "Kai-Wei Chang",
+      "Philip S. Yu",
+      "Xue Liu",
+      "Aylin Caliskan"
+    ],
+    "published": "2026-08-15T03:29:48Z",
+    "updated": "2026-08-15T03:29:48Z",
+    "collected": "2026-09-17",
+    "url": "https://arxiv.org/abs/2608.15008",
+    "target": "library/evaluation/benchmarks.md",
+    "summary_zh": "在统一框架下比较多种 Agent 记忆载体的效果与效率。",
+    "verification": "arXiv API metadata and abstract; not full-text review"
+  }
+]

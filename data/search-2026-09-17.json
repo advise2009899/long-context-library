@@ -1,0 +1,1384 @@
+{
+  "searched_at": "2026-09-17",
+  "date_range": [
+    "2026-08-14",
+    "2026-09-17"
+  ],
+  "date_basis": "arXiv v1 submitted date, UTC",
+  "query": "(all:\"long context\" OR all:\"long-context\" OR all:\"KV cache\" OR all:\"context compression\") AND submittedDate:[202608140000 TO 202609172359]",
+  "candidate_count": 273,
+  "selected_new": 62,
+  "already_present": [
+    "2608.14277",
+    "2608.14191",
+    "2608.13883"
+  ],
+  "coverage": "Curated keyword search, not an exhaustive survey; latest indexed submission date 2026-09-16. No inference of zero papers on 2026-09-17.",
+  "candidates": [
+    {
+      "id": "http://arxiv.org/abs/2609.18849v1",
+      "title": "Ask the Tool, Don't Guess: Agent Tool Calls Hold Their Progress, and the Serving System Should Read It",
+      "published": "2026-09-16T15:54:34Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.18675v1",
+      "title": "HBFlex: A Flexible Memory System for Bridging Fine-Grained LLM States and Coarse-Grained HBF Parallel Execution",
+      "published": "2026-09-16T13:52:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.18112v1",
+      "title": "Token Latency Fairness: Performance Isolation for Multi-Tenant LLM Serving",
+      "published": "2026-09-16T04:33:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.17983v1",
+      "title": "Contiguity, Not Importance: Budgeted Repair of Stale KV Caches After Document Edits",
+      "published": "2026-09-16T01:13:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.17943v1",
+      "title": "ASPIRE: Asynchronous Batched Self-Speculative Decoding for Long-Context LLM Inference",
+      "published": "2026-09-16T00:04:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.17888v1",
+      "title": "Long-Context Demonstration Selection Using State Space Models",
+      "published": "2026-09-15T22:29:22Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.17863v1",
+      "title": "The Inference Engineering Pareto Atlas: Which Optimizations Dominate the Cost, Quality, and Latency Frontier?",
+      "published": "2026-09-15T21:44:58Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.17688v1",
+      "title": "CapMem: A Benchmark for Caption-Based Episodic Memory in Egocentric Video",
+      "published": "2026-09-15T18:03:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.17652v1",
+      "title": "Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches",
+      "published": "2026-09-15T16:53:01Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.17346v1",
+      "title": "Where Should a Document Live: Context, Representations, or Parameters?",
+      "published": "2026-09-15T15:47:02Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.17248v1",
+      "title": "Video-HolmesV2: Can MLLMs Reason with Spatio-Temporal Audio-Visual Evidence in Long Videos?",
+      "published": "2026-09-15T14:30:00Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.17198v1",
+      "title": "TIO-Former: Ultra-Lightweight 6-Directional ToF-Inertial Odometry for Nano-UAVs via a Streaming Causal Transformer",
+      "published": "2026-09-15T13:54:06Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.17193v1",
+      "title": "End-to-End Latency-Minimizing and Load-Balanced Request Scheduling for Edge LLM Inference in Agentic AI Services",
+      "published": "2026-09-15T13:50:54Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.17109v1",
+      "title": "Shared-Prefix KV Reuse Across Standard LoRA Adapters: Quality and Serving Tradeoffs",
+      "published": "2026-09-15T12:39:16Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.17008v1",
+      "title": "FlexEE: Self-Speculative and KV-Compatible Early Exiting for Offloading-Aware LLM Inference",
+      "published": "2026-09-15T11:20:23Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.16617v1",
+      "title": "Divergence Timing and Cumulative Disagreement under KV-Cache Eviction",
+      "published": "2026-09-15T04:23:53Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.16450v1",
+      "title": "Early-Bird Decoding: Accelerating Diffusion LLMs with Learnable Block Sizes and Parallel Sampling",
+      "published": "2026-09-15T00:12:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.16415v1",
+      "title": "How Good Are Time-Series Foundation Models for Pedestrian Crowd Count Forecasting? A Cross-Dataset Comparative Study",
+      "published": "2026-09-14T22:46:32Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.16215v1",
+      "title": "Where Should the KV Cache Live? Placement Policies Across GPU, CPU, and SSD for Long-Lived Sessions",
+      "published": "2026-09-14T18:49:07Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.16206v1",
+      "title": "Calibrate, Then Route: A Measured Study of Learned Request Routing for Disaggregated LLM Serving",
+      "published": "2026-09-14T18:39:18Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.16161v1",
+      "title": "LLM Inference in a Flash!",
+      "published": "2026-09-14T18:04:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15160v1",
+      "title": "T-LoopFormer: Token-Level Elastic-Depth Looped Transformers for Latent Reasoning With Dynamic Routing",
+      "published": "2026-09-14T07:41:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15021v1",
+      "title": "Shared KV Caching for Replicated 27B Inference: Correctness Failures and Performance Boundaries",
+      "published": "2026-09-14T04:37:44Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.14872v1",
+      "title": "AgentKV: Phase-Aware KV Eviction for Agentic LLMs",
+      "published": "2026-09-14T00:42:53Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.14850v1",
+      "title": "Self-Orchestrating Language Models: Leveraging Semantic Dependence for Efficient Inference",
+      "published": "2026-09-13T23:48:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.14507v1",
+      "title": "Physically Partitioned KVCache Format for CPU--GPU Load Balancing in MoE Inference",
+      "published": "2026-09-13T13:33:24Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.14320v1",
+      "title": "SpectralShift: Effective Context Window Extension of Gated DeltaNet via Spectral Reparameterization",
+      "published": "2026-09-13T06:30:16Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.14306v1",
+      "title": "Flattening Every Memory Peak in Long-Context Mixture-of-Experts Training",
+      "published": "2026-09-13T06:00:46Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.16055v1",
+      "title": "State of Thought Enables Endogenous Reasoning",
+      "published": "2026-09-13T05:55:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.14245v1",
+      "title": "The Attribution-Compression Frontier in Retrieval-Augmented Generation",
+      "published": "2026-09-13T02:49:06Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.13956v1",
+      "title": "Tabby: An Open Pretraining Recipe for Time Series Foundation Models",
+      "published": "2026-09-12T13:58:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.13733v1",
+      "title": "FFVO: A Feedforward Pose Decoder for Long-Horizon Visual Odometry",
+      "published": "2026-09-12T05:56:52Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.13692v1",
+      "title": "Prefix Sharing Is a Sorting Problem",
+      "published": "2026-09-12T04:02:31Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.13624v1",
+      "title": "An Efficient and Modular Framework for Targeted Harm Mitigation in LLMS",
+      "published": "2026-09-12T00:24:49Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.13537v1",
+      "title": "Dynamic HBM Repartitioning for Multi-Turn MoE Serving",
+      "published": "2026-09-11T21:06:26Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.13141v1",
+      "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
+      "published": "2026-09-11T17:58:06Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.13356v1",
+      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+      "published": "2026-09-11T17:18:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.13031v1",
+      "title": "Attention Quantization for Tabular Foundation Models",
+      "published": "2026-09-11T16:31:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.12774v1",
+      "title": "DiffSynth-Music: Audio-Conditioned KV-Cache Adapters for Controllable Music Generation",
+      "published": "2026-09-11T12:28:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.12686v1",
+      "title": "Residual Vector-based Reconstruction as Long-Context Recall Regardless of Context Window Size",
+      "published": "2026-09-11T10:31:46Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.12674v1",
+      "title": "Doc2FRC: Length-Consistent Document-Level Machine Translation via Fixed-Range Chunking",
+      "published": "2026-09-11T10:17:55Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.12597v1",
+      "title": "Invisible Yet Dominant: Big Stalls of Kernel I/O Mechanisms in Cloud OLTP Databases",
+      "published": "2026-09-11T08:49:32Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.12551v1",
+      "title": "RoofLang: Enabling AI-Driven Architecting of LLM Inference Systems",
+      "published": "2026-09-11T07:57:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.12111v1",
+      "title": "The Cost of Compression: A Rate-Distortion Limit on Factual Hallucination",
+      "published": "2026-09-10T18:37:44Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11744v1",
+      "title": "Building py-kvcache: A Performance Characterization of External KV Caching for vLLM with NVMe SSDs",
+      "published": "2026-09-10T16:00:35Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11582v1",
+      "title": "OmniKVQuant: KV Cache Quantization for Omni-LLMs",
+      "published": "2026-09-10T14:14:12Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11392v1",
+      "title": "PATTON: Enabling Commodity PIM for Production LLM Serving",
+      "published": "2026-09-10T11:28:07Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11231v2",
+      "title": "A Voice-Interactive Multi-Agent System for Smart Operating Rooms: Architecture Design and Key Technologies",
+      "published": "2026-09-10T08:29:27Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11209v1",
+      "title": "REVA: Reusable Evidence View Aggregation for Context-Efficient RAG Serving",
+      "published": "2026-09-10T08:14:22Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11192v1",
+      "title": "FlexComp: One Model for Every Ratio in Context Compression",
+      "published": "2026-09-10T07:59:52Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11998v1",
+      "title": "Fixed State, Long Reach: What a Constant-Size Cache Buys Block Diffusion at Scale",
+      "published": "2026-09-09T23:37:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10790v1",
+      "title": "Composable CXL Memory as a Kubernetes-Native Shared Memory for LLM Serving",
+      "published": "2026-09-09T19:52:48Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10441v1",
+      "title": "ConvMem: Convolutional Memory for Long-Context Reasoning",
+      "published": "2026-09-09T16:53:02Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10266v1",
+      "title": "KVShareArena: KV-Cache Reuse Across Contexts and Model Checkpoints",
+      "published": "2026-09-09T14:53:45Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10265v1",
+      "title": "Pushing the Boundaries of Streaming Multi-Speaker ASR: A Systematic Study of Architectural Trade-offs",
+      "published": "2026-09-09T14:53:20Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10263v1",
+      "title": "What Should an Agent Forget? Separating What Is Stored from What Is Used",
+      "published": "2026-09-09T14:48:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09823v1",
+      "title": "AMEND: Audited Margins Enable Nonblocking Drops in GPU-PIM LLM Decoding",
+      "published": "2026-09-09T07:25:14Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09768v1",
+      "title": "Fine-Tuning a KV Cache Concatenation-Aware Model or Recomputing KV Caches? Why Not Both?",
+      "published": "2026-09-09T06:12:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09664v1",
+      "title": "PRAGMA: Evaluating Personalized Guidance with Memory Alignment in Lifelong Conversations",
+      "published": "2026-09-09T03:31:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09567v2",
+      "title": "Positional task conditioning for scalable defect detection across product families in large product catalogs",
+      "published": "2026-09-09T00:48:18Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09157v1",
+      "title": "Learning Length-Extrapolatable Recurrent Models",
+      "published": "2026-09-08T17:59:53Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.13285v2",
+      "title": "Grouped Value Attention: Efficient KV Caching via On-Demand Key Reconstruction",
+      "published": "2026-09-08T17:58:44Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08686v1",
+      "title": "CausalChapter: Improving Long-Video Chaptering with Interventional Dependency Modeling",
+      "published": "2026-09-08T12:54:57Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08574v1",
+      "title": "Do New Attention Mechanisms Actually Fix Attention Sinks at Million-Token Context?",
+      "published": "2026-09-08T11:10:11Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08566v1",
+      "title": "BIO-MEMART: Biometric-Aware KV Cache Memory for Multi-User LLM Agents",
+      "published": "2026-09-08T10:56:17Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08450v1",
+      "title": "Sample-Guided Exact Top-K Selection for Long-Context Sparse Attention",
+      "published": "2026-09-08T08:51:19Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08443v1",
+      "title": "SequenceO1: End-to-End Ultra-Long (100K) Sequence Modeling in Recommendation with Low-Rank Caching",
+      "published": "2026-09-08T08:49:44Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08435v2",
+      "title": "EvolveScaler: Synthesizing Information-Evolution Contexts via Executable State Machines and Natural-Language Rendering",
+      "published": "2026-09-08T08:40:05Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08418v1",
+      "title": "Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models",
+      "published": "2026-09-08T08:26:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08318v1",
+      "title": "AttnCompress: Dynamic Attention-Guided Trajectory Compression for Software Engineering Agents",
+      "published": "2026-09-08T06:42:24Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08131v1",
+      "title": "Jacap: Robust KV Cache Eviction via Jacobian-Based Nonlinear Information Capacity Preservation",
+      "published": "2026-09-08T02:08:57Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07966v1",
+      "title": "MetaKV: Adaptive KV Cache Compression for Constrained LLM Inference",
+      "published": "2026-09-07T20:44:23Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07883v1",
+      "title": "Deadline-Aware Adaptive Prefill Chunking for Efficient Large Language Model Serving",
+      "published": "2026-09-07T18:47:57Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07816v1",
+      "title": "Kalman Delta Networks: Uncertainty-aware Associative Memory",
+      "published": "2026-09-07T17:53:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.13268v1",
+      "title": "Capability-Routed Visual Retrieval and Evidence Threading for Long-Context Document Question Answering",
+      "published": "2026-09-07T16:56:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07601v1",
+      "title": "ObGynLongBench: Revealing the Evidence-to-EHR Gap in Longitudinal EHR Decision-Making",
+      "published": "2026-09-07T15:12:36Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07314v2",
+      "title": "Content-Based Addressing for Long Context",
+      "published": "2026-09-07T10:33:44Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07306v1",
+      "title": "RouteRelay: Event-Triggered Cross-Layer Route Reuse for Efficient Dynamic Sparse Attention",
+      "published": "2026-09-07T10:23:06Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07282v1",
+      "title": "Separating Stream Stability from Long-Term Recall in Language Models",
+      "published": "2026-09-07T09:49:32Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07237v1",
+      "title": "CEDAR: Error-Bounded Residual Routing for Efficient Long-Context Attention",
+      "published": "2026-09-07T08:56:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07175v1",
+      "title": "Enabling High-Bandwidth Flash for Generative Recommendation Serving with Write-Aware KV Cache Policy",
+      "published": "2026-09-07T08:07:14Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07108v1",
+      "title": "Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training",
+      "published": "2026-09-07T06:48:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07008v1",
+      "title": "RedKnot-MLA: Multi-Head Offline-Online Reuse for DeepSeek-V4 Long-Context Serving",
+      "published": "2026-09-07T03:59:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06976v1",
+      "title": "HealthLoopQA: A Context-Aware Question Answering Benchmark for Interpreting Wearable Monitoring Data in Diabetes Care",
+      "published": "2026-09-07T03:11:34Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06940v1",
+      "title": "Unified AI Gateway: A Framework for Joint Model Routing and KV Cache Management",
+      "published": "2026-09-07T02:21:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06853v1",
+      "title": "Characterizing Contention-Induced Reliability Collapse in KV-Cache Timing Side Channels for Multi-Tenant LLM Serving",
+      "published": "2026-09-06T21:56:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06746v3",
+      "title": "Reason Through the Latent! Making Latent Visual Reasoning Necessary",
+      "published": "2026-09-06T17:39:32Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06702v1",
+      "title": "PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents",
+      "published": "2026-09-06T16:19:01Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06663v1",
+      "title": "ECOKV: Geometry-Aware KV Cache Eviction via Complementary Diversity Metrics",
+      "published": "2026-09-06T15:13:48Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06341v1",
+      "title": "Linear Algebra Foundations of Efficient Attention: A Phase Reversal in Rank Collapse Under SVD Compression",
+      "published": "2026-09-06T02:27:01Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09208v1",
+      "title": "Shift-Accumulate Attention: Multiplier-Free Query--Key Products for Transformer Decoding",
+      "published": "2026-09-05T21:14:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05821v1",
+      "title": "CONDUIT: A Unified Residual-Stream Restoration Framework for KV Cache Reuse in Vision-Language Models",
+      "published": "2026-09-05T02:34:16Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05764v1",
+      "title": "Interface-Aware KV Cache Quantization for Dense On-Chip NVM in Long-Context LLM Decoding",
+      "published": "2026-09-04T22:58:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05760v1",
+      "title": "RAGMark: A Comprehensive Framework for Benchmarking Retrieval-Augmented Generation Systems",
+      "published": "2026-09-04T22:44:05Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05339v1",
+      "title": "Does Your Agent's Memory Survive a Model Upgrade? A Controlled Study of Memory Portability",
+      "published": "2026-09-04T16:44:17Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05152v1",
+      "title": "Compression Beyond the Uncompressed: A Two-Stage Training Recipe for Soft Context Compression in RAG",
+      "published": "2026-09-04T13:53:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04971v1",
+      "title": "BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference",
+      "published": "2026-09-04T10:23:16Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04947v2",
+      "title": "MCPO: Modality-Contrastive Preference Optimization for Multimodal Chain-of-Thought Compression",
+      "published": "2026-09-04T09:54:53Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04875v1",
+      "title": "Forgetting Without Restarting: Execution-State Unlearning for Stateful LLM Agents",
+      "published": "2026-09-04T08:31:40Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04852v1",
+      "title": "KVMem: Virtualizing Million-Token Agent Workspaces on a Consumer GPU",
+      "published": "2026-09-04T08:09:59Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04778v1",
+      "title": "Diffusion Language Models for Mobile Edge Agentic AI: Foundations, Applications, and Challenges",
+      "published": "2026-09-04T06:16:49Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05565v1",
+      "title": "Toward Sustainable Distributed LLM Inference: A Systems Synthesis and Research Agenda for an Energy-, Carbon-, and Cache-Aware llm-d Control Plane",
+      "published": "2026-09-03T21:56:54Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04434v1",
+      "title": "What Attention Recalls and Recurrence Controls in Hybrid Language Models",
+      "published": "2026-09-03T19:56:26Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04115v1",
+      "title": "One Probability, Two Roles: The Separation of Coherence and Frequency in Adaptive Regimes",
+      "published": "2026-09-03T17:18:14Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04098v1",
+      "title": "Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM",
+      "published": "2026-09-03T17:04:26Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04010v1",
+      "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
+      "published": "2026-09-03T15:48:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03949v2",
+      "title": "VestigeKV: The NoPE-MLA KV Cache Carries Its Own Sparse-Attention Signal in a Vestigial Branch",
+      "published": "2026-09-03T14:53:20Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03927v1",
+      "title": "Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models",
+      "published": "2026-09-03T14:40:16Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03874v1",
+      "title": "STAIR (STructure Aware Information Retriever): A novel dataset and LLM based retriever for document structure augmentation",
+      "published": "2026-09-03T14:02:53Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03807v4",
+      "title": "Almost Free State Prediction Separation",
+      "published": "2026-09-03T13:12:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03515v1",
+      "title": "What Matters for Aggressive Decoding-Time KV Eviction? Temporal Aggregation and Ranking Preservation",
+      "published": "2026-09-03T08:17:34Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03494v1",
+      "title": "GrowPage: On-Demand KV Budgeting for Efficient LLM Reasoning Serving",
+      "published": "2026-09-03T07:53:05Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03430v1",
+      "title": "Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning",
+      "published": "2026-09-03T06:38:38Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03235v1",
+      "title": "SGD-KV: Summarization Guided KV Cache Compression",
+      "published": "2026-09-03T00:31:11Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03151v1",
+      "title": "BASP: Communication-Efficient Batch-Aware Sequence Parallelism for LLM Training",
+      "published": "2026-09-02T20:33:23Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02780v1",
+      "title": "ShallowStream: Index Shallow then Answer Deep for Streaming Video Understanding",
+      "published": "2026-09-02T16:14:48Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02737v1",
+      "title": "Language Models Can Control Their Own Attention",
+      "published": "2026-09-02T15:43:38Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02731v1",
+      "title": "RVSD: Retrieval Vision Sparse Decoding for Mitigating Visual Hallucinations in Large Vision-Language Models",
+      "published": "2026-09-02T15:40:40Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02702v1",
+      "title": "Trace as State: Reasoning Traces as Conditional States for Long-Context Transformers",
+      "published": "2026-09-02T15:06:46Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02986v1",
+      "title": "Modern Transformers Are Implicit Hybrids: From Functional Differentiation to Principled Hybrid Architecture Design",
+      "published": "2026-09-02T14:49:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04263v1",
+      "title": "Quality Recovery for Quantized KV Caches via Low-Rank Attention Adaptation",
+      "published": "2026-09-02T13:37:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02496v1",
+      "title": "Debias-SparseGPT: Bias-Aware Pruning for Large Language Models",
+      "published": "2026-09-02T12:01:54Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02029v1",
+      "title": "HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models",
+      "published": "2026-09-02T02:59:11Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02027v1",
+      "title": "Multi-Turn LLM Conversations under the Least-Recently-Used Policy: Mean-Field Asymptotics and Hit Ratio Approximation",
+      "published": "2026-09-02T02:57:16Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01925v1",
+      "title": "CRISP: Cliff-awaRe Input-adaptive Sparse Prefilling with Structural-Mass-Motivated Routing",
+      "published": "2026-09-01T22:49:46Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01834v1",
+      "title": "Architecting Conversational Data Systems for Stateless LLM APIs: The Hydration Proxy Pattern",
+      "published": "2026-09-01T20:08:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01821v1",
+      "title": "Scaling Inference Prefill with High-Radix Photonic Interconnects",
+      "published": "2026-09-01T19:54:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01507v2",
+      "title": "LatentPress: Context Compression Beyond Text and Vision",
+      "published": "2026-09-01T16:38:15Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01379v1",
+      "title": "Polish ModernBERT: The Long and Short of Polish Language Understanding",
+      "published": "2026-09-01T15:13:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01343v3",
+      "title": "SMELT: Scaling Laws for Compute-Matched MoE Looped Transformers",
+      "published": "2026-09-01T14:52:57Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01338v1",
+      "title": "mzCache: On-Device LLM Memory Management under Multitasking",
+      "published": "2026-09-01T14:49:20Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01147v1",
+      "title": "On the Design Fundamentals of Pixel Text Representation Learning",
+      "published": "2026-09-01T12:20:19Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00993v2",
+      "title": "AInfer-PD: Communication-Safe In-Place Prefill-Decode Multiplexing for Distributed MoE Rollouts",
+      "published": "2026-09-01T09:44:40Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00891v1",
+      "title": "CacheBridge: Efficient Cross-Model KV Cache Transfer",
+      "published": "2026-09-01T08:20:35Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00791v1",
+      "title": "Instella-MoE Technical Report",
+      "published": "2026-09-01T06:38:17Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00759v1",
+      "title": "Compile, Don't Memorize: A Context Compilation Architecture (CCA) for In-Context Learning",
+      "published": "2026-09-01T05:42:38Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00749v1",
+      "title": "ContextPipe: Database-Inspired Context Assembly for Long-Horizon Agents",
+      "published": "2026-09-01T05:27:38Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00744v2",
+      "title": "The Price of Remembering: A Calibrated Energy Law for Computation",
+      "published": "2026-09-01T05:24:12Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00450v1",
+      "title": "HBQ: Hierarchical Scaling Block Quantization with Hardware-Efficiency-Aware Design for Accurate LLM Inference",
+      "published": "2026-08-31T22:39:52Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30996v1",
+      "title": "Faithfulness Is Not Free: Auditing Offline KV-Cache Quantization in Retrieval-Augmented Generation",
+      "published": "2026-08-31T15:47:23Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30963v1",
+      "title": "A Universal Context-Reuse Layer for Cross-Model KV Sharing",
+      "published": "2026-08-31T15:28:17Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00097v1",
+      "title": "Faster Than Flash: Exploiting Attention Sparsity for Efficient Long-Context Decoding",
+      "published": "2026-08-31T15:13:20Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30811v2",
+      "title": "TopoCompress: Long Context Compression via Graph-Wired Semantic Trajectories",
+      "published": "2026-08-31T13:58:59Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00092v1",
+      "title": "Safin-1: Safety from Within through Memory-Native State Evolution",
+      "published": "2026-08-31T13:48:48Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30692v1",
+      "title": "Can Video World Models Track Unobserved World States?",
+      "published": "2026-08-31T12:29:24Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30689v1",
+      "title": "CANVAS: Consistency-Aware Navigation via Visual Adaptive Sampling for Long-Context Text-to-SVG Generation",
+      "published": "2026-08-31T12:27:46Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30567v1",
+      "title": "TuringLLM: Efficiently Scaling Foundation Models Toward Physical AI",
+      "published": "2026-08-31T10:42:35Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30509v1",
+      "title": "CHIPSMORE: Compute-in-Interconnect and -Memory Chiplets for Multi-Mode Multi-Request LLM Inference Acceleration",
+      "published": "2026-08-31T09:43:07Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30439v1",
+      "title": "Event-Driven Language Models with Sparse Neural Activity for Neuromorphic Hardware",
+      "published": "2026-08-31T08:28:01Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30386v1",
+      "title": "DASC: Decay-Aware State Compression for Hybrid Linear-Attention Serving",
+      "published": "2026-08-31T07:42:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30310v1",
+      "title": "Tail-Replay: Escaping the Curse of Linear Attention in Prefix Caching for Hybrid LLMs",
+      "published": "2026-08-31T06:27:07Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30295v1",
+      "title": "CateKV: On Sequential Consistency for Long-Context LLM Inference Acceleration",
+      "published": "2026-08-31T06:02:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30252v1",
+      "title": "Strong Drafts Need Compact Memories: Long-Context Speculative Decoding with Compressed KV Cache",
+      "published": "2026-08-31T05:03:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30181v1",
+      "title": "A.X K2 Technical Report",
+      "published": "2026-08-31T03:04:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30076v2",
+      "title": "Budget-Aware Compression Pipeline for Single-GPU LLM Inference: Methods, Trade-offs, and Coupling Effects",
+      "published": "2026-08-30T22:54:40Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29934v1",
+      "title": "Compression-Aware Abstention: Teaching LLMs to Refuse When KV-Compression Masks Remove Answer Evidence",
+      "published": "2026-08-30T18:02:15Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29899v2",
+      "title": "REIGN: Refurbished Embeddings with Integrated Guidance Networks for Efficient Context-Length Scaling",
+      "published": "2026-08-30T16:50:38Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29884v1",
+      "title": "Improving Argument Saliency Coverage in Small LLMs for Long Legal Opinion Summarization via Sequence-Level Distillation",
+      "published": "2026-08-30T16:27:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29715v1",
+      "title": "Higher-Dimensional Rotary Position Embedding",
+      "published": "2026-08-30T10:46:24Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29646v1",
+      "title": "Detect Before You Attribute: Cascade Failure Attribution for Multi-Agent Systems",
+      "published": "2026-08-30T08:17:42Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29539v1",
+      "title": "LoGo: Token-Level Dynamic Local-Global Attention",
+      "published": "2026-08-30T04:05:56Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29528v1",
+      "title": "MedCache: Efficient and Temporally Valid Memory for Longitudinal Clinical Agents",
+      "published": "2026-08-30T03:28:56Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01647v1",
+      "title": "Efficient Context-Limited Telescope Bibliography Classification for the WASP-2025 Shared Task Using SciBERT",
+      "published": "2026-08-29T17:21:54Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29284v1",
+      "title": "Cloud and On-Premises Deployment of Uzbek Legal RAG via Targeted Retriever Fine-Tuning",
+      "published": "2026-08-29T14:07:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29058v1",
+      "title": "RouteSparse: Input-Conditional Pattern Routing for Budgeted Long-Context Prefilling",
+      "published": "2026-08-29T05:23:41Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28911v1",
+      "title": "SemKV: Semantic Mixed-Precision KV Cache Quantization Guided by the Quality Cliff for Long-Context LLM Inference",
+      "published": "2026-08-28T22:19:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28476v1",
+      "title": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL",
+      "published": "2026-08-28T16:01:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28460v1",
+      "title": "LayerRecall: A State-Conditioned Memory Router for Long-Horizon Consistency in Video Generation",
+      "published": "2026-08-28T15:49:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28444v1",
+      "title": "Sliding-window beats linear attention",
+      "published": "2026-08-28T15:31:34Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28411v1",
+      "title": "LongPIBench: A Long-Context Benchmark for Prompt Injection",
+      "published": "2026-08-28T15:00:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28293v1",
+      "title": "A Probabilistic Interpretation of KV Cache Eviction",
+      "published": "2026-08-28T12:57:07Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28099v1",
+      "title": "Speculative Probing: LLM Monitoring at Speculative-Decoding Cost",
+      "published": "2026-08-28T09:07:58Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28003v1",
+      "title": "A Method for Layer Bit-Width Allocation in LLM Quantization via Performance Maximization Under a Quality-Degradation Constraint",
+      "published": "2026-08-28T07:13:42Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27922v1",
+      "title": "DensityKV: Density-Guided KV Cache Compression for Long Video Generation",
+      "published": "2026-08-28T04:57:57Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27875v3",
+      "title": "HyQuant: Hybrid-Precision Quantization for LLM Attention",
+      "published": "2026-08-28T03:30:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27580v2",
+      "title": "LongGuard: Mechanistic Analysis and Training-Free Mitigation of Long-Context Failure in Safety Guardrails",
+      "published": "2026-08-27T18:07:25Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27128v2",
+      "title": "TwinKV: A Composable Repair Pass for KV Cache Eviction via Pairwise Key Redundancy",
+      "published": "2026-08-27T13:43:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26949v1",
+      "title": "A Table Is Worth 64 Tokens: Pixel-level Compression for Multi-Table Document Question Answering",
+      "published": "2026-08-27T10:50:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27513v1",
+      "title": "DAMP: Decay-Aware Mixed-Precision Recurrent-State Quantization",
+      "published": "2026-08-27T09:11:48Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26794v1",
+      "title": "Ring Forcing: Towards Precise Long-Term Memory for Autoregressive Video Diffusion",
+      "published": "2026-08-27T08:25:32Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26671v1",
+      "title": "RECAP-Forcing: Retaining Content Appearances for Long Video Generation",
+      "published": "2026-08-27T06:24:59Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26523v1",
+      "title": "VPP: Virtual Pipeline Parallelism for Efficient Chunked Prefill in Long-Context LLM Inference",
+      "published": "2026-08-27T01:59:45Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25768v1",
+      "title": "MoganBert-TR: A Turkish Encoder Foundation Model Trained from Scratch with a CLM-to-MLM Curriculum",
+      "published": "2026-08-26T13:12:51Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25683v1",
+      "title": "psRL: Efficient Training for Agentic AI via Training-Time Prefix Sharing",
+      "published": "2026-08-26T11:58:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25655v1",
+      "title": "Reconstructing the Right Episode: Evaluating Interleaved Conversational Memory Beyond Long Context",
+      "published": "2026-08-26T11:37:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25531v2",
+      "title": "ClueWeaver: Reward-Guided Dual-Agent Evidence Reasoning for Compact LLMs on Literary Long Narratives",
+      "published": "2026-08-26T08:39:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25523v1",
+      "title": "TOPAS: Workflow-Aware Prefix-State Scheduling for Multi-Agent LLM Serving",
+      "published": "2026-08-26T08:33:10Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25486v1",
+      "title": "PonsRAG: A Pons-Inspired RAG Bridging Cognitive Islands for Coordinated Long Narrative Reasoning",
+      "published": "2026-08-26T07:55:44Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25230v2",
+      "title": "Trust the Mass: Forced Weights in KV-Cache Eviction",
+      "published": "2026-08-25T23:40:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25115v1",
+      "title": "Less can be More: Relieving RAG Bottlenecks via Evidence Frontloading and Pressure-Adaptive Budgeting",
+      "published": "2026-08-25T20:10:06Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25096v1",
+      "title": "Understanding the Energy Scaling of Large Language Model Inference Across Context Lengths and Attention Architectures",
+      "published": "2026-08-25T19:45:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24842v1",
+      "title": "Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows",
+      "published": "2026-08-25T17:31:25Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24188v1",
+      "title": "Paritok-4B: Intent-Conditioned Context Compression for Coding Agents",
+      "published": "2026-08-25T07:53:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24168v2",
+      "title": "FireRedAudio: A General-Purpose Audio Language Model with Decoupled Continuous Representations for Understanding and Generation",
+      "published": "2026-08-25T07:37:15Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24063v1",
+      "title": "VisCache: Visual KV Cache Pruning for Efficient Vision Large Language Model Inference",
+      "published": "2026-08-25T04:52:05Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23962v1",
+      "title": "More GPUs or a Smaller Cache? Tensor Parallelism versus KV Compression for Memory-Bound LLM Serving",
+      "published": "2026-08-25T01:42:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23843v1",
+      "title": "PuzzleKV: Page-Wise Low-Rank Decomposition for KV Cache Compression",
+      "published": "2026-08-24T21:30:11Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23834v1",
+      "title": "Minima-KV: Retention-Preserving KV Cache Compression with Mixed-Format Paged Attention",
+      "published": "2026-08-24T21:21:58Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23565v1",
+      "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+      "published": "2026-08-24T17:59:05Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23552v1",
+      "title": "Prime Agent: A Self-Improving RLM Harness",
+      "published": "2026-08-24T17:54:19Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23463v1",
+      "title": "ProxyFormer: A Dual-Stream Proxy Architecture for Ultra-Long Context and High-Resolution Generation",
+      "published": "2026-08-24T16:31:46Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23658v1",
+      "title": "Elastic KV Cache for LLM Serving:A Working Reclamation Mechanism, and Why Chunked Prefill Already Closes the Gap",
+      "published": "2026-08-24T15:49:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23296v1",
+      "title": "Sigmoid Attention as a Better Substrate for Learned KV Cache Eviction",
+      "published": "2026-08-24T14:21:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23265v1",
+      "title": "EvoWiki: Incremental State Overwriting and Traceable Question Answering for Cross-Meeting Knowledge Evolution",
+      "published": "2026-08-24T13:52:17Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23167v1",
+      "title": "Accelerating Diffusion Language Models via Structured Suffix Modeling",
+      "published": "2026-08-24T12:13:34Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22852v1",
+      "title": "Your AI, On a Dial: Controlling Investment Bias in LLMs with a Single Neuron",
+      "published": "2026-08-24T06:33:02Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22849v2",
+      "title": "RIBOSPAN: A Long-Context RNA Foundation Model for Versatile RNA Modeling",
+      "published": "2026-08-24T06:30:00Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22753v1",
+      "title": "Beyond Factual Knowledge: Benchmarking and Learning Step-Level Procedural Rule Reasoning in Large Language Models",
+      "published": "2026-08-24T03:22:45Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22704v2",
+      "title": "WnW: Waxing-and-Waning KV Cache for Long-Form Speech LLMs",
+      "published": "2026-08-24T01:48:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22646v1",
+      "title": "CAI-DLLM: Convergence Aware Inference for Diffusion Language Models",
+      "published": "2026-08-23T23:03:59Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21719v1",
+      "title": "PowerSlider: Exploiting Phase Asymmetry for LLM Serving under Demand Response",
+      "published": "2026-08-22T01:48:35Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21693v1",
+      "title": "Benchmarking Composable Compression Techniques in Mixture-of-Experts LLMs",
+      "published": "2026-08-22T00:01:18Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21541v1",
+      "title": "Beyond Sparse Weights: When Is Attention Compressible?",
+      "published": "2026-08-21T18:26:15Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21308v2",
+      "title": "Rethinking Expressivity and Efficiency in Test-Time Training",
+      "published": "2026-08-21T17:12:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21247v1",
+      "title": "Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models",
+      "published": "2026-08-21T15:59:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20961v1",
+      "title": "TreeWY: Speculative Verification for Gated DeltaNet Hybrids",
+      "published": "2026-08-21T10:31:15Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20953v1",
+      "title": "Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs",
+      "published": "2026-08-21T10:19:27Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20927v1",
+      "title": "MentorPulse: Refreshing Cross-Model Latent Guidance for Long-Form Generation",
+      "published": "2026-08-21T09:49:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20853v1",
+      "title": "MGAL: A Multilingual Granularity-Aware Long-Context Benchmark",
+      "published": "2026-08-21T08:19:00Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20617v1",
+      "title": "Dual-Cache Latent Space Communication between Heterogeneous Language Models",
+      "published": "2026-08-20T23:35:36Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20204v1",
+      "title": "ContractScrub: A benchmark for final review of legal contracts",
+      "published": "2026-08-20T16:01:42Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19995v1",
+      "title": "The Forward-Backward Disconnect: State Dynamics, Credit Assignment, and Biological Grounding in Neural Computation",
+      "published": "2026-08-20T13:09:10Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19920v1",
+      "title": "Learning how to Forget: Fine-tuning for Long-Context Sparse Attention",
+      "published": "2026-08-20T11:37:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19889v1",
+      "title": "Write Once, Run Everywhere: The Axon DSL for Shape-Safe and Framework-Agnostic LLM Architectures",
+      "published": "2026-08-20T10:56:34Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19758v1",
+      "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
+      "published": "2026-08-20T08:02:55Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19677v1",
+      "title": "CacheRoute: Planned Prefix-Affinity Routing for Large-Scale LLM Serving",
+      "published": "2026-08-20T06:12:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19662v1",
+      "title": "ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents",
+      "published": "2026-08-20T05:57:24Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19652v1",
+      "title": "Can Agent Memory Systems Track Evolving State?",
+      "published": "2026-08-20T05:41:23Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19535v1",
+      "title": "From Retrieved Context to Runtime Control: Adaptive Compression for Edge-based RAG",
+      "published": "2026-08-20T01:13:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19395v1",
+      "title": "HYDRA: A Heterogeneous Chiplet DSE Framework for Serving Dynamic Hybrid LLM Workloads",
+      "published": "2026-08-19T19:26:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20427v1",
+      "title": "BF1: A Causal Dyadic Sparse-Attention Retrofit for Efficient Long-Context Transformers",
+      "published": "2026-08-19T18:35:12Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19181v1",
+      "title": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
+      "published": "2026-08-19T17:54:58Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19047v1",
+      "title": "Eureka: Task-Conditioned Meta-Agent Orchestration for Scientific Discovery",
+      "published": "2026-08-19T15:40:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23599v1",
+      "title": "Squeezing the Cache, Preserving the Truth: Monotonic Equipotential Allocation with Geodesia-KV",
+      "published": "2026-08-19T08:04:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18606v2",
+      "title": "OneModel: A Unified Foundation for Platform-Scale Multi-Scenario Ranking",
+      "published": "2026-08-19T06:50:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18575v1",
+      "title": "Beyond LLM-Based Reasoning: Lightweight GNNs for Agent Failure Attribution",
+      "published": "2026-08-19T06:16:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18486v1",
+      "title": "WhiteMatter: All-to-All Cross-Layer Connections via KV Mixing",
+      "published": "2026-08-19T03:24:51Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18474v1",
+      "title": "OmniAlign: A Unified Multilingual Aligner for Word and Sentence Alignment",
+      "published": "2026-08-19T03:02:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17950v2",
+      "title": "Do Large Language Models Play Six Degrees of Separation? Measuring Topological Compression in Long-Context Manifolds",
+      "published": "2026-08-18T16:05:25Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17896v1",
+      "title": "Dynamic Compression in Recurrent Networks",
+      "published": "2026-08-18T15:29:18Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17826v1",
+      "title": "Bounded-State Restoration: Decoupling Local Restore Capacity from External LLM State",
+      "published": "2026-08-18T14:26:15Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17616v1",
+      "title": "MoNe: Modular Neural Memory for Efficient Long Context Inference",
+      "published": "2026-08-18T10:28:23Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17607v1",
+      "title": "PathoArgus: Advancing Evidence-Grounded Long-Context Visual Reasoning across Gigapixel Whole-Slide and Multi-Slide Case Contexts",
+      "published": "2026-08-18T10:16:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17534v1",
+      "title": "ArborMem: Navigating Interaction States with Memory Forests",
+      "published": "2026-08-18T08:54:55Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17442v2",
+      "title": "FESC: Remodeling Long-Context Private Inference with Encrypted State-Space Models",
+      "published": "2026-08-18T07:20:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17336v1",
+      "title": "TileMix: Tile-Centric Mixed-Precision Attention for LLM Inference Acceleration",
+      "published": "2026-08-18T03:53:02Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16844v1",
+      "title": "Proteus: Incremental Memory Activation for Long-Context Sequence Modeling",
+      "published": "2026-08-17T17:30:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16837v1",
+      "title": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL",
+      "published": "2026-08-17T17:22:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16477v1",
+      "title": "Pallas: A Proactive KV Cache Migration Framework for LLM Inference in AI-RAN",
+      "published": "2026-08-17T12:16:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16370v1",
+      "title": "What Does Context Compression Cost an Agent? Interaction Costs Unrevealed by Task-Completion Metrics",
+      "published": "2026-08-17T10:21:36Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21431v1",
+      "title": "Boosting Knowledge-based Visual Question Answering with Structured Context Reasoning",
+      "published": "2026-08-17T06:33:55Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15962v1",
+      "title": "SEER: Long-Context Reasoning via Selective Visual-Text Compression",
+      "published": "2026-08-16T23:30:41Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15943v1",
+      "title": "KV-Pipe: On the Relation Between KV Sharing and Pipeline Parallel Efficiency in LLMs",
+      "published": "2026-08-16T22:01:16Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15939v1",
+      "title": "Aborted but Not Forgotten: KV-Cache Retention Breaks Rollback Consistency in Language Agents",
+      "published": "2026-08-16T21:49:38Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15938v2",
+      "title": "Revisiting Open-Loop Execution in Robotics: Toward Reactive, Higher-Performing Policies",
+      "published": "2026-08-16T21:49:07Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15797v1",
+      "title": "KV-Rescue: Recovering Reasoning Language Model KV Eviction Loss via Stepwise Interleaving",
+      "published": "2026-08-16T15:23:25Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15592v2",
+      "title": "When Entropy Is Not Enough: Reclaiming Lost Semantics in LLM Output Length Prediction",
+      "published": "2026-08-16T07:28:15Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15584v2",
+      "title": "GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix",
+      "published": "2026-08-16T07:19:49Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15533v1",
+      "title": "DeltaLog: Deferred Materialization of Recurrent States for Linear Attention Decoding",
+      "published": "2026-08-16T05:04:11Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.13205v1",
+      "title": "Self-Indexing Attention for Compression-Compatible Sparse Long-Context LLM Inference",
+      "published": "2026-08-16T03:41:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15473v2",
+      "title": "Q-First: Most of Attention Needs Only the Query in Disaggregated LLM Decoding",
+      "published": "2026-08-16T01:40:07Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15241v1",
+      "title": "LOCAL: Enabling Learning On-device Contiguously for Agent LLMs",
+      "published": "2026-08-15T14:03:14Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15171v1",
+      "title": "P-PAS: Prefill-Pressure Adaptive Scheduling for Long-Context LLM Serving",
+      "published": "2026-08-15T11:18:42Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15117v1",
+      "title": "Anatomy of a Quantized Agent: VRAM Stability and Forecasting in Code-Synthesis Agentic Workloads",
+      "published": "2026-08-15T08:39:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15056v1",
+      "title": "GraphLoom: Reliability-Calibrated Graph Evidence Routing for Multimodal KG-RAG",
+      "published": "2026-08-15T06:02:23Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15008v1",
+      "title": "Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents",
+      "published": "2026-08-15T03:29:48Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14791v1",
+      "title": "CEDAR-GRPO: Process-Aware Reinforcement Learning for General Abductive Reasoning in LLMs",
+      "published": "2026-08-14T18:02:07Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14783v1",
+      "title": "MegaParts: Scaling Part-Aware 3D Object Generation to 300 Parts via Token-Efficient Autoregressive Modeling",
+      "published": "2026-08-14T18:00:02Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14333v1",
+      "title": "Beyond Capacity: Scalable MoE LLM Inference via High-Bandwidth Flash with Direct GPU and HBM Paths",
+      "published": "2026-08-14T14:22:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14277v1",
+      "title": "SimpleOPD: Simple Tokenizer-Agnostic On-Policy Distillation for Long-Context Reasoning",
+      "published": "2026-08-14T12:57:02Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14191v1",
+      "title": "KV Cache Compression Through the Lens of Transform Coding",
+      "published": "2026-08-14T11:08:01Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16944v1",
+      "title": "A Tight Linear Deterministic Competitive Ratio for Fully Online KV-Cache Scheduling",
+      "published": "2026-08-14T04:23:35Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13883v1",
+      "title": "MemoryLake on MemoryArena: A Matched Study of Agent Memory Backends",
+      "published": "2026-08-14T02:19:26Z"
+    }
+  ]
+}

@@ -1,0 +1,634 @@
+{
+  "records": [
+    {
+      "source_key": "A3",
+      "title": "Structured Packing in LLM Training Improves Long Context Utilization.",
+      "url": "https://arxiv.org/abs/2312.17296",
+      "target": "library/training/data-organization.md",
+      "status": "初步归档",
+      "reason": "文档边界、截断、跨文档组织与代码上下文。",
+      "checked_at": null,
+      "entry_sha256": "8370ea5eeec8b59bb837694be6ad43a5a388e091b4f53a671ec2b75804614983"
+    },
+    {
+      "source_key": "A7",
+      "title": "In-Context Pretraining: Language Modeling Beyond Document Boundaries.",
+      "url": "https://openreview.net/forum?id=LXVswInHOo",
+      "target": "library/training/data-organization.md",
+      "status": "初步归档",
+      "reason": "文档边界、截断、跨文档组织与代码上下文。",
+      "checked_at": null,
+      "entry_sha256": "6bd3d4ceb1de6e5cdfcf8e1bf047e9302a21bf682211fbff89f90ee946b14453"
+    },
+    {
+      "source_key": "A9",
+      "title": "Fewer Truncations Improve Language Modeling.",
+      "url": "https://arxiv.org/abs/2404.10830",
+      "target": "library/training/data-organization.md",
+      "status": "初步归档",
+      "reason": "文档边界、截断、跨文档组织与代码上下文。",
+      "checked_at": null,
+      "entry_sha256": "19ef1e46d9f775494afd49e521ab363ec1c21a088184d63422f2d6f2633e3973"
+    },
+    {
+      "source_key": "A28",
+      "title": "OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling.",
+      "url": "https://arxiv.org/abs/2608.05141",
+      "target": "library/training/data-organization.md",
+      "status": "初步归档",
+      "reason": "文档边界、截断、跨文档组织与代码上下文。",
+      "checked_at": null,
+      "entry_sha256": "80e0a404c4e234c7be589b4e28f2ecc46f593b6b259a2f0332fa6d81a967f971"
+    },
+    {
+      "source_key": "B2",
+      "title": "Data Engineering for Scaling Language Models to 128K Context.",
+      "url": "https://arxiv.org/abs/2402.10171",
+      "target": "library/training/data-selection.md",
+      "status": "摘要已核查",
+      "reason": "摘要核查：研究继续预训练中的数据量、领域平衡和长样本上采样，归入数据选择与配比。",
+      "checked_at": "2026-09-17",
+      "entry_sha256": "9d8f69811414aeb0f04126775e29c3e163747eee2e20d9bd669edfb235fe09b5"
+    },
+    {
+      "source_key": "B7",
+      "title": "Selecting Influential Samples for Long Context Alignment via Homologous Models' Guidance and Contextual Awareness Measurement.",
+      "url": "https://arxiv.org/abs/2410.15633",
+      "target": "library/training/data-selection.md",
+      "status": "初步归档",
+      "reason": "样本筛选、领域与长度配比；token 损失加权归入训练目标。",
+      "checked_at": null,
+      "entry_sha256": "ebe727eb67f5a7c0d2c77beae654f667197bbf070744446460d6911928a3e3b9"
+    },
+    {
+      "source_key": "B14",
+      "title": "LongAttn: Selecting Long-context Training Data via Token-level Attention.",
+      "url": "https://arxiv.org/abs/2502.16860",
+      "target": "library/training/data-selection.md",
+      "status": "初步归档",
+      "reason": "样本筛选、领域与长度配比；token 损失加权归入训练目标。",
+      "checked_at": null,
+      "entry_sha256": "2ccc707f99447d82b5878faf5d798796a8c34890120ef23ff8fbbb6ebdc95144"
+    },
+    {
+      "source_key": "B17",
+      "title": "LADM: Long-context Training Data Selection with Attention-based Dependency Measurement for LLMs.",
+      "url": "https://arxiv.org/abs/2503.02502",
+      "target": "library/training/data-selection.md",
+      "status": "初步归档",
+      "reason": "样本筛选、领域与长度配比；token 损失加权归入训练目标。",
+      "checked_at": null,
+      "entry_sha256": "12fe04f813d44750c4894c3dffd55507374eb181782ae900df6c82208bd4d915"
+    },
+    {
+      "source_key": "B4",
+      "title": "Quest: Query-centric Data Synthesis Approach for Long-context Scaling of Large Language Model.",
+      "url": "https://arxiv.org/abs/2405.19846",
+      "target": "library/training/data-synthesis.md",
+      "status": "初步归档",
+      "reason": "构造长文与指令数据；具体用于哪个阶段以论文说明为准。",
+      "checked_at": null,
+      "entry_sha256": "f6d12fde80a0fd33c127b66a6b507e36796208c09ebb40ef4bafaed725153ce2"
+    },
+    {
+      "source_key": "B6",
+      "title": "Untie the Knots: An Efficient Data Augmentation Strategy for Long-Context Pre-Training in Language Models.",
+      "url": "https://arxiv.org/abs/2409.04774",
+      "target": "library/training/data-synthesis.md",
+      "status": "初步归档",
+      "reason": "构造长文与指令数据；具体用于哪个阶段以论文说明为准。",
+      "checked_at": null,
+      "entry_sha256": "e1e57cf64ac6d6f4d4f034bb7b846f232346b293e2ceb6e9ea4ff7404b3e5ce7"
+    },
+    {
+      "source_key": "B10",
+      "title": "NExtLong: Toward Effective Long-Context Training without Long Documents.",
+      "url": "https://arxiv.org/abs/2501.12766",
+      "target": "library/training/data-synthesis.md",
+      "status": "摘要已核查",
+      "reason": "摘要核查：将文档分块并插入检索得到的困难负样本，归入数据合成。",
+      "checked_at": "2026-09-17",
+      "entry_sha256": "6bcc8214c29e60df098aa9cb2065a2503910a42302701b65383f503828014c14"
+    },
+    {
+      "source_key": "B12",
+      "title": "LongFaith: Enhancing Long-Context Reasoning in LLMs with Faithful Synthetic Data.",
+      "url": "https://arxiv.org/abs/2502.12583",
+      "target": "library/training/data-synthesis.md",
+      "status": "初步归档",
+      "reason": "构造长文与指令数据；具体用于哪个阶段以论文说明为准。",
+      "checked_at": null,
+      "entry_sha256": "8825634f4e72366006f96e9334255ca3ffd10786d34d0eba677d1d7a45ac28c3"
+    },
+    {
+      "source_key": "B13",
+      "title": "Generalizing From Short to Long: Effective Data Synthesis for Long-Context Instruction Tuning.",
+      "url": "https://arxiv.org/abs/2502.15592",
+      "target": "library/training/data-synthesis.md",
+      "status": "初步归档",
+      "reason": "构造长文与指令数据；具体用于哪个阶段以论文说明为准。",
+      "checked_at": null,
+      "entry_sha256": "8f974da8685bc3765fc1d81ca322710c4d6c1e9ce5a1e1add30701f61adffda1"
+    },
+    {
+      "source_key": "B15",
+      "title": "WildLong: Synthesizing Realistic Long-Context Instruction Data at Scale.",
+      "url": "https://arxiv.org/abs/2502.16684",
+      "target": "library/training/data-synthesis.md",
+      "status": "初步归档",
+      "reason": "构造长文与指令数据；具体用于哪个阶段以论文说明为准。",
+      "checked_at": null,
+      "entry_sha256": "e2f320062d5391037d248d3b32ea20035063bf24d3893af5b8a3ac6be6060d65"
+    },
+    {
+      "source_key": "B18",
+      "title": "Scaling Instruction-Tuned LLMs to Million-Token Contexts via Hierarchical Synthetic Data Generation.",
+      "url": "https://arxiv.org/abs/2504.12637",
+      "target": "library/training/data-synthesis.md",
+      "status": "初步归档",
+      "reason": "构造长文与指令数据；具体用于哪个阶段以论文说明为准。",
+      "checked_at": null,
+      "entry_sha256": "c98acd8ab420cf9ef6105d0eae3c18330c939e14b1a7fbc70f094a19f47c7b6a"
+    },
+    {
+      "source_key": "B21",
+      "title": "ACC: Compiling Agent Trajectories for Long-Context Training.",
+      "url": "https://arxiv.org/abs/2605.21850",
+      "target": "library/training/data-synthesis.md",
+      "status": "初步归档",
+      "reason": "构造长文与指令数据；具体用于哪个阶段以论文说明为准。",
+      "checked_at": null,
+      "entry_sha256": "ea492512993d2d1fba7081cd8a21843682e37d68775f9f314665ef495eb1adcb"
+    },
+    {
+      "source_key": "A1",
+      "title": "Focused Transformer: Contrastive Training for Context Scaling.",
+      "url": "https://arxiv.org/abs/2307.03170",
+      "target": "library/training/continued-pretraining.md",
+      "status": "初步归档",
+      "reason": "上下文扩展配方、位置训练、训练目标及长短能力保持。",
+      "checked_at": null,
+      "entry_sha256": "05145ea60a0002e47521b86afa676e1d59efc89457a6d24a570d59adf9e730e1"
+    },
+    {
+      "source_key": "A2",
+      "title": "PoSE: Efficient Context Window Extension of LLMs via Positional Skip-wise Training.",
+      "url": "https://arxiv.org/abs/2309.10400",
+      "target": "library/training/continued-pretraining.md",
+      "status": "初步归档",
+      "reason": "上下文扩展配方、位置训练、训练目标及长短能力保持。",
+      "checked_at": null,
+      "entry_sha256": "65413cdc70abfade5c1d1af6186fdd58b3e723156a52fed01f0dd68612045ff0"
+    },
+    {
+      "source_key": "A4",
+      "title": "Extending LLMs' Context Window with 100 Samples.",
+      "url": "https://arxiv.org/abs/2401.07004",
+      "target": "library/training/continued-pretraining.md",
+      "status": "初步归档",
+      "reason": "上下文扩展配方、位置训练、训练目标及长短能力保持。",
+      "checked_at": null,
+      "entry_sha256": "51996c1d014822582ba99ea8bb26bf1ffcc60fea0594ef3a695ea3138ec17019"
+    },
+    {
+      "source_key": "A5",
+      "title": "E^2-LLM: Efficient and Extreme Length Extension of Large Language Models.",
+      "url": "https://arxiv.org/abs/2401.06951",
+      "target": "library/training/continued-pretraining.md",
+      "status": "初步归档",
+      "reason": "上下文扩展配方、位置训练、训练目标及长短能力保持。",
+      "checked_at": null,
+      "entry_sha256": "f42f537cec64c47781ce64cd59a06dc9d0589cbd60f202fa05120df2365bea79"
+    },
+    {
+      "source_key": "A8",
+      "title": "Effective Long-Context Scaling of Foundation Models.",
+      "url": "https://arxiv.org/abs/2309.16039",
+      "target": "library/training/continued-pretraining.md",
+      "status": "初步归档",
+      "reason": "上下文扩展配方、位置训练、训练目标及长短能力保持。",
+      "checked_at": null,
+      "entry_sha256": "94a710bcfa04bd50f58855806b655d9258668aacba178bbf1ed13019f4d61f51"
+    },
+    {
+      "source_key": "A10",
+      "title": "Extending Llama-3's Context Ten-Fold Overnight.",
+      "url": "https://arxiv.org/abs/2404.19553",
+      "target": "library/training/continued-pretraining.md",
+      "status": "初步归档",
+      "reason": "上下文扩展配方、位置训练、训练目标及长短能力保持。",
+      "checked_at": null,
+      "entry_sha256": "6af00351abaa8fcba02d4790bb667783038c1574d85e490e91102324412299e9"
+    },
+    {
+      "source_key": "A11",
+      "title": "LongSkywork: A Training Recipe for Efficiently Extending Context Length in Large Language Models.",
+      "url": "https://arxiv.org/abs/2406.00605",
+      "target": "library/training/continued-pretraining.md",
+      "status": "初步归档",
+      "reason": "上下文扩展配方、位置训练、训练目标及长短能力保持。",
+      "checked_at": null,
+      "entry_sha256": "87d02f3295b0f635a42f244e27f9c89134617e55378bee6b14f9b035c9a9e69c"
+    },
+    {
+      "source_key": "A12",
+      "title": "Scaling Granite Code Models to 128K Context.",
+      "url": "https://arxiv.org/abs/2407.13739",
+      "target": "library/training/continued-pretraining.md",
+      "status": "初步归档",
+      "reason": "上下文扩展配方、位置训练、训练目标及长短能力保持。",
+      "checked_at": null,
+      "entry_sha256": "f564001f4c2fcdd565beb23f25928d823e8c1d4e5967902aae01d7d388f28581"
+    },
+    {
+      "source_key": "A13",
+      "title": "LongRecipe: Recipe for Efficient Long Context Generalization in Large Language Models.",
+      "url": "https://arxiv.org/abs/2409.00509",
+      "target": "library/training/continued-pretraining.md",
+      "status": "初步归档",
+      "reason": "上下文扩展配方、位置训练、训练目标及长短能力保持。",
+      "checked_at": null,
+      "entry_sha256": "9c86249781bf602e52de4589a59d92288cbab11922e8b998212dd2fdd4225caf"
+    },
+    {
+      "source_key": "A16",
+      "title": "How to Train Long-Context Language Models (Effectively).",
+      "url": "https://arxiv.org/abs/2410.02660",
+      "target": "library/training/continued-pretraining.md",
+      "status": "初步归档",
+      "reason": "上下文扩展配方、位置训练、训练目标及长短能力保持。",
+      "checked_at": null,
+      "entry_sha256": "4f817c3d87910624b0bbd489475f3c2022dc174da2a354f7d1fbef7cac93bfb1"
+    },
+    {
+      "source_key": "A17",
+      "title": "Breaking the Stage Barrier: A Novel Single-Stage Approach to Long Context Extension for Large Language Models.",
+      "url": "https://arxiv.org/abs/2412.07171",
+      "target": "library/training/continued-pretraining.md",
+      "status": "初步归档",
+      "reason": "上下文扩展配方、位置训练、训练目标及长短能力保持。",
+      "checked_at": null,
+      "entry_sha256": "e63d03de7071d0a3ef021889e4b13fee088fab9587a85e45e467f40a92fb8a9b"
+    },
+    {
+      "source_key": "A21",
+      "title": "Token Weighting for Long-Range Language Modeling.",
+      "url": "https://arxiv.org/abs/2503.09202",
+      "target": "library/training/continued-pretraining.md",
+      "status": "摘要已核查",
+      "reason": "摘要核查：改变训练 token 的损失权重，属于训练目标，不是文档级样本筛选。",
+      "checked_at": "2026-09-17",
+      "entry_sha256": "4f106b455b2e2a23e606b3c18f1117bbbac0bddfc0d4dcef513ff51caa895e9c"
+    },
+    {
+      "source_key": "A22",
+      "title": "From 128K to 4M: Efficient Training of Ultra-Long Context Large Language Models.",
+      "url": "https://arxiv.org/abs/2504.06214",
+      "target": "library/training/continued-pretraining.md",
+      "status": "初步归档",
+      "reason": "上下文扩展配方、位置训练、训练目标及长短能力保持。",
+      "checked_at": null,
+      "entry_sha256": "d673b4e7339b000e86316ca48bf5902925a32bc378445aa3a20c3a9d2dc0cec5"
+    },
+    {
+      "source_key": "A26",
+      "title": "Information Abundance Paradox: Long-Context Training Undermines Parametric Knowledge.",
+      "url": "https://arxiv.org/abs/2608.12218",
+      "target": "library/training/continued-pretraining.md",
+      "status": "初步归档",
+      "reason": "上下文扩展配方、位置训练、训练目标及长短能力保持。",
+      "checked_at": null,
+      "entry_sha256": "f7e2871b977445315b76ddd23b5ad1ce303e697a87442b06201c2f14543463c9"
+    },
+    {
+      "source_key": "A27",
+      "title": "Cracks in the Foundation: Seemingly Minor Architectural Choices Impact Long Context Extension.",
+      "url": "https://arxiv.org/abs/2608.10296",
+      "target": "library/training/continued-pretraining.md",
+      "status": "初步归档",
+      "reason": "上下文扩展配方、位置训练、训练目标及长短能力保持。",
+      "checked_at": null,
+      "entry_sha256": "d40ccb1155f9386975d2bf5f3f1bbb65e54a0fd1694970e42ff6c280d88a77af"
+    },
+    {
+      "source_key": "B11",
+      "title": "LongReD: Mitigating Short-Text Degradation of Long-Context Large Language Models via Restoration Distillation.",
+      "url": "https://arxiv.org/abs/2502.07365",
+      "target": "library/training/continued-pretraining.md",
+      "status": "摘要已核查",
+      "reason": "摘要核查：LongReD 使用恢复蒸馏缓解继续预训练后的短文本能力退化。",
+      "checked_at": "2026-09-17",
+      "entry_sha256": "0756e524a9a076b1ee05a53b09f4caf71e1f9030d1c354cd2346d90b70c8c376"
+    },
+    {
+      "source_key": "B1",
+      "title": "LongLoRA: Efficient Fine-tuning of Long-Context Large Language Models.",
+      "url": "https://arxiv.org/abs/2309.12307",
+      "target": "library/training/supervised-finetuning.md",
+      "status": "初步归档",
+      "reason": "长文指令学习、参数高效微调与自改进；自改进可同时关联偏好优化。",
+      "checked_at": null,
+      "entry_sha256": "82942a635b8a8953715415746153cd68e67ce9d2c3a633ecc114dac738a8b6d0"
+    },
+    {
+      "source_key": "B3",
+      "title": "Long Context Alignment with Short Instructions and Synthesized Positions.",
+      "url": "https://arxiv.org/abs/2405.03939",
+      "target": "library/training/supervised-finetuning.md",
+      "status": "初步归档",
+      "reason": "长文指令学习、参数高效微调与自改进；自改进可同时关联偏好优化。",
+      "checked_at": null,
+      "entry_sha256": "c008b0dad2c7e072e9f3a9461fb85dab8a593c65989586077b2436ed70b0a84f"
+    },
+    {
+      "source_key": "B5",
+      "title": "ChatQA 2: Bridging the Gap to Proprietary LLMs in Long Context and RAG Capabilities.",
+      "url": "https://arxiv.org/abs/2407.14482",
+      "target": "library/training/supervised-finetuning.md",
+      "status": "初步归档",
+      "reason": "长文指令学习、参数高效微调与自改进；自改进可同时关联偏好优化。",
+      "checked_at": null,
+      "entry_sha256": "9b64217a93d5ad29977fd59cd4867e081847eed35f7f10552bd6eeb2e4e484bc"
+    },
+    {
+      "source_key": "B8",
+      "title": "Large Language Models Can Self-Improve in Long-context Reasoning.",
+      "url": "https://arxiv.org/abs/2411.08147",
+      "target": "library/training/supervised-finetuning.md",
+      "status": "摘要已核查",
+      "reason": "摘要核查：对多个输出评分，用于 SFT 或偏好优化；本页是主归档，两种阶段均适用。",
+      "checked_at": "2026-09-17",
+      "entry_sha256": "d7dd7221bcbc4567b55a7c55d57df1f6f997951a54270fabb966fda0f71660ae"
+    },
+    {
+      "source_key": "B16",
+      "title": "Pause-Tuning for Long-Context Comprehension: A Lightweight Approach to LLM Attention Recalibration.",
+      "url": "https://arxiv.org/abs/2502.20405",
+      "target": "library/training/supervised-finetuning.md",
+      "status": "初步归档",
+      "reason": "长文指令学习、参数高效微调与自改进；自改进可同时关联偏好优化。",
+      "checked_at": null,
+      "entry_sha256": "a5fefe0e5b8760c3749c3dc022b9797486d54c02e34b7d2a75a995162a1c50a4"
+    },
+    {
+      "source_key": "B19",
+      "title": "Long-Short Alignment for Effective Long-Context Modeling in LLMs.",
+      "url": "https://arxiv.org/abs/2506.11769",
+      "target": "library/training/supervised-finetuning.md",
+      "status": "初步归档",
+      "reason": "长文指令学习、参数高效微调与自改进；自改进可同时关联偏好优化。",
+      "checked_at": null,
+      "entry_sha256": "5eec527404216f62586c5c1e77311da2a02fd43a18e811314f26bd4ca3ef9b11"
+    },
+    {
+      "source_key": "B20",
+      "title": "Make Your LLM Fully Utilize the Context.",
+      "url": "https://arxiv.org/abs/2404.16811",
+      "target": "library/training/supervised-finetuning.md",
+      "status": "初步归档",
+      "reason": "长文指令学习、参数高效微调与自改进；自改进可同时关联偏好优化。",
+      "checked_at": null,
+      "entry_sha256": "388a72f9fb764e39f98a998866225b78e11bf7b5acc0f464b1cb4f5b98ed8b05"
+    },
+    {
+      "source_key": "C5",
+      "title": "LOGO -- Long cOntext aliGnment via efficient preference Optimization.",
+      "url": "https://arxiv.org/abs/2410.18533",
+      "target": "library/training/preference-optimization.md",
+      "status": "初步归档",
+      "reason": "偏好对、AI 反馈与 DPO 等方法。",
+      "checked_at": null,
+      "entry_sha256": "dbb0ebe42d7cf28360a5d96a1a90d76259f3bb8ec6ba2bbcbe558746362327be"
+    },
+    {
+      "source_key": "C6",
+      "title": "LongReward: Improving Long-context Large Language Models with AI Feedback.",
+      "url": "https://arxiv.org/abs/2410.21252",
+      "target": "library/training/preference-optimization.md",
+      "status": "摘要已核查",
+      "reason": "摘要核查：AI 反馈结合 DPO，主归档为偏好优化。",
+      "checked_at": "2026-09-17",
+      "entry_sha256": "3b75978cb9c83016778b517b6c3660e6c0c5c3cf3c5d0535e03d736e75eea9dc"
+    },
+    {
+      "source_key": "C7",
+      "title": "LongPO: Long Context Self-Evolution of Large Language Models through Short-to-Long Preference Optimization.",
+      "url": "https://arxiv.org/abs/2502.13922",
+      "target": "library/training/preference-optimization.md",
+      "status": "初步归档",
+      "reason": "偏好对、AI 反馈与 DPO 等方法。",
+      "checked_at": null,
+      "entry_sha256": "43a4beb2790c5c34e370b988f4a3b973a48ac9438c028d41d91452b5737c81b5"
+    },
+    {
+      "source_key": "C1",
+      "title": "LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards.",
+      "url": "https://arxiv.org/abs/2605.31584",
+      "target": "library/training/reinforcement-learning.md",
+      "status": "初步归档",
+      "reason": "长上下文奖励、任务数据、轨迹和在线优化。",
+      "checked_at": null,
+      "entry_sha256": "572154a2d324a0ad605248c066857636fe107159baf4bdac77496124da1445a9"
+    },
+    {
+      "source_key": "C10",
+      "title": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget.",
+      "url": "https://arxiv.org/abs/2607.14952",
+      "target": "library/training/reinforcement-learning.md",
+      "status": "初步归档",
+      "reason": "长上下文奖励、任务数据、轨迹和在线优化。",
+      "checked_at": null,
+      "entry_sha256": "a399163d7da6946e11e11fab58cbd3f9c1c5a18236f0521a2424c63c51755f79"
+    },
+    {
+      "source_key": "C11",
+      "title": "Beyond Reward Engineering: A Data Recipe for Long-Context Reinforcement Learning.",
+      "url": "https://arxiv.org/abs/2606.18831",
+      "target": "library/training/reinforcement-learning.md",
+      "status": "初步归档",
+      "reason": "长上下文奖励、任务数据、轨迹和在线优化。",
+      "checked_at": null,
+      "entry_sha256": "f6bb84bca0f54d0e8ecc64a1ed429a88d019ce32d3ed1491990a4dcc05b33140"
+    },
+    {
+      "source_key": "C12",
+      "title": "TimeRLM: Recursive Language Models Enable Precise Anomaly Localization in Long-Context Time-Series.",
+      "url": "https://arxiv.org/abs/2608.03391",
+      "target": "library/training/reinforcement-learning.md",
+      "status": "摘要已核查",
+      "reason": "摘要核查：时间序列递归交互方法包含 RL 后训练；同时关联时间序列应用与评测。",
+      "checked_at": "2026-09-17",
+      "entry_sha256": "d414ef6029a8b4088cfc7f138d5adc6d9655555dff09111ba94a550e368e6b46"
+    },
+    {
+      "source_key": "C2",
+      "title": "Let's (not) just put things in Context: Test-Time Training for Long-Context LLMs.",
+      "url": "https://arxiv.org/abs/2512.13898",
+      "target": "library/training/test-time-adaptation.md",
+      "status": "初步归档",
+      "reason": "在测试阶段利用当前上下文更新或适配模型；与离线训练分开。",
+      "checked_at": null,
+      "entry_sha256": "55963741fd01e2ec7ceea559bd88051a3510b6534d37c2589327d95737014b00"
+    },
+    {
+      "source_key": "C3",
+      "title": "In-Place Test-Time Training (In-Place TTT).",
+      "url": "https://arxiv.org/abs/2604.06169",
+      "target": "library/training/test-time-adaptation.md",
+      "status": "初步归档",
+      "reason": "在测试阶段利用当前上下文更新或适配模型；与离线训练分开。",
+      "checked_at": null,
+      "entry_sha256": "1df6cfbf225f318b47193bc0dccd2812fc4ab01c29839b6a39fd617938c2a3e6"
+    },
+    {
+      "source_key": "C4",
+      "title": "With Greater Text Comes Greater Necessity: Inference-Time Training Helps Long Text Generation.",
+      "url": "https://arxiv.org/abs/2401.11504",
+      "target": "library/training/test-time-adaptation.md",
+      "status": "初步归档",
+      "reason": "在测试阶段利用当前上下文更新或适配模型；与离线训练分开。",
+      "checked_at": null,
+      "entry_sha256": "ac5ecab90b6248824b1e00a64862b440234f240db9298a5b60ad7e230f4097c1"
+    },
+    {
+      "source_key": "C8",
+      "title": "End-to-End Test-Time Training for Long Context.",
+      "url": "https://arxiv.org/abs/2512.23675",
+      "target": "library/training/test-time-adaptation.md",
+      "status": "初步归档",
+      "reason": "在测试阶段利用当前上下文更新或适配模型；与离线训练分开。",
+      "checked_at": null,
+      "entry_sha256": "ba32a9a6dd8a536d8b3201b16919b49a1f3c45121f42fe171a4a4e52d0b26fe3"
+    },
+    {
+      "source_key": "C13",
+      "title": "Learning What to Remember: Test-Time Training via Context Distillation.",
+      "url": "https://arxiv.org/abs/2608.01672",
+      "target": "library/training/test-time-adaptation.md",
+      "status": "初步归档",
+      "reason": "在测试阶段利用当前上下文更新或适配模型；与离线训练分开。",
+      "checked_at": null,
+      "entry_sha256": "a77b069f08f99b496a0f26b1d93c987f4a8634385a83624de2317bec8e97e48c"
+    },
+    {
+      "source_key": "C14",
+      "title": "EASE-TTT: Evidence-Aligned Selective Test-Time Training for Long-Context Question Answering.",
+      "url": "https://arxiv.org/abs/2606.06906",
+      "target": "library/training/test-time-adaptation.md",
+      "status": "初步归档",
+      "reason": "在测试阶段利用当前上下文更新或适配模型；与离线训练分开。",
+      "checked_at": null,
+      "entry_sha256": "2f4d1984f8275400c11e337a6eb86fef5c9b6824f8aa05a3d31348b3f3f59c54"
+    },
+    {
+      "source_key": "A18",
+      "title": "Adjoint sharding for very long context training of state space models.",
+      "url": "https://arxiv.org/abs/2501.00692",
+      "target": "library/training/training-systems.md",
+      "status": "初步归档",
+      "reason": "并行、分片、激活显存与高效训练实现。",
+      "checked_at": null,
+      "entry_sha256": "f74d825722c38e9eee4ae2c2a8fe2b4e784869304db5da2bb51ddd48ab853c28"
+    },
+    {
+      "source_key": "A19",
+      "title": "Sliding Window Attention Training for Efficient Large Language Models.",
+      "url": "https://arxiv.org/abs/2502.18845",
+      "target": "library/training/training-systems.md",
+      "status": "初步归档",
+      "reason": "并行、分片、激活显存与高效训练实现。",
+      "checked_at": null,
+      "entry_sha256": "78a0e85cb9a46dc0c4595d14b4a6880f570cc50273a8df383963eda63173223d"
+    },
+    {
+      "source_key": "A20",
+      "title": "ByteScale: Efficient Scaling of LLM Training with a 2048K Context Length on More Than 12,000 GPUs.",
+      "url": "https://arxiv.org/abs/2502.21231",
+      "target": "library/training/training-systems.md",
+      "status": "初步归档",
+      "reason": "并行、分片、激活显存与高效训练实现。",
+      "checked_at": null,
+      "entry_sha256": "3a4f00cfe596e5835bf8742c610e71af9aff9573cf12cb4c5dd0ad2e71a55e35"
+    },
+    {
+      "source_key": "A23",
+      "title": "Arctic Long Sequence Training: Scalable And Efficient Training For Multi-Million Token Sequences.",
+      "url": "https://arxiv.org/abs/2506.13996",
+      "target": "library/training/training-systems.md",
+      "status": "初步归档",
+      "reason": "并行、分片、激活显存与高效训练实现。",
+      "checked_at": null,
+      "entry_sha256": "a9c973f72b693c31fdcb13f61ed474966982fa23c69c9cca0a45140363a1c291"
+    },
+    {
+      "source_key": "A24",
+      "title": "Heterogeneous Parallelism for Multimodal Large Language Model Training.",
+      "url": "https://arxiv.org/abs/2605.27678",
+      "target": "library/training/training-systems.md",
+      "status": "初步归档",
+      "reason": "并行、分片、激活显存与高效训练实现。",
+      "checked_at": null,
+      "entry_sha256": "495a38cb0b9a17d12cb9c1528bbce0a0ea295f75c24f8aa890f2fa17964450c2"
+    },
+    {
+      "source_key": "A25",
+      "title": "Long-Context Fine-Tuning with Limited VRAM.",
+      "url": "https://arxiv.org/abs/2607.15105",
+      "target": "library/training/training-systems.md",
+      "status": "初步归档",
+      "reason": "并行、分片、激活显存与高效训练实现。",
+      "checked_at": null,
+      "entry_sha256": "b10d6d1cd138355adb220dfcec1c1b6e97b84902d20b9d54814119b6d292235e"
+    },
+    {
+      "source_key": "B9",
+      "title": "LeMo: Enabling LEss Token Involvement for MOre Context Fine-tuning.",
+      "url": "https://arxiv.org/abs/2501.09767",
+      "target": "library/training/training-systems.md",
+      "status": "摘要已核查",
+      "reason": "摘要核查：LeMo 优化 token 参与、激活显存与内核，是微调系统。",
+      "checked_at": "2026-09-17",
+      "entry_sha256": "1c7ef0387d355fc3ba1e6262a4ff6f4f348ca73e8c834545c33a985ca9f06fb3"
+    },
+    {
+      "source_key": "A6",
+      "title": "Long-Context Language Modeling with Parallel Context Encoding.",
+      "url": "https://arxiv.org/abs/2402.16617",
+      "target": "library/training/architecture-adaptation.md",
+      "status": "摘要已核查",
+      "reason": "摘要核查：小型编码器分块处理输入，通过交叉注意力供冻结解码器使用。",
+      "checked_at": "2026-09-17",
+      "entry_sha256": "c4f9442fa43c1080a129999c1b4049542bb8eace01cafa1d0da0915323ccb1ac"
+    },
+    {
+      "source_key": "A14",
+      "title": "E2LLM: Encoder Elongated Large Language Models for Long-Context Understanding and Reasoning.",
+      "url": "https://arxiv.org/abs/2409.06679",
+      "target": "library/training/architecture-adaptation.md",
+      "status": "摘要已核查",
+      "reason": "摘要核查：编码器将分块压缩为软提示，再与解码器对齐；包含重建和指令微调目标。",
+      "checked_at": "2026-09-17",
+      "entry_sha256": "f3b115da2114b3a7a58a52e149daba81ec3882ed2389c2e75de20ef6880297ed"
+    },
+    {
+      "source_key": "A15",
+      "title": "A Little Goes a Long Way: Efficient Long Context Training and Inference with Partial Contexts.",
+      "url": "https://arxiv.org/abs/2410.01485",
+      "target": "library/training/architecture-adaptation.md",
+      "status": "摘要已核查",
+      "reason": "摘要核查：LongGen 将混合注意力架构与长度扩展训练结合，归入架构适配。",
+      "checked_at": "2026-09-17",
+      "entry_sha256": "e0015de02cf3424a5f055e26b74507277b78681dd462c5f11ecf460b6717ce67"
+    },
+    {
+      "source_key": "C9",
+      "title": "UIO-LLMs: Unbiased Incremental Optimization for Long-Context LLMs.",
+      "url": "https://arxiv.org/abs/2406.18173",
+      "target": "library/training/architecture-adaptation.md",
+      "status": "摘要已核查",
+      "reason": "已撤回：arXiv 当前页面标明作者撤回。保留原条目供追溯，不作为有效性推荐。方法涉及记忆增强模型的增量优化。",
+      "checked_at": "2026-09-17",
+      "entry_sha256": "2cb90588e44192752e77192529989e113b83cd9b54962b81d719e6d083875cb7"
+    }
+  ]
+}
