@@ -2,6 +2,10 @@
 
 [← 知识库首页](../../README.md) · [本分区目录](README.md)
 
+<!-- count -->
+共 **80** 个条目。
+<!-- /count -->
+
 <!-- chapter-toc -->
 - [6.1 Positional Encoding Variants](#61-positional-encoding-variants)
 - [6.2 YaRN / NTK / Position Interpolation](#62-yarn--ntk--position-interpolation)
@@ -9,6 +13,13 @@
 <!-- /chapter-toc -->
 
 #### 6.1 Positional Encoding Variants
+
+<!-- papers:#### 6.1 Positional Encoding Variants -->
+- [Content-Based Addressing for Long Context](https://arxiv.org/abs/2609.07314) — 2026-09-07
+  - 保留单元内 RoPE，以内容地址代替跨单元增长的位置编号。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. [**RoFormer: Enhanced Transformer with Rotary Position Embedding.**](https://arxiv.org/abs/2104.09864) _Jianlin Su, Yu Lu, Shengfeng Pan, Ahmed Murtadha, Bo Wen, Yunfeng Liu._ Arxiv 2021. [![GitHub Repo stars](https://img.shields.io/github/stars/ZhuiyiTechnology/roformer)](https://github.com/ZhuiyiTechnology/roformer)
 
@@ -171,11 +182,3 @@
 37. [**EndPrompt: Efficient Long-Context Extension via Terminal Anchoring.**](https://arxiv.org/abs/2605.14589) _Han Tian, Luxuan Chen, Xinran Chen, Rui Kong, Fang Wang, Jiamin Chen, Jinman Zhao, Yuchen Li, Jiashu Zhao, Shuaiqiang Wang, Haoyi Xiong, Dawei Yin._ Arxiv 2026. [![GitHub Repo stars](https://img.shields.io/github/stars/clx1415926/EndPrompt)](https://github.com/clx1415926/EndPrompt)
 
 38. [**From Rigid to Dynamic: Entropy-Guided Adaptive Inference for Long-Context LLMs.**](https://arxiv.org/abs/2606.09508) _Zhanchao Xu, Haoyang Li, Qingfa Xiao, Fei Teng, Chen Jason Zhang, Lei Chen, Qing Li._ Arxiv 2026. [![GitHub Repo stars](https://img.shields.io/github/stars/SHA-4096/EntropyInfer)](https://github.com/SHA-4096/EntropyInfer)
-
-<!-- curated-additions -->
-
-## 近期补录
-
-- [Content-Based Addressing for Long Context](https://arxiv.org/abs/2609.07314) — 2026-09-07
-  - 保留单元内 RoPE，以内容地址代替跨单元增长的位置编号。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。

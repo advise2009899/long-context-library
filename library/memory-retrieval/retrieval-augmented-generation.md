@@ -2,6 +2,10 @@
 
 [← 知识库首页](../../README.md) · [本分区目录](README.md)
 
+<!-- count -->
+共 **86** 个条目。
+<!-- /count -->
+
 <!-- chapter-toc -->
 - [9.1 Long-Document QA & Iterative Reasoning RAG](#91-long-document-qa--iterative-reasoning-rag)
 - [9.2 Long-Context vs RAG: Comparison & Hybrid](#92-long-context-vs-rag-comparison--hybrid)
@@ -12,6 +16,13 @@
 <!-- /chapter-toc -->
 
 #### 9.1 Long-Document QA & Iterative Reasoning RAG
+
+<!-- papers:#### 9.1 Long-Document QA & Iterative Reasoning RAG -->
+- [PonsRAG: A Pons-Inspired RAG Bridging Cognitive Islands for Coordinated Long Narrative Reasoning](https://arxiv.org/abs/2608.25486) — 2026-08-26
+  - 以多层索引和跨层证据组织支持长叙事推理。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. [**Retrieval Meets Reasoning: Dynamic In-Context Editing for Long-Text Understanding.**](https://arxiv.org/abs/2406.12331) _Weizhi Fei, Xueyan Niu, Guoqing Xie, Yanhua Zhang, Bo Bai, Lei Deng, Wei Han._ Arxiv 2024.
 
@@ -54,6 +65,13 @@
 20. [**DeCoRAG: Cognitive Decoupling and Semantic-Aware Cropping for Complex Document Understanding.**](https://arxiv.org/abs/2607.24554) _Shuo Wang, Kai Zhang, Wenyuan Huang, Yizheng Yu, Xia Liao, Junming Su, Qing Wang, Fang Xi._ Arxiv 2026.
 
 #### 9.2 Long-Context vs RAG: Comparison & Hybrid
+
+<!-- papers:#### 9.2 Long-Context vs RAG: Comparison & Hybrid -->
+- [Where Should a Document Live: Context, Representations, or Parameters?](https://arxiv.org/abs/2609.17346) — 2026-09-15
+  - 比较上下文、KV 表示与参数微调三种文档知识注入方式。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. [**Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading.**](https://arxiv.org/abs/2310.05029) _Howard Chen, Ramakanth Pasunuru, Jason Weston, Asli Celikyilmaz._ Arxiv 2023.
 
@@ -99,6 +117,13 @@
 13. [**RRM: Experience-Driven Reflective Retrieval Memory for Long-Horizon Multimodal Reasoning.**](https://arxiv.org/abs/2607.28156) _Jingxiang Fan, Junbao Zhuo, Bochao Zou._ Arxiv 2026.
 
 #### 9.4 RAG Pipelines: Chunk Caches & KV Reuse
+
+<!-- papers:#### 9.4 RAG Pipelines: Chunk Caches & KV Reuse -->
+- [REVA: Reusable Evidence View Aggregation for Context-Efficient RAG Serving](https://arxiv.org/abs/2609.11209) — 2026-09-10
+  - 从历史查询交互中构建可复用证据视图，降低 RAG 上下文开销。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. [**Attendre: Wait To Attend By Retrieval With Evicted Queries in Memory-Based Transformers for Long Context Processing.**](https://arxiv.org/abs/2401.04881) _Zi Yang, Nan Hua._ Arxiv 2024.
 
@@ -188,19 +213,3 @@
 6. [**RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation.**](https://arxiv.org/abs/2408.08067) _Dongyu Ru, Lin Qiu, Xiangkun Hu, Tianhang Zhang, Peng Shi, Shuaichen Chang, Cheng Jiayang, Cunxiang Wang, Shichao Sun, Huanyu Li, Zizhao Zhang, Binjie Wang, Jiarong Jiang, Tong He, Zhiguo Wang, Pengfei Liu, Yue Zhang, Zheng Zhang._ Arxiv 2024. [![GitHub Repo stars](https://img.shields.io/github/stars/amazon-science/RAGChecker)](https://github.com/amazon-science/RAGChecker)
 
 7. [**Why Retrieval-Augmented Generation Fails: A Graph Perspective.**](https://arxiv.org/abs/2605.14192) _Kai Guo, Xinnan Dai, Zhibo Zhang, Nuohan Lin, Shenglai Zeng, Jie Ren, Haoyu Han, Jiliang Tang._ Arxiv 2026.
-
-<!-- curated-additions -->
-
-## 近期补录
-
-- [Where Should a Document Live: Context, Representations, or Parameters?](https://arxiv.org/abs/2609.17346) — 2026-09-15
-  - 比较上下文、KV 表示与参数微调三种文档知识注入方式。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [REVA: Reusable Evidence View Aggregation for Context-Efficient RAG Serving](https://arxiv.org/abs/2609.11209) — 2026-09-10
-  - 从历史查询交互中构建可复用证据视图，降低 RAG 上下文开销。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [PonsRAG: A Pons-Inspired RAG Bridging Cognitive Islands for Coordinated Long Narrative Reasoning](https://arxiv.org/abs/2608.25486) — 2026-08-26
-  - 以多层索引和跨层证据组织支持长叙事推理。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。

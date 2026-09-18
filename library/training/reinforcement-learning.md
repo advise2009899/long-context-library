@@ -2,9 +2,18 @@
 
 [← 首页](../../README.md) · [训练与数据目录](README.md)
 
+<!-- count -->
+共 **5** 个条目。
+<!-- /count -->
+
 长上下文奖励、任务数据、轨迹和在线优化。
 
-共 4 个条目。标注“摘要已核查”的条目已对照原论文摘要；其余为依据上游条目所做的初步归档，尚待摘要复核。作者与发表信息保留上游原文。
+<!-- papers:topic -->
+- [Compression Beyond the Uncompressed: A Two-Stage Training Recipe for Soft Context Compression in RAG](https://arxiv.org/abs/2609.05152) — 2026-09-04
+  - 先从正确答案蒸馏，再在困难问题上强化学习软上下文压缩器。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. <!-- entry:C1 -->
    [**LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards.**](https://arxiv.org/abs/2605.31584) _Nianyi Lin, Jiajie Zhang, Lei Hou, Juanzi Li._ Arxiv 2026. [![GitHub Repo stars](https://img.shields.io/github/stars/THU-KEG/LongTraceRL)](https://github.com/THU-KEG/LongTraceRL)
@@ -29,11 +38,3 @@
    <!-- /entry -->
 
    **摘要已核查**：摘要核查：时间序列递归交互方法包含 RL 后训练；同时关联时间序列应用与评测。
-
-<!-- curated-additions -->
-
-## 近期补录
-
-- [Compression Beyond the Uncompressed: A Two-Stage Training Recipe for Soft Context Compression in RAG](https://arxiv.org/abs/2609.05152) — 2026-09-04
-  - 先从正确答案蒸馏，再在困难问题上强化学习软上下文压缩器。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。

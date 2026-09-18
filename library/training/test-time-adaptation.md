@@ -2,9 +2,22 @@
 
 [← 首页](../../README.md) · [训练与数据目录](README.md)
 
+<!-- count -->
+共 **8** 个条目。
+<!-- /count -->
+
 在测试阶段利用当前上下文更新或适配模型；与离线训练分开。
 
-共 6 个条目。标注“摘要已核查”的条目已对照原论文摘要；其余为依据上游条目所做的初步归档，尚待摘要复核。作者与发表信息保留上游原文。
+<!-- papers:topic -->
+- [Rethinking Expressivity and Efficiency in Test-Time Training](https://arxiv.org/abs/2608.21308) — 2026-08-21
+  - 推导分块快速权重更新，兼顾测试时训练的表达能力与硬件效率。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [MoNe: Modular Neural Memory for Efficient Long Context Inference](https://arxiv.org/abs/2608.17616) — 2026-08-18
+  - 用快速权重神经记忆分段吸收上下文，解耦预处理与查询成本。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. <!-- entry:C2 -->
    [**Let's (not) just put things in Context: Test-Time Training for Long-Context LLMs.**](https://arxiv.org/abs/2512.13898) _Rachit Bansal, Aston Zhang, Rishabh Tiwari, Lovish Madaan, Sai Surya Duvvuri, Devvrit Khatri, David Brandfonbrener, David Alvarez-Melis, Prajjwal Bhargava, Mihir Sanjay Kale, Samy Jelassi._ Arxiv 2025.
@@ -41,15 +54,3 @@
    <!-- /entry -->
 
    **初步归档**。
-
-<!-- curated-additions -->
-
-## 近期补录
-
-- [Rethinking Expressivity and Efficiency in Test-Time Training](https://arxiv.org/abs/2608.21308) — 2026-08-21
-  - 推导分块快速权重更新，兼顾测试时训练的表达能力与硬件效率。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [MoNe: Modular Neural Memory for Efficient Long Context Inference](https://arxiv.org/abs/2608.17616) — 2026-08-18
-  - 用快速权重神经记忆分段吸收上下文，解耦预处理与查询成本。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。

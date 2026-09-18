@@ -2,9 +2,11 @@
 
 [← 首页](../../README.md) · [训练与数据目录](README.md)
 
-文档边界、截断、跨文档组织与代码上下文。
+<!-- count -->
+共 **4** 个条目。
+<!-- /count -->
 
-共 4 个条目。标注“摘要已核查”的条目已对照原论文摘要；其余为依据上游条目所做的初步归档，尚待摘要复核。作者与发表信息保留上游原文。
+文档边界、截断、跨文档组织与代码上下文。
 
 1. <!-- entry:A3 -->
    [**Structured Packing in LLM Training Improves Long Context Utilization.**](https://arxiv.org/abs/2312.17296) _Konrad Staniszewski, Szymon Tworkowski, Sebastian Jaszczur, Henryk Michalewski, Łukasz Kuciński, Piotr Miłoś._ Arxiv 2024.

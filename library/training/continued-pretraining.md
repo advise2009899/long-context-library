@@ -2,9 +2,18 @@
 
 [← 首页](../../README.md) · [训练与数据目录](README.md)
 
+<!-- count -->
+共 **17** 个条目。
+<!-- /count -->
+
 上下文扩展配方、位置训练、训练目标及长短能力保持。
 
-共 16 个条目。标注“摘要已核查”的条目已对照原论文摘要；其余为依据上游条目所做的初步归档，尚待摘要复核。作者与发表信息保留上游原文。
+<!-- papers:topic -->
+- [SpectralShift: Effective Context Window Extension of Gated DeltaNet via Spectral Reparameterization](https://arxiv.org/abs/2609.14320) — 2026-09-13
+  - 通过谱重参数化调整 Gated DeltaNet 的衰减动态，支持上下文扩展。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. <!-- entry:A1 -->
    [**Focused Transformer: Contrastive Training for Context Scaling.**](https://arxiv.org/abs/2307.03170) _Szymon Tworkowski, Konrad Staniszewski, Mikołaj Pacek, Yuhuai Wu, Henryk Michalewski, Piotr Miłoś._ Arxiv 2023. [![GitHub Repo stars](https://img.shields.io/github/stars/CStanKonrad/long_llama)](https://github.com/CStanKonrad/long_llama)
@@ -101,11 +110,3 @@
     <!-- /entry -->
 
     **摘要已核查**：摘要核查：LongReD 使用恢复蒸馏缓解继续预训练后的短文本能力退化。
-
-<!-- curated-additions -->
-
-## 近期补录
-
-- [SpectralShift: Effective Context Window Extension of Gated DeltaNet via Spectral Reparameterization](https://arxiv.org/abs/2609.14320) — 2026-09-13
-  - 通过谱重参数化调整 Gated DeltaNet 的衰减动态，支持上下文扩展。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。

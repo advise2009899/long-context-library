@@ -2,6 +2,17 @@
 
 [← 知识库首页](../../README.md) · [本分区目录](README.md)
 
+<!-- count -->
+共 **15** 个条目。
+<!-- /count -->
+
+<!-- papers:topic -->
+- [Long-Context Demonstration Selection Using State Space Models](https://arxiv.org/abs/2609.17888) — 2026-09-15
+  - 蒸馏状态空间模型，用于高效选择长上下文中的示例。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
+
 1. [**Feature-Adaptive and Data-Scalable In-Context Learning.**](https://arxiv.org/abs/2405.10738) _Jiahao Li, Quan Wang, Licheng Zhang, Guoqing Jin, Zhendong Mao._ Arxiv 2024. [![GitHub Repo stars](https://img.shields.io/github/stars/jiahaozhenbang/FADS-ICL)](https://github.com/jiahaozhenbang/FADS-ICL)
 
 2. [**Implicit In-context Learning.**](https://arxiv.org/abs/2405.14660) _Zhuowei Li, Zihao Xu, Ligong Han, Yunhe Gao, Song Wen, Di Liu, Hao Wang, Dimitris N. Metaxas._ Arxiv 2024. [![GitHub Repo stars](https://img.shields.io/github/stars/LzVv123456/I2CL)](https://github.com/LzVv123456/I2CL)
@@ -28,11 +39,3 @@
 13. [**Handover of In-Context Learning State Across Session Boundaries.**](https://arxiv.org/abs/2608.14528) _Masahiro Kato, Taka Kato._ Arxiv 2026.
 
 14. [**BDH-CQ: In-Context Learning with Recurrent Latent Reasoning.**](https://arxiv.org/abs/2608.09888) _Björn Engdahl, Adrian Kosowski, Jan Chorowski, Zuzanna Stamirowska, Przemysław Uznański, Junlin Jiang, Rohan Phadke, Remigiusz Kinas, Richard Zhong._ Arxiv 2026. [![GitHub Repo stars](https://img.shields.io/github/stars/pathwaycom/arc-task-gen)](https://github.com/pathwaycom/arc-task-gen) [![Static Badge](https://img.shields.io/badge/Homepage-blue)](https://pathway.com/blog/pathway-150m-model-breaks-arc-agi-1-cost-efficiency-frontier)
-
-<!-- curated-additions -->
-
-## 近期补录
-
-- [Long-Context Demonstration Selection Using State Space Models](https://arxiv.org/abs/2609.17888) — 2026-09-15
-  - 蒸馏状态空间模型，用于高效选择长上下文中的示例。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。

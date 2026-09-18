@@ -2,6 +2,10 @@
 
 [← 知识库首页](../../README.md) · [本分区目录](README.md)
 
+<!-- count -->
+共 **35** 个条目。
+<!-- /count -->
+
 1. [**Transformer-XL: Attentive language models beyond a fixed-length context.**](https://arxiv.org/abs/1901.02860) _Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V. Le, Ruslan Salakhutdinov._ ACL 2019. [![GitHub Repo stars](https://img.shields.io/github/stars/kimiyoung/transformer-xl)](https://github.com/kimiyoung/transformer-xl)
 
 2. [**Compressive Transformers for Long-Range Sequence Modelling.**](https://arxiv.org/abs/1911.05507) _Jack W. Rae, Anna Potapenko, Siddhant M. Jayakumar, Timothy P. Lillicrap._ Arxiv 2019. [![GitHub Repo stars](https://img.shields.io/github/stars/lucidrains/compressive-transformer-pytorch)](https://github.com/lucidrains/compressive-transformer-pytorch)

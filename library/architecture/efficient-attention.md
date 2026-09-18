@@ -2,6 +2,10 @@
 
 [← 知识库首页](../../README.md) · [本分区目录](README.md)
 
+<!-- count -->
+共 **186** 个条目。
+<!-- /count -->
+
 <!-- chapter-toc -->
 - [2.1 Sparse Attention](#21-sparse-attention)
 - [2.2 Linear Attention](#22-linear-attention)
@@ -10,6 +14,25 @@
 <!-- /chapter-toc -->
 
 #### 2.1 Sparse Attention
+
+<!-- papers:#### 2.1 Sparse Attention -->
+- [SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking](https://arxiv.org/abs/2609.13141) — 2026-09-11
+  - 通过语言建模目标端到端优化稀疏注意力的上下文排序。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [CEDAR: Error-Bounded Residual Routing for Efficient Long-Context Attention](https://arxiv.org/abs/2609.07237) — 2026-09-07
+  - 将粗粒度摘要残差与按误差选择的精确注意力统一归一化。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [Language Models Can Control Their Own Attention](https://arxiv.org/abs/2609.02737) — 2026-09-02
+  - 让模型显式声明全局、局部聚焦等注意力模式。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving](https://arxiv.org/abs/2608.19758) — 2026-08-20
+  - 从误差修正与算子设计改进块稀疏长上下文预填充。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. [**Generating Long Sequences with Sparse Transformers.**](https://arxiv.org/abs/1904.10509) _Rewon Child, Scott Gray, Alec Radford, Ilya Sutskever._ Arxiv 2019.
 
@@ -335,6 +358,13 @@
 
 #### 2.3 Memory / IO-Aware Kernels
 
+<!-- papers:#### 2.3 Memory / IO-Aware Kernels -->
+- [Sample-Guided Exact Top-K Selection for Long-Context Sparse Attention](https://arxiv.org/abs/2609.08450) — 2026-09-08
+  - 用抽样估计与完整遍历认证加速稀疏注意力的精确 Top-K 选择。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
+
 Memory- and IO-aware exact attention kernels (FlashAttention family, PagedAttention, RingAttention, blockwise / tree attention) and architectural kernel-level decoding optimizations are collected here.
 
 1. [**Blockwise Parallel Transformer for Long Context Large Models.**](https://arxiv.org/abs/2305.19370) _Hao Liu, Pieter Abbeel._ Arxiv 2023. [![GitHub Repo stars](https://img.shields.io/github/stars/kyegomez/Blockwise-Parallel-Transformer)](https://github.com/lhao499/llm_large_context)
@@ -363,6 +393,13 @@ Memory- and IO-aware exact attention kernels (FlashAttention family, PagedAttent
 
 #### 2.4 Latent / Alternative Attention
 
+<!-- papers:#### 2.4 Latent / Alternative Attention -->
+- [ProxyFormer: A Dual-Stream Proxy Architecture for Ultra-Long Context and High-Resolution Generation](https://arxiv.org/abs/2608.23463) — 2026-08-24
+  - 以双流代理 token 承担全局交互，同时保留局部细粒度信息。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
+
 1. [**Tensor Product Attention Is All You Need.**](https://arxiv.org/abs/2501.06425) _Yifan Zhang, Yifeng Liu, Huizhuo Yuan, Zhen Qin, Yang Yuan, Quanquan Gu, Andrew Chi-Chih Yao._ Arxiv 2025. [![GitHub Repo stars](https://img.shields.io/github/stars/tensorgi/T6)](https://github.com/tensorgi/T6)
 
 2. [**TransMLA: Multi-Head Latent Attention Is All You Need.**](https://arxiv.org/abs/2502.07864) _Fanxu Meng, Zengwei Yao, Muhan Zhang._ Arxiv 2025. [![GitHub Repo stars](https://img.shields.io/github/stars/fxmeng/TransMLA)](https://github.com/fxmeng/TransMLA)
@@ -378,31 +415,3 @@ Memory- and IO-aware exact attention kernels (FlashAttention family, PagedAttent
 7. [**Hybrid Gated Attention.**](https://arxiv.org/abs/2608.11805) _Zekun Zhou, Ruobing Xie, Lanrui Wang, Weixuan Sun._ Arxiv 2026.
 
 8. [**Training-Free Hashing-Based Attention via Binary Principal Components.**](https://arxiv.org/abs/2608.04405) _Daohai Yu, Zhanpeng Zeng, Keyu Chen, Wenhao Li, Zhifeng Shen, Luxi Lin, Ruizhi Qiao, Xing Sun, Rongrong Ji._ ICML 2026. [![GitHub Repo stars](https://img.shields.io/github/stars/yudaohai666/BPC)](https://github.com/yudaohai666/BPC)
-
-<!-- curated-additions -->
-
-## 近期补录
-
-- [SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking](https://arxiv.org/abs/2609.13141) — 2026-09-11
-  - 通过语言建模目标端到端优化稀疏注意力的上下文排序。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [Sample-Guided Exact Top-K Selection for Long-Context Sparse Attention](https://arxiv.org/abs/2609.08450) — 2026-09-08
-  - 用抽样估计与完整遍历认证加速稀疏注意力的精确 Top-K 选择。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [CEDAR: Error-Bounded Residual Routing for Efficient Long-Context Attention](https://arxiv.org/abs/2609.07237) — 2026-09-07
-  - 将粗粒度摘要残差与按误差选择的精确注意力统一归一化。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [Language Models Can Control Their Own Attention](https://arxiv.org/abs/2609.02737) — 2026-09-02
-  - 让模型显式声明全局、局部聚焦等注意力模式。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [ProxyFormer: A Dual-Stream Proxy Architecture for Ultra-Long Context and High-Resolution Generation](https://arxiv.org/abs/2608.23463) — 2026-08-24
-  - 以双流代理 token 承担全局交互，同时保留局部细粒度信息。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving](https://arxiv.org/abs/2608.19758) — 2026-08-20
-  - 从误差修正与算子设计改进块稀疏长上下文预填充。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。

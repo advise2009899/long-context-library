@@ -2,9 +2,26 @@
 
 [← 首页](../../README.md) · [训练与数据目录](README.md)
 
+<!-- count -->
+共 **10** 个条目。
+<!-- /count -->
+
 长文指令学习、参数高效微调与自改进；自改进可同时关联偏好优化。
 
-共 7 个条目。标注“摘要已核查”的条目已对照原论文摘要；其余为依据上游条目所做的初步归档，尚待摘要复核。作者与发表信息保留上游原文。
+<!-- papers:topic -->
+- [Fine-Tuning a KV Cache Concatenation-Aware Model or Recomputing KV Caches? Why Not Both?](https://arxiv.org/abs/2609.09768) — 2026-09-09
+  - 将感知 KV 拼接的微调与选择性缓存重算结合，用于长上下文 RAG。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [Learning how to Forget: Fine-tuning for Long-Context Sparse Attention](https://arxiv.org/abs/2608.19920) — 2026-08-20
+  - 在稀疏注意力下微调模型，让模型与 KV 选择策略共同适配。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning](https://arxiv.org/abs/2608.19181) — 2026-08-19
+  - 校准教师 token 指导与任务验证奖励，改进长上下文在线蒸馏。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. <!-- entry:B1 -->
    [**LongLoRA: Efficient Fine-tuning of Long-Context Large Language Models.**](https://arxiv.org/abs/2309.12307) _Yukang Chen, Shengju Qian, Haotian Tang, Xin Lai, Zhijian Liu, Song Han, Jiaya Jia._ ICLR 2024 Oral. [![GitHub Repo stars](https://img.shields.io/github/stars/dvlab-research/LongLoRA)](https://github.com/dvlab-research/LongLoRA)
@@ -47,19 +64,3 @@
    <!-- /entry -->
 
    **初步归档**。
-
-<!-- curated-additions -->
-
-## 近期补录
-
-- [Fine-Tuning a KV Cache Concatenation-Aware Model or Recomputing KV Caches? Why Not Both?](https://arxiv.org/abs/2609.09768) — 2026-09-09
-  - 将感知 KV 拼接的微调与选择性缓存重算结合，用于长上下文 RAG。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [Learning how to Forget: Fine-tuning for Long-Context Sparse Attention](https://arxiv.org/abs/2608.19920) — 2026-08-20
-  - 在稀疏注意力下微调模型，让模型与 KV 选择策略共同适配。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning](https://arxiv.org/abs/2608.19181) — 2026-08-19
-  - 校准教师 token 指导与任务验证奖励，改进长上下文在线蒸馏。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。

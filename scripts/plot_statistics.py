@@ -9,32 +9,16 @@ import matplotlib.pyplot as plt
 from matplotlib import font_manager
 ROOT=Path(__file__).resolve().parents[1]
 labels={1:'综述',2:'高效注意力',3:'KV Cache 优化',4:'递归 Transformer',5:'状态空间与混合架构',6:'位置编码与长度外推',7:'长上下文训练',8:'长期记忆',9:'检索增强生成',10:'上下文学习',11:'上下文压缩',12:'模型压缩',13:'长推理',14:'长视频与图像',15:'长程 Agent',16:'长文生成',17:'推理加速与服务',18:'评测与基准',19:'模型技术报告',20:'博客与教程'}
-manifest=json.loads((ROOT/'data/library-baseline.json').read_text())
-registry=json.loads((ROOT/'data/training-index.json').read_text())
-training=Counter(x['target'] for x in registry['records'])
-additions=json.loads((ROOT/'data/recent-papers.json').read_text())
-base_training=training.copy()
-training.update(x['target'] for x in additions if x['target'] in base_training)
-category=[]
-for ch in manifest['chapters']:
- n=ch['id']
- count=sum(base_training.values()) if n==7 else len(re.findall(r'^\d+\.\s',(ROOT/ch['path']).read_text(),re.M))
- category.append({'id':n,'label':labels[n],'count':count})
-assert sum(x['count'] for x in category)==manifest['numbered_entries']
-for ch, cat in zip(manifest['chapters'], category):
- cat['baseline'] = cat['count']
- if cat['id']==7:
-  cat['count'] += sum(x['target'] in base_training for x in additions)
- else:
-  cat['count'] += sum(x['target']==ch['path'] for x in additions)
-for cat in category:
- cat['added'] = cat['count'] - cat['baseline']
+from paper_data import read_json, topic_counts, records
+manifest=read_json('data/library-baseline.json')
+training_paths={r['target'] for r in read_json('data/training-index.json')['records']}
+counts_by_topic=topic_counts()
+category=[{'id':c['id'],'label':labels[c['id']],
+           'count':sum(counts_by_topic[p] for p in training_paths) if c['id']==7 else counts_by_topic[c['path']]}
+          for c in manifest['chapters']]
 papers=sorted([x for x in category if x['id']!=20],key=lambda x:-x['count'])
-sub=[]
-for name,count in training.items():
- title=(ROOT/name).read_text().splitlines()[0].lstrip('# ')
- sub.append({'label':title,'count':count,'baseline':base_training[name],'added':count-base_training[name]})
-sub.sort(key=lambda x:-x['count'])
+sub=sorted([{'label':(ROOT/p).read_text().splitlines()[0].lstrip('# '),'count':counts_by_topic[p]} for p in training_paths],key=lambda x:(-x['count'],x['label']))
+updated=max((r['collected'] for r in records()),default=manifest['date'])
 fonts=font_manager.findSystemFonts()
 font=next((f for f in fonts if 'Arial Unicode' in f),None) or next((f for f in fonts if 'Heiti' in f),None)
 if not font: raise RuntimeError('A CJK font is required')
@@ -66,7 +50,7 @@ def box(x,y,w,h,color,r=.012):
  ax.add_patch(FancyBboxPatch((x,y),w,h,boxstyle=f'round,pad=0,rounding_size={r}',
                            facecolor=color,edgecolor='none'))
 text(.055,.954,'LONG CONTEXT LIBRARY',12,TEAL,weight='bold')
-text(.945,.954,'收录概览  /  2026.09.17',11,MUTED,ha='right')
+text(.945,.954,'收录概览  /  '+updated.replace('-', '.'),11,MUTED,ha='right')
 box(.05,.737,.90,.172,INK,.02)
 text(.078,.867,'长上下文研究知识库',20,'#FFFFFF')
 text(.076,.786,f'{total:,}',51,'#FFFFFF',weight='bold')
@@ -96,7 +80,7 @@ out=ROOT/'assets'; out.mkdir(exist_ok=True)
 fig.savefig(out/'paper-statistics.png',dpi=180,facecolor=BG)
 fig.savefig(out/'paper-statistics.svg',facecolor=BG)
 (out/'paper-statistics.json').write_text(json.dumps({
- 'updated':'2026-09-17','counting_unit':'bibliography entries, not deduplicated papers',
+ 'updated':updated,'counting_unit':'bibliography entries, not deduplicated papers',
  'paper_and_report_entries':total,'blog_entries':blogs,'research_areas':groups,
  'original_categories':[{k:v for k,v in x.items() if k not in ('baseline','added')} for x in category],
  'training_breakdown':[{k:v for k,v in x.items() if k not in ('baseline','added')} for x in sub]

@@ -2,6 +2,10 @@
 
 [← 知识库首页](../../README.md) · [本分区目录](README.md)
 
+<!-- count -->
+共 **259** 个条目。
+<!-- /count -->
+
 <!-- chapter-toc -->
 - [18.1 Long-Context LLM Benchmarks](#181-long-context-llm-benchmarks)
 - [18.2 Long-Context Multimodal & Video Benchmarks](#182-long-context-multimodal--video-benchmarks)
@@ -10,6 +14,29 @@
 <!-- /chapter-toc -->
 
 #### 18.1 Long-Context LLM Benchmarks
+
+<!-- papers:#### 18.1 Long-Context LLM Benchmarks -->
+- [KVShareArena: KV-Cache Reuse Across Contexts and Model Checkpoints](https://arxiv.org/abs/2609.10266) — 2026-09-09
+  - 评测跨提示上下文与模型检查点的 KV 缓存复用及修复。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [Do New Attention Mechanisms Actually Fix Attention Sinks at Million-Token Context?](https://arxiv.org/abs/2609.08574) — 2026-09-08
+  - 用 SinkProbe 检查百万 token 场景的注意力沉降和位置敏感性。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [Separating Stream Stability from Long-Term Recall in Language Models](https://arxiv.org/abs/2609.07282) — 2026-09-07
+  - 分别测量流式生成稳定性、历史可访问性和任务效用的时间跨度。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [MGAL: A Multilingual Granularity-Aware Long-Context Benchmark](https://arxiv.org/abs/2608.20853) — 2026-08-21
+  - 以六种联合国官方语言测量不同粒度和位置的长上下文理解。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [Do Large Language Models Play Six Degrees of Separation? Measuring Topological Compression in Long-Context Manifolds](https://arxiv.org/abs/2608.17950) — 2026-08-18
+  - 通过隐藏状态图结构分析长上下文多跳推理中的语义连接。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. [**Long Range Arena : A Benchmark for Efficient Transformers.**](https://arxiv.org/abs/2011.04006) _Yi Tay, Mostafa Dehghani, Samira Abnar, Yikang Shen, Dara Bahri, Philip Pham, Jinfeng Rao, Liu Yang, Sebastian Ruder, Donald Metzler._ ICLR 2021. [![GitHub Repo stars](https://img.shields.io/github/stars/google-research/long-range-arena)](https://github.com/google-research/long-range-arena)
 
@@ -421,6 +448,29 @@
 
 #### 18.3 Agentic Long-Horizon Benchmarks
 
+<!-- papers:#### 18.3 Agentic Long-Horizon Benchmarks -->
+- [Does Your Agent's Memory Survive a Model Upgrade? A Controlled Study of Memory Portability](https://arxiv.org/abs/2609.05339) — 2026-09-04
+  - 在受控合成历史上比较模型升级后不同记忆表示的可迁移性。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [Reconstructing the Right Episode: Evaluating Interleaved Conversational Memory Beyond Long Context](https://arxiv.org/abs/2608.25655) — 2026-08-26
+  - SCALE-QA 评估无显式会话分隔的混合主题历史中的事件重建。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [Can Agent Memory Systems Track Evolving State?](https://arxiv.org/abs/2608.19652) — 2026-08-20
+  - StateMemBench 区分当前事实、已被替代事实与其他回答错误。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [What Does Context Compression Cost an Agent? Interaction Costs Unrevealed by Task-Completion Metrics](https://arxiv.org/abs/2608.16370) — 2026-08-17
+  - 测量压缩导致 Agent 重新获取信息的交互成本，而非只看任务完成率。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents](https://arxiv.org/abs/2608.15008) — 2026-08-15
+  - 在统一框架下比较多种 Agent 记忆载体的效果与效率。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
+
 1. [**Watching, Reasoning, and Searching: A Video Deep Research Benchmark on Open Web for Agentic Video Reasoning.**](https://arxiv.org/abs/2601.06943) _Chengwen Liu, Xiaomin Yu, Zhuoyue Chang, Zhe Huang, Shuo Zhang, Heng Lian, Kunyi Wang, Rui Xu, Sen Hu, Jianheng Hou, Hao Peng, Chengwei Qin, Xiaobin Hu, Hong Peng, Ronghao Chen, Huacan Wang._ Arxiv 2026. [![GitHub Repo stars](https://img.shields.io/github/stars/QuantaAlpha/VideoDR-Benchmark)](https://github.com/QuantaAlpha/VideoDR-Benchmark)
 2. [**ToolBeHonest: A Multi-level Hallucination Diagnostic Benchmark for Tool-Augmented Large Language Models.**](https://arxiv.org/abs/2406.20015) _Yuxiang Zhang, Jing Chen, Junjie Wang, Yaxin Liu, Cheng Yang, Chufan Shi, Xinyu Zhu, Zihao Lin, Hanwen Wan, Yujiu Yang, Tetsuya Sakai, Tian Feng, Hayato Yamana._ Arxiv 2024. [![GitHub Repo stars](https://img.shields.io/github/stars/ToolBeHonest/ToolBeHonest)](https://github.com/ToolBeHonest/ToolBeHonest)
 
@@ -523,47 +573,3 @@
 11. [**DeFine: A Decomposed and Fine-Grained Annotated Dataset for Long-form Article Generation.**](https://arxiv.org/abs/2503.07170) _Ming Wang, Fang Wang, Minghao Hu, Li He, Haiyang Wang, Jun Zhang, Tianwei Yan, Li Li, Zhunchen Luo, Wei Luo, Xiaoying Bai, Guotong Geng._ Arxiv 2025. [![GitHub Repo stars](https://img.shields.io/github/stars/DeFine-LFAG/DeFine_Dataset)](https://github.com/DeFine-LFAG/DeFine_Dataset)
 
 12. [**LiteLong: Resource-Efficient Long-Context Data Synthesis for LLMs.**](https://arxiv.org/abs/2509.15568) _Junlong Jia, Xing Wu, Chaochen Gao, Ziyang Chen, Zijia Lin, Zhongzhi Li, Weinong Wang, Haotian Xu, Donghui Jin, Debing Zhang, Binghui Guo._ Arxiv 2025.
-
-<!-- curated-additions -->
-
-## 近期补录
-
-- [KVShareArena: KV-Cache Reuse Across Contexts and Model Checkpoints](https://arxiv.org/abs/2609.10266) — 2026-09-09
-  - 评测跨提示上下文与模型检查点的 KV 缓存复用及修复。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [Do New Attention Mechanisms Actually Fix Attention Sinks at Million-Token Context?](https://arxiv.org/abs/2609.08574) — 2026-09-08
-  - 用 SinkProbe 检查百万 token 场景的注意力沉降和位置敏感性。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [Separating Stream Stability from Long-Term Recall in Language Models](https://arxiv.org/abs/2609.07282) — 2026-09-07
-  - 分别测量流式生成稳定性、历史可访问性和任务效用的时间跨度。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [Does Your Agent's Memory Survive a Model Upgrade? A Controlled Study of Memory Portability](https://arxiv.org/abs/2609.05339) — 2026-09-04
-  - 在受控合成历史上比较模型升级后不同记忆表示的可迁移性。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [Reconstructing the Right Episode: Evaluating Interleaved Conversational Memory Beyond Long Context](https://arxiv.org/abs/2608.25655) — 2026-08-26
-  - SCALE-QA 评估无显式会话分隔的混合主题历史中的事件重建。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [MGAL: A Multilingual Granularity-Aware Long-Context Benchmark](https://arxiv.org/abs/2608.20853) — 2026-08-21
-  - 以六种联合国官方语言测量不同粒度和位置的长上下文理解。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [Can Agent Memory Systems Track Evolving State?](https://arxiv.org/abs/2608.19652) — 2026-08-20
-  - StateMemBench 区分当前事实、已被替代事实与其他回答错误。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [Do Large Language Models Play Six Degrees of Separation? Measuring Topological Compression in Long-Context Manifolds](https://arxiv.org/abs/2608.17950) — 2026-08-18
-  - 通过隐藏状态图结构分析长上下文多跳推理中的语义连接。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [What Does Context Compression Cost an Agent? Interaction Costs Unrevealed by Task-Completion Metrics](https://arxiv.org/abs/2608.16370) — 2026-08-17
-  - 测量压缩导致 Agent 重新获取信息的交互成本，而非只看任务完成率。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents](https://arxiv.org/abs/2608.15008) — 2026-08-15
-  - 在统一框架下比较多种 Agent 记忆载体的效果与效率。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。

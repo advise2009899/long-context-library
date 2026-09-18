@@ -2,6 +2,10 @@
 
 [← 知识库首页](../../README.md) · [本分区目录](README.md)
 
+<!-- count -->
+共 **86** 个条目。
+<!-- /count -->
+
 <!-- chapter-toc -->
 - [17.1 Speculative & Parallel Decoding](#171-speculative--parallel-decoding)
 - [17.2 Quantization-Aware Long-Context Inference](#172-quantization-aware-long-context-inference)
@@ -10,6 +14,13 @@
 <!-- /chapter-toc -->
 
 #### 17.1 Speculative & Parallel Decoding
+
+<!-- papers:#### 17.1 Speculative & Parallel Decoding -->
+- [ASPIRE: Asynchronous Batched Self-Speculative Decoding for Long-Context LLM Inference](https://arxiv.org/abs/2609.17943) — 2026-09-16
+  - 让同批请求独立调度草稿与验证步骤，服务长上下文自推测解码。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. [**LongSpec: Long-Context Speculative Decoding with Efficient Drafting and Verification.**](https://arxiv.org/abs/2502.17421) _Penghui Yang, Cunxiao Du, Fengzhuo Zhang, Haonan Wang, Tianyu Pang, Chao Du, Bo An._ Arxiv 2025. [![GitHub Repo stars](https://img.shields.io/github/stars/sail-sg/LongSpec)](https://github.com/sail-sg/LongSpec)
 
@@ -187,11 +198,3 @@
 19. [**PersistentKV: Page-Aware Decode Scheduling for Long-Context LLM Serving on Commodity GPUs.**](https://arxiv.org/abs/2606.26666) _Muhammad Ahmed._ Arxiv 2026.
 
 20. [**SwiftCache: Efficient LLM Serving for Multi-turn Conversations with Heterogeneous KV Cache Sharing.**](https://arxiv.org/abs/2606.16135) _Jianmin Hu, Minxian Xu, Sa Wang, Chong Ma, Min Shen, Kejiang Ye, Lin Qu, Chengzhong Xu._ Arxiv 2026.
-
-<!-- curated-additions -->
-
-## 近期补录
-
-- [ASPIRE: Asynchronous Batched Self-Speculative Decoding for Long-Context LLM Inference](https://arxiv.org/abs/2609.17943) — 2026-09-16
-  - 让同批请求独立调度草稿与验证步骤，服务长上下文自推测解码。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。

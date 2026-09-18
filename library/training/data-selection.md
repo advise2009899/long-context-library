@@ -2,9 +2,11 @@
 
 [← 首页](../../README.md) · [训练与数据目录](README.md)
 
-样本筛选、领域与长度配比；token 损失加权归入训练目标。
+<!-- count -->
+共 **4** 个条目。
+<!-- /count -->
 
-共 4 个条目。标注“摘要已核查”的条目已对照原论文摘要；其余为依据上游条目所做的初步归档，尚待摘要复核。作者与发表信息保留上游原文。
+样本筛选、领域与长度配比；token 损失加权归入训练目标。
 
 1. <!-- entry:B2 -->
    [**Data Engineering for Scaling Language Models to 128K Context.**](https://arxiv.org/abs/2402.10171) _Yao Fu, Rameswar Panda, Xinyao Niu, Xiang Yue, Hannaneh Hajishirzi, Yoon Kim, Hao Peng._ Arxiv 2024. [![GitHub Repo stars](https://img.shields.io/github/stars/FranxYao/Long-Context-Data-Engineering)](https://github.com/FranxYao/Long-Context-Data-Engineering)

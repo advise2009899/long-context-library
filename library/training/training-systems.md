@@ -2,9 +2,26 @@
 
 [← 首页](../../README.md) · [训练与数据目录](README.md)
 
+<!-- count -->
+共 **10** 个条目。
+<!-- /count -->
+
 并行、分片、激活显存与高效训练实现。
 
-共 7 个条目。标注“摘要已核查”的条目已对照原论文摘要；其余为依据上游条目所做的初步归档，尚待摘要复核。作者与发表信息保留上游原文。
+<!-- papers:topic -->
+- [Flattening Every Memory Peak in Long-Context Mixture-of-Experts Training](https://arxiv.org/abs/2609.14306) — 2026-09-13
+  - 联合约束专家分发、词表投影、检查点和优化器的内存峰值。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training](https://arxiv.org/abs/2609.07108) — 2026-09-07
+  - 结合上下文并行与流水线特征传输，在线共同训练 RL 推测解码草稿。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [BASP: Communication-Efficient Batch-Aware Sequence Parallelism for LLM Training](https://arxiv.org/abs/2609.03151) — 2026-09-02
+  - 利用微批结构划分序列并行组，减少长序列训练通信。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. <!-- entry:A18 -->
    [**Adjoint sharding for very long context training of state space models.**](https://arxiv.org/abs/2501.00692) _Xingzi Xu, Amir Tavanaei, Kavosh Asadi, Karim Bouyarmane._ Arxiv 2025.
@@ -47,19 +64,3 @@
    <!-- /entry -->
 
    **摘要已核查**：摘要核查：LeMo 优化 token 参与、激活显存与内核，是微调系统。
-
-<!-- curated-additions -->
-
-## 近期补录
-
-- [Flattening Every Memory Peak in Long-Context Mixture-of-Experts Training](https://arxiv.org/abs/2609.14306) — 2026-09-13
-  - 联合约束专家分发、词表投影、检查点和优化器的内存峰值。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training](https://arxiv.org/abs/2609.07108) — 2026-09-07
-  - 结合上下文并行与流水线特征传输，在线共同训练 RL 推测解码草稿。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [BASP: Communication-Efficient Batch-Aware Sequence Parallelism for LLM Training](https://arxiv.org/abs/2609.03151) — 2026-09-02
-  - 利用微批结构划分序列并行组，减少长序列训练通信。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。

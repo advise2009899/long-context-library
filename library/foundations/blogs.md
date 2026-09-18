@@ -2,6 +2,10 @@
 
 [← 知识库首页](../../README.md) · [本分区目录](README.md)
 
+<!-- count -->
+共 **43** 个条目。
+<!-- /count -->
+
 1. [**Extending Context is Hard…but not Impossible†.**](https://kaiokendev.github.io/context) _kaiokendev._ 2023.
 
 2. [**NTK-Aware Scaled RoPE.**](https://www.reddit.com/r/LocalLLaMA/comments/14lz7j5/ntkaware_scaled_rope_allows_llama_models_to_have/) _u/bloc97._ 2023.

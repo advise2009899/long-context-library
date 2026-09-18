@@ -2,6 +2,10 @@
 
 [← 知识库首页](../../README.md) · [本分区目录](README.md)
 
+<!-- count -->
+共 **267** 个条目。
+<!-- /count -->
+
 <!-- chapter-toc -->
 - [3.1 Eviction / Selection](#31-eviction--selection)
   - [3.1.1 Attention-Score & Heavy-Hitter Eviction](#311-attention-score--heavy-hitter-eviction)
@@ -16,6 +20,17 @@
 #### 3.1 Eviction / Selection
 
 ##### 3.1.1 Attention-Score & Heavy-Hitter Eviction
+
+<!-- papers:##### 3.1.1 Attention-Score & Heavy-Hitter Eviction -->
+- [Divergence Timing and Cumulative Disagreement under KV-Cache Eviction](https://arxiv.org/abs/2609.16617) — 2026-09-15
+  - 分析 KV 淘汰后的首次生成分歧与后续累计偏差。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [What Matters for Aggressive Decoding-Time KV Eviction? Temporal Aggregation and Ranking Preservation](https://arxiv.org/abs/2609.03515) — 2026-09-03
+  - 研究激进解码期淘汰中时间聚合与排序保持的作用。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. [**SnapKV: LLM Knows What You are Looking for Before Generation.**](https://arxiv.org/abs/2404.14469) _Yuhong Li, Yingbing Huang, Bowen Yang, Bharat Venkitesh, Acyr Locatelli, Hanchen Ye, Tianle Cai, Patrick Lewis, Deming Chen._ Arxiv 2024. [![GitHub Repo stars](https://img.shields.io/github/stars/FasterDecoding/SnapKV)](https://github.com/FasterDecoding/SnapKV)
 
@@ -109,6 +124,17 @@
 
 ##### 3.1.3 Query-Aware & Learnable Retention
 
+<!-- papers:##### 3.1.3 Query-Aware & Learnable Retention -->
+- [AgentKV: Phase-Aware KV Eviction for Agentic LLMs](https://arxiv.org/abs/2609.14872) — 2026-09-14
+  - 按思考、行动和工具阶段维护查询缓冲区，指导 Agent 的 KV 淘汰。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference](https://arxiv.org/abs/2609.04971) — 2026-09-04
+  - 用代表性 beacon 查询预测长推理中将被重新访问的 KV 对。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
+
 1. [**Quest: Query-Aware Sparsity for Efficient Long-Context LLM Inference.**](https://arxiv.org/abs/2406.10774) _Jiaming Tang, Yilong Zhao, Kan Zhu, Guangxuan Xiao, Baris Kasikci, Song Han._ ICML 2024. [![GitHub Repo stars](https://img.shields.io/github/stars/mit-han-lab/Quest)](https://github.com/mit-han-lab/Quest)
 
 2. [**CItruS: Chunked Instruction-aware State Eviction for Long Sequence Modeling.**](https://arxiv.org/abs/2406.12018) _Yu Bai, Xiyuan Zou, Heyan Huang, Sanxing Chen, Marc-Antoine Rondeau, Yang Gao, Jackie Chi Kit Cheung._ Arxiv 2024.
@@ -156,6 +182,17 @@
 23. [**SAKI: Score-Aware Low-Rank Key Indexing with Random-Matrix Noise Correction for KV Retrieval.**](https://arxiv.org/abs/2608.03228) _Lin Zhang._ Arxiv 2026.
 
 ##### 3.1.4 Layer-Budget / Merge / Hybrid Eviction
+
+<!-- papers:##### 3.1.4 Layer-Budget / Merge / Hybrid Eviction -->
+- [SGD-KV: Summarization Guided KV Cache Compression](https://arxiv.org/abs/2609.03235) — 2026-09-03
+  - 用分块摘要诊断注意力头的聚合能力，并分配 KV 存储预算。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [KV-Rescue: Recovering Reasoning Language Model KV Eviction Loss via Stepwise Interleaving](https://arxiv.org/abs/2608.15797) — 2026-08-16
+  - 用轻量完整上下文辅助模型穿插推理步骤，补偿主模型 KV 淘汰的信息损失。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. [**GRKV: Global Regression for Training-Free KV Cache Compression in Long-Context LLMs.**](https://arxiv.org/abs/2605.31105) _Junjie Peng, You Wu, Haoyi Wu, Jialong Han, Xiaohua Xie, Kewei Tu, Jianhuang Lai._ Arxiv 2026.
 
@@ -309,6 +346,17 @@
 
 #### 3.2 Quantization / Compression
 
+<!-- papers:#### 3.2 Quantization / Compression -->
+- [MetaKV: Adaptive KV Cache Compression for Constrained LLM Inference](https://arxiv.org/abs/2609.07966) — 2026-09-07
+  - 根据每条输入的延迟与显存预算，自适应选择 KV 压缩配置。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [PuzzleKV: Page-Wise Low-Rank Decomposition for KV Cache Compression](https://arxiv.org/abs/2608.23843) — 2026-08-24
+  - 将每个注意力头的 KV 分成逻辑页，执行页级低秩压缩。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
+
 1. [**MiniCache: KV Cache Compression in Depth Dimension for Large Language Models.**](https://arxiv.org/abs/2405.14366) _Akide Liu, Jing Liu, Zizheng Pan, Yefei He, Gholamreza Haffari, Bohan Zhuang._ NeurIPS 2024.
 
 2. [**UNComp: Uncertainty-Aware Long-Context Compressor for Efficient Large Language Model Inference.**](https://arxiv.org/abs/2410.03090) _Jing Xiong, Jianghan Shen, Fanghua Ye, Chaofan Tao, Zhongwei Wan, Jianqiao Lu, Xun Wu, Chuanyang Zheng, Zhijiang Guo, Lingpeng Kong, Ngai Wong._ Arxiv 2024.
@@ -430,6 +478,21 @@
 
 #### 3.3 Offloading / Hierarchical Cache
 
+<!-- papers:#### 3.3 Offloading / Hierarchical Cache -->
+- [Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches](https://arxiv.org/abs/2609.17652) — 2026-09-15
+  - 根据查询调整卸载 KV 缓存的读取位数，减少主机内存流量。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [Where Should the KV Cache Live? Placement Policies Across GPU, CPU, and SSD for Long-Lived Sessions](https://arxiv.org/abs/2609.16215) — 2026-09-14
+  - 通过模拟研究长会话 KV 在 GPU、CPU 与 SSD 之间的放置策略。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [KVMem: Virtualizing Million-Token Agent Workspaces on a Consumer GPU](https://arxiv.org/abs/2609.04852) — 2026-09-04
+  - 跨 GPU、主机内存与 NVMe 保存分页 KV，构造受原生窗口约束的执行视图。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
+
 1. [**InstInfer: In-Storage Attention Offloading for Cost-Effective Long-Context LLM Inference.**](https://arxiv.org/abs/2409.04992) _Xiurui Pan, Endian Li, Qiao Li, Shengwen Liang, Yizhou Shan, Ke Zhou, Yingwei Luo, Xiaolin Wang, Jie Zhang._ Arxiv 2024.
 
 2. [**InfiniPot: Infinite Context Processing on Memory-Constrained LLMs.**](https://arxiv.org/abs/2410.01518) _Minsoo Kim, Kyuhong Shim, Jungwook Choi, Simyung Chang._ Arxiv 2024.
@@ -469,6 +532,25 @@
 19. [**OasisKV: Scaling In-Decode KV Cache Beyond HBM with Lookahead Sparse Prefetching.**](https://arxiv.org/abs/2608.08097) _Can Xiao, Sukmin Cho, Junbong We, Zhixiong Niu, Jianyi Cheng, Yiren Zhao, Youngjin Kwon, Yongqiang Xiong, Rui Ma, Junyi Liu._ Arxiv 2026.
 
 #### 3.4 Architectural KV Reduction & Cache Sharing
+
+<!-- papers:#### 3.4 Architectural KV Reduction & Cache Sharing -->
+- [Contiguity, Not Importance: Budgeted Repair of Stale KV Caches After Document Edits](https://arxiv.org/abs/2609.17983) — 2026-09-16
+  - 文档编辑后，以预算约束的局部连续重算修复过期 KV 状态。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [Shared-Prefix KV Reuse Across Standard LoRA Adapters: Quality and Serving Tradeoffs](https://arxiv.org/abs/2609.17109) — 2026-09-15
+  - 考察标准 LoRA 专家复用基础模型前缀 KV 的质量与服务成本。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents](https://arxiv.org/abs/2608.19662) — 2026-08-20
+  - 对重复工具及技能资源构建可组合 KV，并压缩资源表示。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix](https://arxiv.org/abs/2608.15584) — 2026-08-16
+  - 为长共享前缀与请求后缀采用不同分页粒度。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. [**Reducing Transformer Key-Value Cache Size with Cross-Layer Attention.**](https://arxiv.org/abs/2405.12981) _William Brandon, Mayank Mishra, Aniruddha Nrusimha, Rameswar Panda, Jonathan Ragan Kelly._ Arxiv 2024.
 
@@ -530,67 +612,3 @@
 30. [**SparseX: Efficient Segment-Level KV Cache Sharing for Interleaved LLM Serving.**](https://arxiv.org/abs/2606.01751) _Quqing Zhang, Kai Chen, Ning Liao, Zehao Lin, Bo Tang, Feiyu Xiong, Zhiyu Li, Xiaoxing Wang._ Arxiv 2026.
 
 31. [**Kamera: Unified Position-Invariant Multimodal KV Cache for Training-Free Reuse.**](https://arxiv.org/abs/2606.23581) _Bole Ma, Jan Eitzinger, Harald Koestler, Gerhard Wellein._ Arxiv 2026.
-
-<!-- curated-additions -->
-
-## 近期补录
-
-- [Contiguity, Not Importance: Budgeted Repair of Stale KV Caches After Document Edits](https://arxiv.org/abs/2609.17983) — 2026-09-16
-  - 文档编辑后，以预算约束的局部连续重算修复过期 KV 状态。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [Fathom: Per-Query Read Depth for Sparse Decoding over Offloaded KV Caches](https://arxiv.org/abs/2609.17652) — 2026-09-15
-  - 根据查询调整卸载 KV 缓存的读取位数，减少主机内存流量。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [Shared-Prefix KV Reuse Across Standard LoRA Adapters: Quality and Serving Tradeoffs](https://arxiv.org/abs/2609.17109) — 2026-09-15
-  - 考察标准 LoRA 专家复用基础模型前缀 KV 的质量与服务成本。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [Divergence Timing and Cumulative Disagreement under KV-Cache Eviction](https://arxiv.org/abs/2609.16617) — 2026-09-15
-  - 分析 KV 淘汰后的首次生成分歧与后续累计偏差。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [Where Should the KV Cache Live? Placement Policies Across GPU, CPU, and SSD for Long-Lived Sessions](https://arxiv.org/abs/2609.16215) — 2026-09-14
-  - 通过模拟研究长会话 KV 在 GPU、CPU 与 SSD 之间的放置策略。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [AgentKV: Phase-Aware KV Eviction for Agentic LLMs](https://arxiv.org/abs/2609.14872) — 2026-09-14
-  - 按思考、行动和工具阶段维护查询缓冲区，指导 Agent 的 KV 淘汰。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [MetaKV: Adaptive KV Cache Compression for Constrained LLM Inference](https://arxiv.org/abs/2609.07966) — 2026-09-07
-  - 根据每条输入的延迟与显存预算，自适应选择 KV 压缩配置。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [BeaconKV: Key-Value Cache Compression Guided by Beacon Queries for Efficient Large Reasoning Model Inference](https://arxiv.org/abs/2609.04971) — 2026-09-04
-  - 用代表性 beacon 查询预测长推理中将被重新访问的 KV 对。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [KVMem: Virtualizing Million-Token Agent Workspaces on a Consumer GPU](https://arxiv.org/abs/2609.04852) — 2026-09-04
-  - 跨 GPU、主机内存与 NVMe 保存分页 KV，构造受原生窗口约束的执行视图。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [What Matters for Aggressive Decoding-Time KV Eviction? Temporal Aggregation and Ranking Preservation](https://arxiv.org/abs/2609.03515) — 2026-09-03
-  - 研究激进解码期淘汰中时间聚合与排序保持的作用。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [SGD-KV: Summarization Guided KV Cache Compression](https://arxiv.org/abs/2609.03235) — 2026-09-03
-  - 用分块摘要诊断注意力头的聚合能力，并分配 KV 存储预算。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [PuzzleKV: Page-Wise Low-Rank Decomposition for KV Cache Compression](https://arxiv.org/abs/2608.23843) — 2026-08-24
-  - 将每个注意力头的 KV 分成逻辑页，执行页级低秩压缩。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents](https://arxiv.org/abs/2608.19662) — 2026-08-20
-  - 对重复工具及技能资源构建可组合 KV，并压缩资源表示。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [KV-Rescue: Recovering Reasoning Language Model KV Eviction Loss via Stepwise Interleaving](https://arxiv.org/abs/2608.15797) — 2026-08-16
-  - 用轻量完整上下文辅助模型穿插推理步骤，补偿主模型 KV 淘汰的信息损失。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix](https://arxiv.org/abs/2608.15584) — 2026-08-16
-  - 为长共享前缀与请求后缀采用不同分页粒度。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。

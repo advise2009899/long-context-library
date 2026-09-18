@@ -2,9 +2,18 @@
 
 [← 首页](../../README.md) · [训练与数据目录](README.md)
 
+<!-- count -->
+共 **9** 个条目。
+<!-- /count -->
+
 构造长文与指令数据；具体用于哪个阶段以论文说明为准。
 
-共 8 个条目。标注“摘要已核查”的条目已对照原论文摘要；其余为依据上游条目所做的初步归档，尚待摘要复核。作者与发表信息保留上游原文。
+<!-- papers:topic -->
+- [EvolveScaler: Synthesizing Information-Evolution Contexts via Executable State Machines and Natural-Language Rendering](https://arxiv.org/abs/2609.08435) — 2026-09-08
+  - 以可执行状态机定义信息更新与答案逻辑，再渲染为长文本合成数据。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. <!-- entry:B4 -->
    [**Quest: Query-centric Data Synthesis Approach for Long-context Scaling of Large Language Model.**](https://arxiv.org/abs/2405.19846) _Chaochen Gao, Xing Wu, Qi Fu, Songlin Hu._ Arxiv 2024.
@@ -53,11 +62,3 @@
    <!-- /entry -->
 
    **初步归档**。
-
-<!-- curated-additions -->
-
-## 近期补录
-
-- [EvolveScaler: Synthesizing Information-Evolution Contexts via Executable State Machines and Natural-Language Rendering](https://arxiv.org/abs/2609.08435) — 2026-09-08
-  - 以可执行状态机定义信息更新与答案逻辑，再渲染为长文本合成数据。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。

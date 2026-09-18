@@ -2,9 +2,11 @@
 
 [← 首页](../../README.md) · [训练与数据目录](README.md)
 
-偏好对、AI 反馈与 DPO 等方法。
+<!-- count -->
+共 **3** 个条目。
+<!-- /count -->
 
-共 3 个条目。标注“摘要已核查”的条目已对照原论文摘要；其余为依据上游条目所做的初步归档，尚待摘要复核。作者与发表信息保留上游原文。
+偏好对、AI 反馈与 DPO 等方法。
 
 1. <!-- entry:C5 -->
    [**LOGO -- Long cOntext aliGnment via efficient preference Optimization.**](https://arxiv.org/abs/2410.18533) _Zecheng Tang, Zechen Sun, Juntao Li, Qiaoming Zhu, Min Zhang._ [ICML 2025]. [![GitHub Repo stars](https://img.shields.io/github/stars/ZetangForward/LCM_Stack)](https://github.com/ZetangForward/LCM_Stack)

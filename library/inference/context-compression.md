@@ -2,6 +2,10 @@
 
 [← 知识库首页](../../README.md) · [本分区目录](README.md)
 
+<!-- count -->
+共 **138** 个条目。
+<!-- /count -->
+
 <!-- chapter-toc -->
 - [11.1 Token / Prompt Compression](#111-token--prompt-compression)
   - [11.1.1 Hard Prompt & Token Pruning](#1111-hard-prompt--token-pruning)
@@ -13,6 +17,17 @@
 #### 11.1 Token / Prompt Compression
 
 ##### 11.1.1 Hard Prompt & Token Pruning
+
+<!-- papers:##### 11.1.1 Hard Prompt & Token Pruning -->
+- [AttnCompress: Dynamic Attention-Guided Trajectory Compression for Software Engineering Agents](https://arxiv.org/abs/2609.08318) — 2026-09-08
+  - 用注意力信号动态压缩软件工程 Agent 的交互轨迹。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [Paritok-4B: Intent-Conditioned Context Compression for Coding Agents](https://arxiv.org/abs/2608.24188) — 2026-08-25
+  - 面向编程 Agent 的意图条件抽取式压缩，尽量保留原始代码标识符。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. [**Compressing Context to Enhance Inference Efficiency of Large Language Models.**](https://arxiv.org/abs/2310.06201) _Yucheng Li, Bo Dong, Chenghua Lin, Frank Guerin._ Arxiv 2023. [![GitHub Repo stars](https://img.shields.io/github/stars/liyucheng09/Selective_Context)](https://github.com/liyucheng09/Selective_Context)
 
@@ -113,6 +128,13 @@
 48. [**Context Compression Is Not One Thing: Readable Symbolic Re-expression vs. Coherent Summary at Matched Budget.**](https://arxiv.org/abs/2606.14875) _Sisong Bei, Mikhail L. Arbuzov, Ziwei Dong, Dmitri Kalaev, Alexey Shvets._ Arxiv 2026.
 
 ##### 11.1.2 Soft Prompt / Gist / Latent Compression
+
+<!-- papers:##### 11.1.2 Soft Prompt / Gist / Latent Compression -->
+- [FlexComp: One Model for Every Ratio in Context Compression](https://arxiv.org/abs/2609.11192) — 2026-09-10
+  - 采用可变记忆预算训练，让单个软压缩模型支持不同压缩率。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. [**Adapting Language Models to Compress Contexts.**](https://arxiv.org/abs/2305.14788) _Alexis Chevalier, Alexander Wettig, Anirudh Ajith, Danqi Chen._ Arxiv 2023. [![GitHub Repo stars](https://img.shields.io/github/stars/princeton-nlp/AutoCompressors)](https://github.com/princeton-nlp/AutoCompressors)
 
@@ -250,6 +272,17 @@
 
 ##### 11.1.4 RAG / KV-Aware Compression
 
+<!-- papers:##### 11.1.4 RAG / KV-Aware Compression -->
+- [The Attribution-Compression Frontier in Retrieval-Augmented Generation](https://arxiv.org/abs/2609.14245) — 2026-09-13
+  - 评估 RAG 压缩后答案引用能否追溯到原始证据。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [From Retrieved Context to Runtime Control: Adaptive Compression for Edge-based RAG](https://arxiv.org/abs/2608.19535) — 2026-08-20
+  - 提出由设备运行状态驱动的边缘 RAG 自适应压缩方向。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
+
 1. [**Compressing Long Context for Enhancing RAG with AMR-based Concept Distillation.**](https://arxiv.org/abs/2405.03085) _Kaize Shi, Xueyao Sun, Qing Li, Guandong Xu._ Arxiv 2024.
 
 2. [**Improving Long Text Understanding with Knowledge Distilled from Summarization Model.**](https://arxiv.org/abs/2405.04955) _Yan Liu, Yazheng Yang, Xiaokang Chen._ Arxiv 2024.
@@ -287,27 +320,3 @@
 18. [**VLZip: Unified Visual and Textual Compression for Interleaved Long-Context Modeling.**](https://arxiv.org/abs/2608.08630) _Yuqi Zhang, Cheng Chen, Yuyu Guo, Wenjie Yang, Lingchen Meng, Peng Di, Hang Yu, Zuxuan Wu, Yu-Gang Jiang._ Arxiv 2026. [![GitHub Repo stars](https://img.shields.io/github/stars/ShareLab-SII/VLZip)](https://github.com/ShareLab-SII/VLZip)
 
 19. [**Cache-Aware Prompt Compression:A Two-Tier Cost Model for LLM API Caching.**](https://arxiv.org/abs/2607.15516) _Yan Song._ Arxiv 2026.
-
-<!-- curated-additions -->
-
-## 近期补录
-
-- [The Attribution-Compression Frontier in Retrieval-Augmented Generation](https://arxiv.org/abs/2609.14245) — 2026-09-13
-  - 评估 RAG 压缩后答案引用能否追溯到原始证据。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [FlexComp: One Model for Every Ratio in Context Compression](https://arxiv.org/abs/2609.11192) — 2026-09-10
-  - 采用可变记忆预算训练，让单个软压缩模型支持不同压缩率。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [AttnCompress: Dynamic Attention-Guided Trajectory Compression for Software Engineering Agents](https://arxiv.org/abs/2609.08318) — 2026-09-08
-  - 用注意力信号动态压缩软件工程 Agent 的交互轨迹。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [Paritok-4B: Intent-Conditioned Context Compression for Coding Agents](https://arxiv.org/abs/2608.24188) — 2026-08-25
-  - 面向编程 Agent 的意图条件抽取式压缩，尽量保留原始代码标识符。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [From Retrieved Context to Runtime Control: Adaptive Compression for Edge-based RAG](https://arxiv.org/abs/2608.19535) — 2026-08-20
-  - 提出由设备运行状态驱动的边缘 RAG 自适应压缩方向。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。

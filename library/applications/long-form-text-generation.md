@@ -2,12 +2,23 @@
 
 [← 知识库首页](../../README.md) · [本分区目录](README.md)
 
+<!-- count -->
+共 **25** 个条目。
+<!-- /count -->
+
 <!-- chapter-toc -->
 - [16.1 Planning & Long-Form Writing](#161-planning--long-form-writing)
 - [16.2 Training / Preference / RL for Long Generation](#162-training--preference--rl-for-long-generation)
 <!-- /chapter-toc -->
 
 #### 16.1 Planning & Long-Form Writing
+
+<!-- papers:#### 16.1 Planning & Long-Form Writing -->
+- [MentorPulse: Refreshing Cross-Model Latent Guidance for Long-Form Generation](https://arxiv.org/abs/2608.20927) — 2026-08-21
+  - 刷新跨模型潜在指导记忆，缓解长篇生成中的指导信号陈旧。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. [**Integrating Planning into Single-Turn Long-Form Text Generation.**](https://arxiv.org/abs/2410.06203) _Yi Liang, You Wu, Honglei Zhuang, Li Chen, Jiaming Shen, Yiling Jia, Zhen Qin, Sumit Sanghai, Xuanhui Wang, Carl Yang, Michael Bendersky._ Arxiv 2024.
 
@@ -58,11 +69,3 @@
 8. [**CLIPPER: Compression enables long-context synthetic data generation.**](https://arxiv.org/abs/2502.14854) _Chau Minh Pham, Yapei Chang, Mohit Iyyer._ Arxiv 2025. [![GitHub Repo stars](https://img.shields.io/github/stars/chtmp223/CLIPPER)](https://github.com/chtmp223/CLIPPER)
 
 9. [**Minimum Tuning to Unlock Long Output from LLMs with High Quality Data as the Key.**](https://arxiv.org/abs/2410.10210) _Yingda Chen, Xingjun Wang, Jintao Huang, Yunlin Mao, Daoze Zhang, Yuze Zhao._ Arxiv 2024.
-
-<!-- curated-additions -->
-
-## 近期补录
-
-- [MentorPulse: Refreshing Cross-Model Latent Guidance for Long-Form Generation](https://arxiv.org/abs/2608.20927) — 2026-08-21
-  - 刷新跨模型潜在指导记忆，缓解长篇生成中的指导信号陈旧。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。

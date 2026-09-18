@@ -2,6 +2,10 @@
 
 [← 知识库首页](../../README.md) · [本分区目录](README.md)
 
+<!-- count -->
+共 **87** 个条目。
+<!-- /count -->
+
 <!-- chapter-toc -->
 - [8.1 Dialogue & Persona Memory](#81-dialogue--persona-memory)
 - [8.2 Parametric, Augmented & Hierarchical Memory](#82-parametric-augmented--hierarchical-memory)
@@ -37,6 +41,17 @@
 13. [**Improving Multi-turn Dialogue Consistency with Self-Recall Thinking.**](https://arxiv.org/abs/2605.15102) _Renning Pang, Tian Lan, Leyuan Liu, Xiaoming Huang, Piao Tong, Xiaosong Zhang._ Arxiv 2026.
 
 #### 8.2 Parametric, Augmented & Hierarchical Memory
+
+<!-- papers:#### 8.2 Parametric, Augmented & Hierarchical Memory -->
+- [Residual Vector-based Reconstruction as Long-Context Recall Regardless of Context Window Size](https://arxiv.org/abs/2609.12686) — 2026-09-11
+  - 研究利用残差向量重建文档事实的长上下文召回方法。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [ConvMem: Convolutional Memory for Long-Context Reasoning](https://arxiv.org/abs/2609.10441) — 2026-09-09
+  - 通过层次化、可并行的片段摘要支持长上下文推理。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. [**Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-Controlled Memory System.**](https://arxiv.org/abs/2304.13343) _Xinnian Liang, Bing Wang, Hui Huang, Shuangzhi Wu, Peihao Wu, Lu Lu, Zejun Ma, Zhoujun Li._ Arxiv 2023. [![GitHub Repo stars](https://img.shields.io/github/stars/wbbeyourself/SCM4LLMs)](https://github.com/wbbeyourself/SCM4LLMs)
 
@@ -80,6 +95,17 @@
 20. [**Metis: Memory Foundation Model.**](https://arxiv.org/abs/2607.26760) _Zeyu Zhang, Ziliang Guo, Yihang Sun, Xichong Zhang, Xixuan Hao, Zehao Lin, Yang Zhang, Xiaoyan Zhao, Tong Shen, Bo Tang, Zhi-Qin John Xu, Junchi Yan, Haofen Wang, Xu Chen, Feiyu Xiong, Zhiyu Li, Tat-Seng Chua._ Arxiv 2026. [![GitHub Repo stars](https://img.shields.io/github/stars/MemTensor/Metis)](https://github.com/MemTensor/Metis)
 
 #### 8.3 Agentic & Working Memory
+
+<!-- papers:#### 8.3 Agentic & Working Memory -->
+- [What Should an Agent Forget? Separating What Is Stored from What Is Used](https://arxiv.org/abs/2609.10263) — 2026-09-09
+  - 保留历史档案，并按查询构建区分当前事实与历史事实的记忆视图。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [EvoWiki: Incremental State Overwriting and Traceable Question Answering for Cross-Meeting Knowledge Evolution](https://arxiv.org/abs/2608.23265) — 2026-08-24
+  - 显式记录跨会议事实状态的覆盖和演化，支持可追溯问答。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. [**Empowering Working Memory for Large Language Model Agents.**](https://arxiv.org/abs/2312.17259) _Jing Guo, Nan Li, Jianchuan Qi, Hang Yang, Ruiqiao Li, Yuzhen Feng, Si Zhang, Ming Xu._ Arxiv 2024.
 
@@ -179,23 +205,3 @@
 49. [**Track, Rank, Crack: Epistemic Working Memory Scales Multi-Hop Reasoning in Language Agents.**](https://arxiv.org/abs/2607.12267) _Ning Liu._ Arxiv 2026.
 
 50. [**Learning What Not to Forget: Long-Horizon Agent Memory from a Few Kilobytes of Learning.**](https://arxiv.org/abs/2606.20954) _Nusrat Jahan Lia, Aritra Mazumder._ Arxiv 2026.
-
-<!-- curated-additions -->
-
-## 近期补录
-
-- [Residual Vector-based Reconstruction as Long-Context Recall Regardless of Context Window Size](https://arxiv.org/abs/2609.12686) — 2026-09-11
-  - 研究利用残差向量重建文档事实的长上下文召回方法。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [ConvMem: Convolutional Memory for Long-Context Reasoning](https://arxiv.org/abs/2609.10441) — 2026-09-09
-  - 通过层次化、可并行的片段摘要支持长上下文推理。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [What Should an Agent Forget? Separating What Is Stored from What Is Used](https://arxiv.org/abs/2609.10263) — 2026-09-09
-  - 保留历史档案，并按查询构建区分当前事实与历史事实的记忆视图。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [EvoWiki: Incremental State Overwriting and Traceable Question Answering for Cross-Meeting Knowledge Evolution](https://arxiv.org/abs/2608.23265) — 2026-08-24
-  - 显式记录跨会议事实状态的覆盖和演化，支持可追溯问答。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。

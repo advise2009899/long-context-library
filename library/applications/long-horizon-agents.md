@@ -2,12 +2,27 @@
 
 [← 知识库首页](../../README.md) · [本分区目录](README.md)
 
+<!-- count -->
+共 **102** 个条目。
+<!-- /count -->
+
 <!-- chapter-toc -->
 - [15.1 General Long-Horizon Agents](#151-general-long-horizon-agents)
 - [15.2 Video-Centric Agents](#152-video-centric-agents)
 <!-- /chapter-toc -->
 
 #### 15.1 General Long-Horizon Agents
+
+<!-- papers:#### 15.1 General Long-Horizon Agents -->
+- [PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents](https://arxiv.org/abs/2609.06702) — 2026-09-06
+  - 并行阅读文档片段，由经过强化学习的主 Agent 迭代组织推理。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [ContextPipe: Database-Inspired Context Assembly for Long-Horizon Agents](https://arxiv.org/abs/2609.00749) — 2026-09-01
+  - 借鉴数据库查询执行，把 Agent 上下文组装做成可追踪的流水线。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. [**A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis.**](https://openreview.net/forum?id=9JQtrumvg8) _Izzeddin Gur, Hiroki Furuta, Austin V Huang, Mustafa Safdari, Yutaka Matsuo, Douglas Eck, Aleksandra Faust._ ICLR 2024 Oral.
 
@@ -212,15 +227,3 @@
 23. [**EgoCITE: Context-Augmented Indexing and Time-Aware Retrieval for Long-Horizon Egocentric Memory.**](https://arxiv.org/abs/2608.12627) _Le Zhang, Ke Sun._ Arxiv 2026.
 
 24. [**PMMC: Prospective Multimodal Memory Compilation for Long-Term LVLM Agents.**](https://arxiv.org/abs/2608.00962) _Jingyu Sun, Yan Lin, Yuyang Xue, Yifan Wang, Zhengtao Yao, Rui Qian, Zefeng Xu, Jiachen Li, Xianyang Liu, Jiancheng Pan, Jingyuan Sun, Syed Murtuza Baker, Hongpeng Zhou._ Arxiv 2026.
-
-<!-- curated-additions -->
-
-## 近期补录
-
-- [PARSER: Read in Parallel, Reason in Depth for Long-Context LLM Agents](https://arxiv.org/abs/2609.06702) — 2026-09-06
-  - 并行阅读文档片段，由经过强化学习的主 Agent 迭代组织推理。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [ContextPipe: Database-Inspired Context Assembly for Long-Horizon Agents](https://arxiv.org/abs/2609.00749) — 2026-09-01
-  - 借鉴数据库查询执行，把 Agent 上下文组装做成可追踪的流水线。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。

@@ -1,5 +1,6 @@
 """Check bibliography integrity and relative Markdown links (offline, stdlib only)."""
 from pathlib import Path
+from paper_data import strip_generated, records as reviewed_records, topic_counts
 import hashlib
 import json
 import re
@@ -15,7 +16,7 @@ for item in manifest['chapters']:
     if not path.exists():
         errors.append(f"Missing chapter: {item['path']}")
         continue
-    current = path.read_text().split('<!-- curated-additions -->')[0].rstrip() + '\n'
+    current = strip_generated(path.read_text())
     if item['id'] == 7:
         continue
     entries += len(re.findall(r'^\d+\.\s', current, re.M))
@@ -48,24 +49,25 @@ if entries != manifest['numbered_entries']:
     errors.append(f"Entry count changed: {entries} vs {manifest['numbered_entries']}")
 # Verify curated additions independently of the historical bibliography.
 from datetime import datetime
-additions = json.loads((ROOT / 'data/recent-papers.json').read_text())
+additions = reviewed_records()
 ids = [row['arxiv_id'] for row in additions]
 if len(ids) != len(set(ids)):
     errors.append('Duplicate curated arXiv IDs')
-baseline = '\n'.join(p.read_text().split('<!-- curated-additions -->')[0]
+baseline = '\n'.join(strip_generated(p.read_text())
                      for p in ROOT.glob('library/*/*.md'))
 for row in additions:
     day = datetime.fromisoformat(row['published'].replace('Z', '+00:00')).date().isoformat()
-    if not '2026-08-14' <= day <= '2026-09-17':
-        errors.append(f"Date outside backfill range: {row['arxiv_id']}")
     if row['arxiv_id'] in baseline:
         errors.append(f"Already in bibliography: {row['arxiv_id']}")
     target = ROOT / row['target']
     if not target.exists() or target.read_text().count(row['url']) != 1:
         errors.append(f"Missing or duplicate topic entry: {row['arxiv_id']}")
-    daily = ROOT / 'daily/2026/2026-09-17.md'
+    daily = ROOT / 'daily' / row['collected'][:4] / (row['collected'] + '.md')
     if daily.read_text().count(row['url']) != 1:
         errors.append(f"Missing or duplicate daily entry: {row['arxiv_id']}")
+for target, count in topic_counts().items():
+    if f'共 **{count}** 个条目。' not in (ROOT / target).read_text():
+        errors.append(f'Stale topic count: {target}')
 for path in ROOT.rglob('*.md'):
     if '.git' in path.parts:
         continue

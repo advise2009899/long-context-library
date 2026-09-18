@@ -2,6 +2,10 @@
 
 [← 知识库首页](../../README.md) · [本分区目录](README.md)
 
+<!-- count -->
+共 **161** 个条目。
+<!-- /count -->
+
 <!-- chapter-toc -->
 - [13.1 Efficient Long CoT: Compression, Budgeting & Early Exit](#131-efficient-long-cot-compression-budgeting--early-exit)
 - [13.2 Policy / Reward Optimization for Long Reasoning](#132-policy--reward-optimization-for-long-reasoning)

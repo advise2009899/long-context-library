@@ -2,9 +2,22 @@
 
 [← 首页](../../README.md) · [训练与数据目录](README.md)
 
+<!-- count -->
+共 **6** 个条目。
+<!-- /count -->
+
 引入编码器、记忆或混合注意力来处理长上下文；不强行归为 SFT。
 
-共 4 个条目。标注“摘要已核查”的条目已对照原论文摘要；其余为依据上游条目所做的初步归档，尚待摘要复核。作者与发表信息保留上游原文。
+<!-- papers:topic -->
+- [Learning Length-Extrapolatable Recurrent Models](https://arxiv.org/abs/2609.09157) — 2026-09-08
+  - 稳定反向传播中的状态信用信号，研究循环模型的长度外推。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+- [Proteus: Incremental Memory Activation for Long-Context Sequence Modeling](https://arxiv.org/abs/2608.16844) — 2026-08-17
+  - 随上下文增长逐步激活记忆容量，减少早期信息对后续信息的干扰。
+  - 官方摘要已核查；[收录记录](../../daily/2026/2026-09-17.md)。
+
+<!-- /papers -->
 
 1. <!-- entry:A6 -->
    [**Long-Context Language Modeling with Parallel Context Encoding.**](https://arxiv.org/abs/2402.16617) _Howard Yen, Tianyu Gao, Danqi Chen._ ACL 2024. [![GitHub Repo stars](https://img.shields.io/github/stars/princeton-nlp/CEPE)](https://github.com/princeton-nlp/CEPE)
@@ -29,15 +42,3 @@
    <!-- /entry -->
 
    **摘要已核查**：已撤回：arXiv 当前页面标明作者撤回。保留原条目供追溯，不作为有效性推荐。方法涉及记忆增强模型的增量优化。
-
-<!-- curated-additions -->
-
-## 近期补录
-
-- [Learning Length-Extrapolatable Recurrent Models](https://arxiv.org/abs/2609.09157) — 2026-09-08
-  - 稳定反向传播中的状态信用信号，研究循环模型的长度外推。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。
-
-- [Proteus: Incremental Memory Activation for Long-Context Sequence Modeling](https://arxiv.org/abs/2608.16844) — 2026-08-17
-  - 随上下文增长逐步激活记忆容量，减少早期信息对后续信息的干扰。
-  - 核查：官方元数据与摘要；[每日收录](../../daily/2026/2026-09-17.md)。

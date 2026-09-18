@@ -13,7 +13,8 @@
     "url": "https://arxiv.org/abs/2609.17983",
     "target": "library/inference/kv-cache.md",
     "summary_zh": "文档编辑后，以预算约束的局部连续重算修复过期 KV 状态。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 3.4 Architectural KV Reduction & Cache Sharing"
   },
   {
     "arxiv_id": "2609.17943",
@@ -31,7 +32,8 @@
     "url": "https://arxiv.org/abs/2609.17943",
     "target": "library/inference/inference-acceleration.md",
     "summary_zh": "让同批请求独立调度草稿与验证步骤，服务长上下文自推测解码。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 17.1 Speculative & Parallel Decoding"
   },
   {
     "arxiv_id": "2609.17888",
@@ -49,7 +51,8 @@
     "url": "https://arxiv.org/abs/2609.17888",
     "target": "library/memory-retrieval/in-context-learning.md",
     "summary_zh": "蒸馏状态空间模型，用于高效选择长上下文中的示例。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": ""
   },
   {
     "arxiv_id": "2609.17652",
@@ -63,7 +66,8 @@
     "url": "https://arxiv.org/abs/2609.17652",
     "target": "library/inference/kv-cache.md",
     "summary_zh": "根据查询调整卸载 KV 缓存的读取位数，减少主机内存流量。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 3.3 Offloading / Hierarchical Cache"
   },
   {
     "arxiv_id": "2609.17346",
@@ -80,7 +84,8 @@
     "url": "https://arxiv.org/abs/2609.17346",
     "target": "library/memory-retrieval/retrieval-augmented-generation.md",
     "summary_zh": "比较上下文、KV 表示与参数微调三种文档知识注入方式。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 9.2 Long-Context vs RAG: Comparison & Hybrid"
   },
   {
     "arxiv_id": "2609.17109",
@@ -94,7 +99,8 @@
     "url": "https://arxiv.org/abs/2609.17109",
     "target": "library/inference/kv-cache.md",
     "summary_zh": "考察标准 LoRA 专家复用基础模型前缀 KV 的质量与服务成本。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 3.4 Architectural KV Reduction & Cache Sharing"
   },
   {
     "arxiv_id": "2609.16617",
@@ -109,7 +115,8 @@
     "url": "https://arxiv.org/abs/2609.16617",
     "target": "library/inference/kv-cache.md",
     "summary_zh": "分析 KV 淘汰后的首次生成分歧与后续累计偏差。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "##### 3.1.1 Attention-Score & Heavy-Hitter Eviction"
   },
   {
     "arxiv_id": "2609.16215",
@@ -128,7 +135,8 @@
     "url": "https://arxiv.org/abs/2609.16215",
     "target": "library/inference/kv-cache.md",
     "summary_zh": "通过模拟研究长会话 KV 在 GPU、CPU 与 SSD 之间的放置策略。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 3.3 Offloading / Hierarchical Cache"
   },
   {
     "arxiv_id": "2609.14872",
@@ -147,7 +155,8 @@
     "url": "https://arxiv.org/abs/2609.14872",
     "target": "library/inference/kv-cache.md",
     "summary_zh": "按思考、行动和工具阶段维护查询缓冲区，指导 Agent 的 KV 淘汰。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "##### 3.1.3 Query-Aware & Learnable Retention"
   },
   {
     "arxiv_id": "2609.14320",
@@ -168,7 +177,8 @@
     "url": "https://arxiv.org/abs/2609.14320",
     "target": "library/training/continued-pretraining.md",
     "summary_zh": "通过谱重参数化调整 Gated DeltaNet 的衰减动态，支持上下文扩展。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": ""
   },
   {
     "arxiv_id": "2609.14306",
@@ -185,7 +195,8 @@
     "url": "https://arxiv.org/abs/2609.14306",
     "target": "library/training/training-systems.md",
     "summary_zh": "联合约束专家分发、词表投影、检查点和优化器的内存峰值。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": ""
   },
   {
     "arxiv_id": "2609.14245",
@@ -199,7 +210,8 @@
     "url": "https://arxiv.org/abs/2609.14245",
     "target": "library/inference/context-compression.md",
     "summary_zh": "评估 RAG 压缩后答案引用能否追溯到原始证据。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "##### 11.1.4 RAG / KV-Aware Compression"
   },
   {
     "arxiv_id": "2609.13141",
@@ -221,7 +233,8 @@
     "url": "https://arxiv.org/abs/2609.13141",
     "target": "library/architecture/efficient-attention.md",
     "summary_zh": "通过语言建模目标端到端优化稀疏注意力的上下文排序。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 2.1 Sparse Attention"
   },
   {
     "arxiv_id": "2609.12686",
@@ -237,7 +250,8 @@
     "url": "https://arxiv.org/abs/2609.12686",
     "target": "library/memory-retrieval/long-term-memory.md",
     "summary_zh": "研究利用残差向量重建文档事实的长上下文召回方法。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 8.2 Parametric, Augmented & Hierarchical Memory"
   },
   {
     "arxiv_id": "2609.11209",
@@ -256,7 +270,8 @@
     "url": "https://arxiv.org/abs/2609.11209",
     "target": "library/memory-retrieval/retrieval-augmented-generation.md",
     "summary_zh": "从历史查询交互中构建可复用证据视图，降低 RAG 上下文开销。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 9.4 RAG Pipelines: Chunk Caches & KV Reuse"
   },
   {
     "arxiv_id": "2609.11192",
@@ -273,7 +288,8 @@
     "url": "https://arxiv.org/abs/2609.11192",
     "target": "library/inference/context-compression.md",
     "summary_zh": "采用可变记忆预算训练，让单个软压缩模型支持不同压缩率。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "##### 11.1.2 Soft Prompt / Gist / Latent Compression"
   },
   {
     "arxiv_id": "2609.10441",
@@ -295,7 +311,8 @@
     "url": "https://arxiv.org/abs/2609.10441",
     "target": "library/memory-retrieval/long-term-memory.md",
     "summary_zh": "通过层次化、可并行的片段摘要支持长上下文推理。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 8.2 Parametric, Augmented & Hierarchical Memory"
   },
   {
     "arxiv_id": "2609.10266",
@@ -310,7 +327,8 @@
     "url": "https://arxiv.org/abs/2609.10266",
     "target": "library/evaluation/benchmarks.md",
     "summary_zh": "评测跨提示上下文与模型检查点的 KV 缓存复用及修复。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 18.1 Long-Context LLM Benchmarks"
   },
   {
     "arxiv_id": "2609.10263",
@@ -325,7 +343,8 @@
     "url": "https://arxiv.org/abs/2609.10263",
     "target": "library/memory-retrieval/long-term-memory.md",
     "summary_zh": "保留历史档案，并按查询构建区分当前事实与历史事实的记忆视图。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 8.3 Agentic & Working Memory"
   },
   {
     "arxiv_id": "2609.09768",
@@ -341,7 +360,8 @@
     "url": "https://arxiv.org/abs/2609.09768",
     "target": "library/training/supervised-finetuning.md",
     "summary_zh": "将感知 KV 拼接的微调与选择性缓存重算结合，用于长上下文 RAG。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": ""
   },
   {
     "arxiv_id": "2609.09157",
@@ -355,7 +375,8 @@
     "url": "https://arxiv.org/abs/2609.09157",
     "target": "library/training/architecture-adaptation.md",
     "summary_zh": "稳定反向传播中的状态信用信号，研究循环模型的长度外推。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": ""
   },
   {
     "arxiv_id": "2609.08574",
@@ -370,7 +391,8 @@
     "url": "https://arxiv.org/abs/2609.08574",
     "target": "library/evaluation/benchmarks.md",
     "summary_zh": "用 SinkProbe 检查百万 token 场景的注意力沉降和位置敏感性。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 18.1 Long-Context LLM Benchmarks"
   },
   {
     "arxiv_id": "2609.08450",
@@ -397,7 +419,8 @@
     "url": "https://arxiv.org/abs/2609.08450",
     "target": "library/architecture/efficient-attention.md",
     "summary_zh": "用抽样估计与完整遍历认证加速稀疏注意力的精确 Top-K 选择。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 2.3 Memory / IO-Aware Kernels"
   },
   {
     "arxiv_id": "2609.08435",
@@ -419,7 +442,8 @@
     "url": "https://arxiv.org/abs/2609.08435",
     "target": "library/training/data-synthesis.md",
     "summary_zh": "以可执行状态机定义信息更新与答案逻辑，再渲染为长文本合成数据。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": ""
   },
   {
     "arxiv_id": "2609.08318",
@@ -437,7 +461,8 @@
     "url": "https://arxiv.org/abs/2609.08318",
     "target": "library/inference/context-compression.md",
     "summary_zh": "用注意力信号动态压缩软件工程 Agent 的交互轨迹。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "##### 11.1.1 Hard Prompt & Token Pruning"
   },
   {
     "arxiv_id": "2609.07966",
@@ -453,7 +478,8 @@
     "url": "https://arxiv.org/abs/2609.07966",
     "target": "library/inference/kv-cache.md",
     "summary_zh": "根据每条输入的延迟与显存预算，自适应选择 KV 压缩配置。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 3.2 Quantization / Compression"
   },
   {
     "arxiv_id": "2609.07314",
@@ -467,7 +493,8 @@
     "url": "https://arxiv.org/abs/2609.07314",
     "target": "library/architecture/position-encoding.md",
     "summary_zh": "保留单元内 RoPE，以内容地址代替跨单元增长的位置编号。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 6.1 Positional Encoding Variants"
   },
   {
     "arxiv_id": "2609.07282",
@@ -486,7 +513,8 @@
     "url": "https://arxiv.org/abs/2609.07282",
     "target": "library/evaluation/benchmarks.md",
     "summary_zh": "分别测量流式生成稳定性、历史可访问性和任务效用的时间跨度。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 18.1 Long-Context LLM Benchmarks"
   },
   {
     "arxiv_id": "2609.07237",
@@ -505,7 +533,8 @@
     "url": "https://arxiv.org/abs/2609.07237",
     "target": "library/architecture/efficient-attention.md",
     "summary_zh": "将粗粒度摘要残差与按误差选择的精确注意力统一归一化。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 2.1 Sparse Attention"
   },
   {
     "arxiv_id": "2609.07108",
@@ -523,7 +552,8 @@
     "url": "https://arxiv.org/abs/2609.07108",
     "target": "library/training/training-systems.md",
     "summary_zh": "结合上下文并行与流水线特征传输，在线共同训练 RL 推测解码草稿。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": ""
   },
   {
     "arxiv_id": "2609.06702",
@@ -541,7 +571,8 @@
     "url": "https://arxiv.org/abs/2609.06702",
     "target": "library/applications/long-horizon-agents.md",
     "summary_zh": "并行阅读文档片段，由经过强化学习的主 Agent 迭代组织推理。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 15.1 General Long-Horizon Agents"
   },
   {
     "arxiv_id": "2609.05339",
@@ -556,7 +587,8 @@
     "url": "https://arxiv.org/abs/2609.05339",
     "target": "library/evaluation/benchmarks.md",
     "summary_zh": "在受控合成历史上比较模型升级后不同记忆表示的可迁移性。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 18.3 Agentic Long-Horizon Benchmarks"
   },
   {
     "arxiv_id": "2609.05152",
@@ -572,7 +604,8 @@
     "url": "https://arxiv.org/abs/2609.05152",
     "target": "library/training/reinforcement-learning.md",
     "summary_zh": "先从正确答案蒸馏，再在困难问题上强化学习软上下文压缩器。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": ""
   },
   {
     "arxiv_id": "2609.04971",
@@ -589,7 +622,8 @@
     "url": "https://arxiv.org/abs/2609.04971",
     "target": "library/inference/kv-cache.md",
     "summary_zh": "用代表性 beacon 查询预测长推理中将被重新访问的 KV 对。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "##### 3.1.3 Query-Aware & Learnable Retention"
   },
   {
     "arxiv_id": "2609.04852",
@@ -607,7 +641,8 @@
     "url": "https://arxiv.org/abs/2609.04852",
     "target": "library/inference/kv-cache.md",
     "summary_zh": "跨 GPU、主机内存与 NVMe 保存分页 KV，构造受原生窗口约束的执行视图。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 3.3 Offloading / Hierarchical Cache"
   },
   {
     "arxiv_id": "2609.03515",
@@ -626,7 +661,8 @@
     "url": "https://arxiv.org/abs/2609.03515",
     "target": "library/inference/kv-cache.md",
     "summary_zh": "研究激进解码期淘汰中时间聚合与排序保持的作用。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "##### 3.1.1 Attention-Score & Heavy-Hitter Eviction"
   },
   {
     "arxiv_id": "2609.03235",
@@ -647,7 +683,8 @@
     "url": "https://arxiv.org/abs/2609.03235",
     "target": "library/inference/kv-cache.md",
     "summary_zh": "用分块摘要诊断注意力头的聚合能力，并分配 KV 存储预算。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "##### 3.1.4 Layer-Budget / Merge / Hybrid Eviction"
   },
   {
     "arxiv_id": "2609.03151",
@@ -662,7 +699,8 @@
     "url": "https://arxiv.org/abs/2609.03151",
     "target": "library/training/training-systems.md",
     "summary_zh": "利用微批结构划分序列并行组，减少长序列训练通信。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": ""
   },
   {
     "arxiv_id": "2609.02737",
@@ -681,7 +719,8 @@
     "url": "https://arxiv.org/abs/2609.02737",
     "target": "library/architecture/efficient-attention.md",
     "summary_zh": "让模型显式声明全局、局部聚焦等注意力模式。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 2.1 Sparse Attention"
   },
   {
     "arxiv_id": "2609.00749",
@@ -700,7 +739,8 @@
     "url": "https://arxiv.org/abs/2609.00749",
     "target": "library/applications/long-horizon-agents.md",
     "summary_zh": "借鉴数据库查询执行，把 Agent 上下文组装做成可追踪的流水线。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 15.1 General Long-Horizon Agents"
   },
   {
     "arxiv_id": "2608.25655",
@@ -717,7 +757,8 @@
     "url": "https://arxiv.org/abs/2608.25655",
     "target": "library/evaluation/benchmarks.md",
     "summary_zh": "SCALE-QA 评估无显式会话分隔的混合主题历史中的事件重建。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 18.3 Agentic Long-Horizon Benchmarks"
   },
   {
     "arxiv_id": "2608.25486",
@@ -737,7 +778,8 @@
     "url": "https://arxiv.org/abs/2608.25486",
     "target": "library/memory-retrieval/retrieval-augmented-generation.md",
     "summary_zh": "以多层索引和跨层证据组织支持长叙事推理。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 9.1 Long-Document QA & Iterative Reasoning RAG"
   },
   {
     "arxiv_id": "2608.24188",
@@ -752,7 +794,8 @@
     "url": "https://arxiv.org/abs/2608.24188",
     "target": "library/inference/context-compression.md",
     "summary_zh": "面向编程 Agent 的意图条件抽取式压缩，尽量保留原始代码标识符。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "##### 11.1.1 Hard Prompt & Token Pruning"
   },
   {
     "arxiv_id": "2608.23843",
@@ -769,7 +812,8 @@
     "url": "https://arxiv.org/abs/2608.23843",
     "target": "library/inference/kv-cache.md",
     "summary_zh": "将每个注意力头的 KV 分成逻辑页，执行页级低秩压缩。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 3.2 Quantization / Compression"
   },
   {
     "arxiv_id": "2608.23463",
@@ -783,7 +827,8 @@
     "url": "https://arxiv.org/abs/2608.23463",
     "target": "library/architecture/efficient-attention.md",
     "summary_zh": "以双流代理 token 承担全局交互，同时保留局部细粒度信息。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 2.4 Latent / Alternative Attention"
   },
   {
     "arxiv_id": "2608.23265",
@@ -799,7 +844,8 @@
     "url": "https://arxiv.org/abs/2608.23265",
     "target": "library/memory-retrieval/long-term-memory.md",
     "summary_zh": "显式记录跨会议事实状态的覆盖和演化，支持可追溯问答。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 8.3 Agentic & Working Memory"
   },
   {
     "arxiv_id": "2608.21308",
@@ -818,7 +864,8 @@
     "url": "https://arxiv.org/abs/2608.21308",
     "target": "library/training/test-time-adaptation.md",
     "summary_zh": "推导分块快速权重更新，兼顾测试时训练的表达能力与硬件效率。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": ""
   },
   {
     "arxiv_id": "2608.20927",
@@ -836,7 +883,8 @@
     "url": "https://arxiv.org/abs/2608.20927",
     "target": "library/applications/long-form-text-generation.md",
     "summary_zh": "刷新跨模型潜在指导记忆，缓解长篇生成中的指导信号陈旧。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 16.1 Planning & Long-Form Writing"
   },
   {
     "arxiv_id": "2608.20853",
@@ -860,7 +908,8 @@
     "url": "https://arxiv.org/abs/2608.20853",
     "target": "library/evaluation/benchmarks.md",
     "summary_zh": "以六种联合国官方语言测量不同粒度和位置的长上下文理解。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 18.1 Long-Context LLM Benchmarks"
   },
   {
     "arxiv_id": "2608.19920",
@@ -878,7 +927,8 @@
     "url": "https://arxiv.org/abs/2608.19920",
     "target": "library/training/supervised-finetuning.md",
     "summary_zh": "在稀疏注意力下微调模型，让模型与 KV 选择策略共同适配。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": ""
   },
   {
     "arxiv_id": "2608.19758",
@@ -896,7 +946,8 @@
     "url": "https://arxiv.org/abs/2608.19758",
     "target": "library/architecture/efficient-attention.md",
     "summary_zh": "从误差修正与算子设计改进块稀疏长上下文预填充。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 2.1 Sparse Attention"
   },
   {
     "arxiv_id": "2608.19662",
@@ -913,7 +964,8 @@
     "url": "https://arxiv.org/abs/2608.19662",
     "target": "library/inference/kv-cache.md",
     "summary_zh": "对重复工具及技能资源构建可组合 KV，并压缩资源表示。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 3.4 Architectural KV Reduction & Cache Sharing"
   },
   {
     "arxiv_id": "2608.19652",
@@ -931,7 +983,8 @@
     "url": "https://arxiv.org/abs/2608.19652",
     "target": "library/evaluation/benchmarks.md",
     "summary_zh": "StateMemBench 区分当前事实、已被替代事实与其他回答错误。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 18.3 Agentic Long-Horizon Benchmarks"
   },
   {
     "arxiv_id": "2608.19535",
@@ -948,7 +1001,8 @@
     "url": "https://arxiv.org/abs/2608.19535",
     "target": "library/inference/context-compression.md",
     "summary_zh": "提出由设备运行状态驱动的边缘 RAG 自适应压缩方向。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "##### 11.1.4 RAG / KV-Aware Compression"
   },
   {
     "arxiv_id": "2608.19181",
@@ -970,7 +1024,8 @@
     "url": "https://arxiv.org/abs/2608.19181",
     "target": "library/training/supervised-finetuning.md",
     "summary_zh": "校准教师 token 指导与任务验证奖励，改进长上下文在线蒸馏。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": ""
   },
   {
     "arxiv_id": "2608.17950",
@@ -984,7 +1039,8 @@
     "url": "https://arxiv.org/abs/2608.17950",
     "target": "library/evaluation/benchmarks.md",
     "summary_zh": "通过隐藏状态图结构分析长上下文多跳推理中的语义连接。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 18.1 Long-Context LLM Benchmarks"
   },
   {
     "arxiv_id": "2608.17616",
@@ -1006,7 +1062,8 @@
     "url": "https://arxiv.org/abs/2608.17616",
     "target": "library/training/test-time-adaptation.md",
     "summary_zh": "用快速权重神经记忆分段吸收上下文，解耦预处理与查询成本。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": ""
   },
   {
     "arxiv_id": "2608.16844",
@@ -1023,7 +1080,8 @@
     "url": "https://arxiv.org/abs/2608.16844",
     "target": "library/training/architecture-adaptation.md",
     "summary_zh": "随上下文增长逐步激活记忆容量，减少早期信息对后续信息的干扰。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": ""
   },
   {
     "arxiv_id": "2608.16370",
@@ -1037,7 +1095,8 @@
     "url": "https://arxiv.org/abs/2608.16370",
     "target": "library/evaluation/benchmarks.md",
     "summary_zh": "测量压缩导致 Agent 重新获取信息的交互成本，而非只看任务完成率。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 18.3 Agentic Long-Horizon Benchmarks"
   },
   {
     "arxiv_id": "2608.15797",
@@ -1054,7 +1113,8 @@
     "url": "https://arxiv.org/abs/2608.15797",
     "target": "library/inference/kv-cache.md",
     "summary_zh": "用轻量完整上下文辅助模型穿插推理步骤，补偿主模型 KV 淘汰的信息损失。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "##### 3.1.4 Layer-Budget / Merge / Hybrid Eviction"
   },
   {
     "arxiv_id": "2608.15584",
@@ -1069,7 +1129,8 @@
     "url": "https://arxiv.org/abs/2608.15584",
     "target": "library/inference/kv-cache.md",
     "summary_zh": "为长共享前缀与请求后缀采用不同分页粒度。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 3.4 Architectural KV Reduction & Cache Sharing"
   },
   {
     "arxiv_id": "2608.15008",
@@ -1097,6 +1158,7 @@
     "url": "https://arxiv.org/abs/2608.15008",
     "target": "library/evaluation/benchmarks.md",
     "summary_zh": "在统一框架下比较多种 Agent 记忆载体的效果与效率。",
-    "verification": "arXiv API metadata and abstract; not full-text review"
+    "verification": "arXiv API metadata and abstract; not full-text review",
+    "section": "#### 18.3 Agentic Long-Horizon Benchmarks"
   }
 ]

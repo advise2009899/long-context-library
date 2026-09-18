@@ -2,6 +2,10 @@
 
 [← 知识库首页](../../README.md) · [本分区目录](README.md)
 
+<!-- count -->
+共 **54** 个条目。
+<!-- /count -->
+
 <!-- chapter-toc -->
 - [12.1 Quantization](#121-quantization)
 - [12.2 Distillation / Pruning](#122-distillation--pruning)

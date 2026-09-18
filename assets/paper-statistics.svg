@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-17T20:51:41.944678</dc:date>
+    <dc:date>2026-09-18T17:15:20.412232</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -40,7 +40,7 @@ Q 50.4 75.348 50.4 91.908
 L 50.4 201.204 
 Q 50.4 217.764 70.56 217.764 
 z
-" clip-path="url(#pab322287d2)" style="fill: #162c3d"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #162c3d"/>
    </g>
    <g id="patch_3">
     <path d="M 59.472 332.028 
@@ -53,7 +53,7 @@ Q 50.4 275.724 50.4 283.176
 L 50.4 324.576 
 Q 50.4 332.028 59.472 332.028 
 z
-" clip-path="url(#pab322287d2)" style="fill: #ffffff"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #ffffff"/>
    </g>
    <g id="patch_4">
     <path d="M 520.632 304.704 
@@ -66,7 +66,7 @@ Q 514.08 293.94 514.08 299.322
 L 514.08 299.322 
 Q 514.08 304.704 520.632 304.704 
 z
-" clip-path="url(#pab322287d2)" style="fill: #e4ebef"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #e4ebef"/>
    </g>
    <g id="patch_5">
     <path d="M 520.632 304.704 
@@ -79,7 +79,7 @@ Q 514.08 293.94 514.08 299.322
 L 514.08 299.322 
 Q 514.08 304.704 520.632 304.704 
 z
-" clip-path="url(#pab322287d2)" style="fill: #167f86"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #167f86"/>
    </g>
    <g id="patch_6">
     <path d="M 520.632 365.976 
@@ -92,7 +92,7 @@ Q 514.08 355.212 514.08 360.594
 L 514.08 360.594 
 Q 514.08 365.976 520.632 365.976 
 z
-" clip-path="url(#pab322287d2)" style="fill: #e4ebef"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #e4ebef"/>
    </g>
    <g id="patch_7">
     <path d="M 520.632 365.976 
@@ -105,7 +105,7 @@ Q 514.08 355.212 514.08 360.594
 L 514.08 360.594 
 Q 514.08 365.976 520.632 365.976 
 z
-" clip-path="url(#pab322287d2)" style="fill: #167f86"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #167f86"/>
    </g>
    <g id="patch_8">
     <path d="M 59.472 454.572 
@@ -118,7 +118,7 @@ Q 50.4 398.268 50.4 405.72
 L 50.4 447.12 
 Q 50.4 454.572 59.472 454.572 
 z
-" clip-path="url(#pab322287d2)" style="fill: #ffffff"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #ffffff"/>
    </g>
    <g id="patch_9">
     <path d="M 520.632 427.248 
@@ -131,7 +131,7 @@ Q 514.08 416.484 514.08 421.866
 L 514.08 421.866 
 Q 514.08 427.248 520.632 427.248 
 z
-" clip-path="url(#pab322287d2)" style="fill: #e4ebef"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #e4ebef"/>
    </g>
    <g id="patch_10">
     <path d="M 520.632 427.248 
@@ -144,7 +144,7 @@ Q 514.08 416.484 514.08 421.866
 L 514.08 421.866 
 Q 514.08 427.248 520.632 427.248 
 z
-" clip-path="url(#pab322287d2)" style="fill: #167f86"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #167f86"/>
    </g>
    <g id="patch_11">
     <path d="M 520.632 488.52 
@@ -157,7 +157,7 @@ Q 514.08 477.756 514.08 483.138
 L 514.08 483.138 
 Q 514.08 488.52 520.632 488.52 
 z
-" clip-path="url(#pab322287d2)" style="fill: #e4ebef"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #e4ebef"/>
    </g>
    <g id="patch_12">
     <path d="M 520.632 488.52 
@@ -170,7 +170,7 @@ Q 514.08 477.756 514.08 483.138
 L 514.08 483.138 
 Q 514.08 488.52 520.632 488.52 
 z
-" clip-path="url(#pab322287d2)" style="fill: #167f86"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #167f86"/>
    </g>
    <g id="patch_13">
     <path d="M 59.472 577.116 
@@ -183,7 +183,7 @@ Q 50.4 520.812 50.4 528.264
 L 50.4 569.664 
 Q 50.4 577.116 59.472 577.116 
 z
-" clip-path="url(#pab322287d2)" style="fill: #ffffff"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #ffffff"/>
    </g>
    <g id="patch_14">
     <path d="M 520.632 549.792 
@@ -196,7 +196,7 @@ Q 514.08 539.028 514.08 544.41
 L 514.08 544.41 
 Q 514.08 549.792 520.632 549.792 
 z
-" clip-path="url(#pab322287d2)" style="fill: #e4ebef"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #e4ebef"/>
    </g>
    <g id="patch_15">
     <path d="M 520.632 549.792 
@@ -209,7 +209,7 @@ Q 514.08 539.028 514.08 544.41
 L 514.08 544.41 
 Q 514.08 549.792 520.632 549.792 
 z
-" clip-path="url(#pab322287d2)" style="fill: #167f86"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #167f86"/>
    </g>
    <g id="patch_16">
     <path d="M 520.632 611.064 
@@ -222,7 +222,7 @@ Q 514.08 600.3 514.08 605.682
 L 514.08 605.682 
 Q 514.08 611.064 520.632 611.064 
 z
-" clip-path="url(#pab322287d2)" style="fill: #e4ebef"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #e4ebef"/>
    </g>
    <g id="patch_17">
     <path d="M 520.632 611.064 
@@ -235,7 +235,7 @@ Q 514.08 600.3 514.08 605.682
 L 514.08 605.682 
 Q 514.08 611.064 520.632 611.064 
 z
-" clip-path="url(#pab322287d2)" style="fill: #167f86"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #167f86"/>
    </g>
    <g id="patch_18">
     <path d="M 59.472 699.66 
@@ -248,7 +248,7 @@ Q 50.4 643.356 50.4 650.808
 L 50.4 692.208 
 Q 50.4 699.66 59.472 699.66 
 z
-" clip-path="url(#pab322287d2)" style="fill: #ffffff"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #ffffff"/>
    </g>
    <g id="patch_19">
     <path d="M 520.632 672.336 
@@ -261,7 +261,7 @@ Q 514.08 661.572 514.08 666.954
 L 514.08 666.954 
 Q 514.08 672.336 520.632 672.336 
 z
-" clip-path="url(#pab322287d2)" style="fill: #e4ebef"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #e4ebef"/>
    </g>
    <g id="patch_20">
     <path d="M 520.632 672.336 
@@ -274,12 +274,12 @@ Q 514.08 661.572 514.08 666.954
 L 514.08 666.954 
 Q 514.08 672.336 520.632 672.336 
 z
-" clip-path="url(#pab322287d2)" style="fill: #167f86"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: #167f86"/>
    </g>
    <g id="line2d_1">
     <path d="M 60.48 717.876 
 L 947.52 717.876 
-" clip-path="url(#pab322287d2)" style="fill: none; stroke: #dce4e9; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#pcb3ec3b6b4)" style="fill: none; stroke: #dce4e9; stroke-width: 0.8; stroke-linecap: square"/>
    </g>
    <g id="text_1">
     <!-- LONG CONTEXT LIBRARY -->
@@ -7925,7 +7925,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pab322287d2">
+  <clipPath id="pcb3ec3b6b4">
    <rect x="0" y="0" width="1008" height="828"/>
   </clipPath>
  </defs>

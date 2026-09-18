@@ -2,6 +2,10 @@
 
 [← 知识库首页](../../README.md) · [本分区目录](README.md)
 
+<!-- count -->
+共 **31** 个条目。
+<!-- /count -->
+
 <!-- chapter-toc -->
 - [1.1 General Long-Context Surveys](#11-general-long-context-surveys)
 - [1.2 Efficient Attention / KV-Cache Surveys](#12-efficient-attention--kv-cache-surveys)
